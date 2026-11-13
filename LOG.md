@@ -145,6 +145,18 @@ All times are Asia/Shanghai (CST, UTC+8).
   **5/5 correct.** Small sample — a larger check would firm up the number,
   but the classification looks sound.
 
+## 2026-11-13 10:52 — README and master prompt updated (new repo)
+
+- README rewritten: title now "Inkling 2 Small Video Editing"; framing
+  is explicit (Inkling decides, Muse only prepares raw material); Music
+  section expanded (Timing + 3 alternates + beat grid); story and
+  transitions section added; file index added.
+- Master prompt updated: §5 flashback rule tightened (photos are 1–2 s
+  flashbacks, never long holds); §12 input is now 1 fps dense; new §13
+  shot taxonomy (7 types); new §14 transitions and story (wide → tight,
+  match on action, J/L-cuts, cut to the listener, peak close-up saved,
+  cut on phrase boundaries).
+
 ## In progress
 
 - **Frame extraction + shot list.** Dense 1 fps extraction across all clips,
