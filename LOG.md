@@ -336,6 +336,24 @@ All times are Asia/Shanghai (CST, UTC+8).
   inkling-video-sft.py` on Aileen's Mac).
 - **Training NOT run here** — it needs the Tinker auth on Aileen's Mac.
 
+## 2026-11-13 14:26 — Drive re-scan: 5 new videos (all morning)
+
+- **Trigger:** Aileen said "重新扫" — she had uploaded more videos to the same Drive folder. Re-scanned the folder (689 files: 604 JPG, 81 MP4 entries / 73 unique names, 4 MP3). Compared by filename against the 68 already downloaded.
+- **New videos found: 5** (0 new JPGs — all Drive photos were already local).
+  - `DJI_20260719084244_0041_D.MP4` (08:42, 78.9 s, 316 MB, Osmo Action 4) — new talk: young man in black tee + glasses demos a phone chat app.
+  - `DJI_20260719101632_0047_D.MP4` (10:16, 63.5 s, 255 MB, Osmo Action 4) — new talk: Carl Yang (light grey suit, white cap) presents "Agent era: history and enterprise Harness solutions".
+  - `DJI_20260719103001_0048_D.MP4` (10:30, 55.5 s, 221 MB, Osmo Action 4) — Carl Yang continues the Agent/Harness talk (detailed slides).
+  - `DJI_20260719103442_0049_D.MP4` (10:34, 64.3 s, 252 MB, Osmo Action 4) — two women chat by the drinks fridge (t=10–16 s), then a man in a green tee presents "Information Radar".
+  - `延时.MP4` (09:29, 40.1 s, 154 MB, Osmo Action 4, 1920×1080) — TIMELAPSE of the whole room filling up (shot type 7 — the first timelapse in this footage).
+- **Downloaded only the 5 new videos** (per-file-ID, `hatch_gws_cli drive files get`, alt=media). The original 68 were NOT re-downloaded. Total new footage: 302.3 s.
+- **Frame extraction:** dense 1 fps, 1280 px, JPEG q4 — 303 new frames (79 + 64 + 56 + 64 + 40). All saved to `frames-dense/<clip>/`. Contact sheets saved to `contact-sheets-dense/`.
+- **Classification:** all 303 frames classified into the same 7-category taxonomy, descriptions in proper fluent English. New shot-type counts: (3) 58, (4) 198, (5) 7, (7) 40. Appended to `shot-list.jsonl` (now 1411 rows). New talks R (black-tee phone app), S (Carl Yang, Agent/Harness), T (green-tee, Information Radar) appended to `talks.jsonl` (now 20 talks). `shot-list.md` updated (463 lines) with a "Re-scan batch" section.
+- **Priority moments — ALL STILL NOT FOUND:** guitar, piano, girlfriend piece, rain, group photo. All 5 new videos are MORNING times (08:42–10:34), indoor. The afternoon/evening footage is STILL NOT in the Drive folder. Aileen will need to upload the afternoon videos separately.
+- **Cameras:** all 5 new videos are DJI Osmo Action 4 (flat/log D-Log M profile — the grey "GoPro look"). Full set is now 16× Action 4 + 57× Pocket 3. **NOT deleted** — the flat look is fixable with colour grading (the v3 grades already do this). Action 4 clips are flagged in `shot-list.md` so a graded sample can be shown to her first.
+- **Opening candidates (new batch, front-facing, no heads/backs-only):** 1) `延时.MP4` timelapse — best new opening, whole room filling up; 2) 0047 t=8–20 s (Carl Yang, front-facing, legible title slide); 3) 0041 t=24–35 s (black-tee presenter, front-facing); 4) 0049 t=10–16 s (two women chatting — warmest human moment, more women); 5) 0049 t=25–40 s (green-tee presenter, Information Radar).
+- **Cover collage:** (1) girl with the band — NOT FOUND (no band/musicians in new footage; closest is the two women chatting in 0049); (2) people outside with logo — NOT FOUND in new batch (all indoor; best remain 0026/0032/0042/0079/0080); (3) indoor scene — YES, the 延时 timelapse.
+- **Data saved:** `shot-list.jsonl` (1411 rows), `talks.jsonl` (20 talks), `shot-list.md` (463 lines), 303 frames in `frames-dense/`, 5 contact sheets. All committed to GitHub (see below).
+
 ## In progress
 
 - **Frame extraction + shot list.** Dense 1 fps extraction across all clips,
@@ -360,8 +378,9 @@ sample of classifications against the frames themselves.
 
 | Metric | Value | How measured | When |
 |---|---|---|---|
-| Frame extraction density | 1108 frames / 1110.2 s = 0.998 fps, 68/68 clips covered (100%) | frames / total video seconds | 2026-11-13 10:47 |
-| Shot-type classification counts | (1) 59, (2) 38, (3) 754, (4) 194, (5) 52, (6) 7, (7) 0, uncertain 4 | per-category frame counts | 2026-11-13 10:47 |
+| Frame extraction density | 1411 frames / 1412.5 s = 0.999 fps, 73/73 clips covered (100%) | frames / total video seconds | 2026-11-13 14:26 |
+| Shot-type classification counts | (1) 59, (2) 38, (3) 812, (4) 392, (5) 59, (6) 7, (7) 40, uncertain 4 | per-category frame counts | 2026-11-13 14:26 |
+| Re-scan (2026-11-13) | 5 new videos, 302.3 s, 303 frames; 3 new talks (R, S, T); guitar/piano/rain/group photo STILL NOT FOUND (all new footage is morning); 5× Osmo Action 4 (flat/log, flagged not deleted) | Drive listing diff + ffprobe + visual frame inspection | 2026-11-13 14:26 |
 | Classification accuracy (est.) | 5/5 correct in a random 5-frame spot check (one per category) — small sample, looks sound | random-sample spot check | 2026-11-13 10:47 |
 | Cut precision | exact: final 112.0 s = 120.0 s picks − 16×0.5 s crossfades; all 17 segments present; subtitles verified on frames (opening t=3 s, peak t=80 s) | final duration vs picks sum; visual frame check | 2026-11-13 11:52 |
 | v2 picks (Inkling) | 17 picks, 120.0 s; all timestamps in range, all files exist, all nodes "morning"; peak 0051 laughter in at #12 | picks file validation + clip existence check | 2026-11-13 11:52 |
