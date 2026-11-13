@@ -1,0 +1,196 @@
+MASTER PROMPT — Cafe Cursor Shanghai video cut (Inkling 2 Small demo)
+
+Use this single prompt for the whole job: scan the footage, pick the
+moments, and cut the clips. Everything the video needs is in here.
+
+## 1. What this is
+
+You are cutting a tech meetup into short clips for social media. The
+event is Cafe Cursor Shanghai, Sunday, July 19, 2026, 10:00-17:00, in a
+cafe on Yanqing Road, Shanghai, under plane trees. It ran during WAIC
+2026. There was no keynote and no fixed agenda. In the morning people
+sat down, got their questions answered, and worked side by side. In the
+afternoon the demo area opened and whoever built something stood up and
+showed it.
+
+## 2. The story (tell it whole)
+
+Morning sun falls through the plane trees. The cafe door is open, a
+small blackboard standing outside. People walk in carrying laptops,
+carrying what they are working on, carrying what they want to talk
+about. On the tables are cup drinks sponsored by Cursor, and the room
+is beautifully arranged.
+
+In the morning everyone settles in, gets their questions answered, and
+works side by side. In the afternoon the demo area opens, and whoever
+built something stands up and shows it.
+
+Then, in the afternoon, the plum rain arrives all at once. A heavy
+downpour, the street empty in minutes. At the door the volunteers are
+rushed off their feet — one checking people in, one carrying coffee
+through the crowd. But nobody leaves. Everyone crowds inside, and the
+room gets fuller.
+
+Inside, the laptops are open and the coffee is steaming. Someone stands
+up and talks about what they built, for minutes at a time, and the room
+laughs, picks up the thread, asks questions. Music is the main character
+of that afternoon: a foreigner plays the guitar, there is piano, and
+someone plays a piece he wrote for his girlfriend. Someone else uses AI
+to solve a small problem in everyday life. The harder the rain falls,
+the warmer the room gets. The questions that usually leave a person
+stuck alone — here, someone always catches them.
+
+In the evening the rain is still falling and nobody wants to leave. The
+next day, the whole day is cut into three short clips, thirty to ninety
+seconds each. But what is worth keeping was never the clips themselves.
+It is the room full of people in the sound of rain. It is the moment
+someone shows what they made. It is the question that follows.
+
+At the end, everyone stands together for a group photo. The camera
+flashes back: morning sun, afternoon rain, laughter in the room — and
+the line that holds the day together. Someone always catches your
+question.
+
+## 3. Atmosphere and feeling
+
+The atmosphere is rain, warm light, laughter. The feeling is being
+caught, not wanting to leave. The room is busy: people coming and
+going, the crowd flowing, volunteers rushing, rain outside, nobody
+leaves. For each person's showcase: pick the best part, one with a
+response from the room (laughter, applause, someone picking up the
+thread), plus the interactive Q&A parts (someone asks, someone answers,
+someone follows up).
+
+## 4. What to look for, in priority order
+
+1. The foreigner playing guitar
+2. The piece someone wrote for his girlfriend (a song? a letter? a few
+   lines? note down exactly what it is)
+3. Piano
+4. Guest showcase monologues (someone standing up to talk about what
+   they built)
+5. Follow-up questions and answers (someone asks, someone catches the
+   question)
+6. Laughter and cheering (moments of joy)
+7. The rain (downpour outside the window, rain sounds, people crowding
+   inside)
+8. Volunteers rushing around (checking people in at the door, carrying
+   coffee)
+9. The group photo
+10. Any other moment with a clear takeaway, a live demo, or a surprising
+    point
+
+## 5. Structure
+
+Tell the day across three time nodes: morning / afternoon / evening.
+Video is the main thread; photos cut in at the end of each node (freeze
+on one photo). Structure: recap → highlights → group photo. First tell
+the day in order (recap, about 2 minutes), then the best highlight
+moments (3 clips, 30-90 seconds each), then the group photo to close,
+with a flashback.
+
+## 6. Style rules
+
+- Backgrounds stay soft throughout: shallow depth of field, soft
+  light, never stealing focus.
+- Present-day footage: clean, warm, normal 16:9.
+- Flashback: film grain, a little light leak, 4:3 black bars, like old
+  footage.
+- Background music: chosen well, kept low, never covering voices.
+- Backgrounds consistent, camera steady, never dizzying.
+- No heavy effects yet — only a touch of vintage faded-color filter.
+
+## 7. Music and timing (main track)
+
+Main track: KOYO — "Timing" (타이밍), 3:16, 99 BPM, Korean OST
+(EXchange2 Pt. 4 "My Heart Flutter, Again", 2022). Soft ballad; the
+lyric is literally about perfect timing. One beat = 0.61 s, one bar =
+2.42 s, one phrase (8 bars) = 19.4 s.
+
+Long take: one continuous moving shot glides through the cafe (door →
+tables → demo area → group photo) as the spine of the recap. Cut-ins
+land on the song's phrase boundaries: 0:00, 0:19, 0:39, 0:58, 1:18,
+1:37, 1:56, 2:16, 2:35, 2:55, 3:14. Each cut-in is a close-up (guitar
+hands, piano keys, a laughing face, rain on the window), then back to
+the long take. Boundaries assume the first downbeat at 0:00; exact
+verse/chorus times to be marked from the audio file.
+
+Alternates: 88rising & RHYME SO — "Just Used Music Again" (3:31, 123
+BPM, deep house, phrase every 15.6 s); Yerin Baek — "Another season
+with you" (3:30, 120 BPM, phrase every 16.0 s); Cloud Nothings —
+"Stay Useless" (2:47, 169 BPM, phrase every 11.4 s, highlight bursts
+only).
+
+## 8. How to pick the clips
+
+Only pick moments that make sense without the rest of the talk. Prefer
+moments with a clear takeaway, a live demo, or a surprising point.
+Prefer moments where a guest is presenting their own work in their own
+words (a showcase monologue). Prefer moments that include audience
+response (laughter, applause, someone picking up the thread) or
+follow-up questions. Do not cut mid-sentence; extend to the nearest
+sentence boundary if needed. Timestamps must match the transcript.
+
+## 9. Rules
+
+Mark anything uncertain instead of guessing. For example, for the piece
+for his girlfriend, write down exactly what you hear; if you cannot
+hear it clearly, write "unclear, to verify".
+
+## 10. Output
+
+- Total duration of the footage
+- A moment table grouped by morning / afternoon / evening. For each
+  moment: start and end timestamps, one line on what happened, why it
+  is worth keeping (moving / funny / a clear takeaway / a live demo),
+  who is speaking (if you can tell), whether the room responded
+  (laughter, applause, someone picking up the thread, follow-up
+  questions)
+- **The main deliverable: a 2-minute recap plan.** One continuous
+  long take as the spine (door → tables → demo area → group photo),
+  with cut-ins on the song's phrase boundaries (0:00, 0:19, 0:39,
+  0:58, 1:18, 1:37, 1:56, 2:16, 2:35, 2:55, 3:14). List the moments
+  in order, each with a start and end timestamp, and say which
+  phrase-boundary cut-in it lands on. The recap is about 2 minutes
+  total.
+- Bonus, for later (not needed for the demo): the 3 most recommended
+  clips (30-90 seconds each), each with a start and end timestamp, a
+  short title, and one line on why it works
+
+Note: you output timestamps and a plan, not a video file. The cutting
+is done downstream by ffmpeg from your timestamps — you pick the
+moments, the cutter cuts them.
+
+## 11. Narration for the 2-minute recap (voiceover, spoken in Chinese)
+
+The recap has a voiceover, timed to the phrase grid. It plays over the
+long take; room audio dips under it, music stays low. Read it exactly
+as written, with pauses between lines — the footage carries the gaps.
+
+- 0:00–0:19 (morning): 今年 7 月 19 号，上海延庆路的一家咖啡馆，梧桐树下，一张桌子，一杯咖啡——我们办了一场 Cafe Cursor。这里没有 keynote，没有固定议程。
+- 0:19–0:39 (morning): 上午大家坐下来，解解惑，cowork 一下；下午是 demo 区，谁做了东西就拿出来 show，找找 bug。
+- 0:39–0:58 (rain): 然后下午，梅雨突然就下来了，街上一下子空了，屋里却挤满了。志愿者在门口忙得焦头烂额，一个核对签到，一个端着咖啡穿过人群。可没人走。
+- 0:58–1:18 (music): 屋里最打动人的，是音乐：有个老外抱着吉他弹了一段，还有钢琴，有人给女朋友写了东西。
+- 1:18–1:37 (everyday problems): 还有人拿 AI 解决生活里的小问题。不是什么大项目，就是日常里真实卡住的事。
+- 1:37–1:56 (evening): 雨还在下，没人想走。
+- 1:56–2:00 (close): 最后，所有人站在一起，拍了一张大合照。在这里，总有人能接住你的问题。这 2 分钟，是 Inkling 2 Small 从一整天的录像里挑出来的。
+
+## 12. The loop — and what your picks become
+
+This is not a one-off cut. It is a reusable loop: video in,
+transcript + keyframes, you pick the moments, ffmpeg cuts them, recap
+out. The same loop runs on any video after this one — vlogs included.
+The only thing that changes per video is the priority list in §4 and
+the music in §7; the loop itself stays the same.
+
+Your picks are saved as training examples (each pick: transcript
+excerpt + keyframes + your start/end + title + reason) and used to
+LoRA fine-tune Inkling 2 Small, so the cutter learns this taste and
+gets better every time it runs. Pick as if you are teaching: prefer
+clean, complete moments with a clear start and end and a reason that
+would still make sense to someone cutting a different video. Mark
+anything uncertain instead of guessing — a wrong pick taught as
+correct is worse than no pick at all.
+
+Input: the full transcript with timestamps, plus keyframes from the
+video (one frame every 10 seconds).
