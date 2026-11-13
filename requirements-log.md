@@ -126,3 +126,13 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
   - TEXT IS UGLY — do not use that font/style for the cover text. Use a better-looking, more refined font.
 - SUBTITLES FEEL BRAINLESS ("没有脑袋的感觉") — the captions read as generic/thoughtless. Rewrite them to be genuinely observant and specific to what is actually happening in each segment (real details, real talk content, real human moments), not formulaic scene descriptions. Do not invent talk content.
 - FLASHBACK slightly too fast, but acceptable ("还可以") — keep, or slow slightly; do not over-fix.
+
+## 2026-11-13 15:36 — v3 V1 feedback (she likes it overall)
+
+- Overall: the video is shot well ("拍得蛮不错的"). Music opening is good.
+- TEXT IS UNCULTURED ("字母写得好没有文化") — the caption wording is poor.
+- TALKS: number them "Talk 1, Talk 2, Talk 3, Talk 4" (one two three four) instead of descriptive talk titles. Applies to every talk segment caption. (This supersedes the "observant/specific talk captions" instruction from 15:31 for TALK segments only; non-talk segments still get observant, specific captions.)
+- COFFEE MACHINE SOUND in the middle of the video is distracting (room audio). Reduce/denoise the room audio where the coffee machine is loud.
+- A COFFEE CUP SHOT looks ugly ("咖啡杯有点太丑了") — identify and remove/replace the ugly cup shot.
+- MUSIC: keep Stay Useless first 24s (very good, energetic opening). After that, switch the main track to something GENTLER. (V1's funk "Just Used Music Again" is too much after the opening — use KOYO "Timing" as the gentler main track for V1; V2 keeps "Another season with you".)
+- Rest is good ("其他的还蛮好的").
