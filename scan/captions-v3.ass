@@ -13,45 +13,45 @@ Style: CN,Ma Shan Zheng,46,&H00FFFFFF,&H000000FF,&H80000000,&H99000000,0,0,0,0,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
-Dialogue: 0,0:00:00.00,0:00:09.00,CN,,0,0,0,,全场一起笑 —— 最暖的瞬间
-Dialogue: 0,0:00:00.00,0:00:09.00,EN,,0,0,0,,The whole room laughs — the warmest moment
-Dialogue: 0,0:00:08.50,0:00:10.50,CN,,0,0,0,,Cursor 咖啡店，延庆路
-Dialogue: 0,0:00:08.50,0:00:10.50,EN,,0,0,0,,Cursor Cafe, Yanqing Road
-Dialogue: 0,0:00:10.00,0:00:12.00,CN,,0,0,0,,搭起屏幕
-Dialogue: 0,0:00:10.00,0:00:12.00,EN,,0,0,0,,Setting up the screen
-Dialogue: 0,0:00:11.50,0:00:13.50,CN,,0,0,0,,吧台上的咖啡
-Dialogue: 0,0:00:11.50,0:00:13.50,EN,,0,0,0,,Coffee on the bar
-Dialogue: 0,0:00:13.00,0:00:15.00,CN,,0,0,0,,屏幕上的幻灯片
-Dialogue: 0,0:00:13.00,0:00:15.00,EN,,0,0,0,,Slides on the screen
-Dialogue: 0,0:00:14.50,0:00:16.50,CN,,0,0,0,,观众落座
-Dialogue: 0,0:00:14.50,0:00:16.50,EN,,0,0,0,,The audience settles in
-Dialogue: 0,0:00:16.00,0:00:21.00,CN,,0,0,0,,主持人在 Cursor 横幅前
-Dialogue: 0,0:00:16.00,0:00:21.00,EN,,0,0,0,,Hosts at the Cursor banner
-Dialogue: 0,0:00:20.50,0:00:25.50,CN,,0,0,0,,街边闲聊
-Dialogue: 0,0:00:20.50,0:00:25.50,EN,,0,0,0,,Chatting on the street
-Dialogue: 0,0:00:25.00,0:00:30.00,CN,,0,0,0,,从街边走进来
-Dialogue: 0,0:00:25.00,0:00:30.00,EN,,0,0,0,,Walking in from the street
-Dialogue: 0,0:00:29.50,0:00:36.50,CN,,0,0,0,,满屋的人，早上
-Dialogue: 0,0:00:29.50,0:00:36.50,EN,,0,0,0,,The full room, morning
-Dialogue: 0,0:00:36.00,0:00:44.00,CN,,0,0,0,,AI 原生工具 —— 用 AI 搭建
-Dialogue: 0,0:00:36.00,0:00:44.00,EN,,0,0,0,,AI-native tools — building with AI
-Dialogue: 0,0:00:43.50,0:00:53.50,CN,,0,0,0,,她现场演示手机应用
-Dialogue: 0,0:00:43.50,0:00:53.50,EN,,0,0,0,,She demos her phone app, live
-Dialogue: 0,0:00:53.00,0:01:02.00,CN,,0,0,0,,你的品牌更懂你 —— AI 智能体
-Dialogue: 0,0:00:53.00,0:01:02.00,EN,,0,0,0,,Your brand knows more — AI agents
-Dialogue: 0,0:01:01.50,0:01:09.50,CN,,0,0,0,,现场写代码
-Dialogue: 0,0:01:01.50,0:01:09.50,EN,,0,0,0,,Live code, on stage
-Dialogue: 0,0:01:09.00,0:01:17.00,CN,,0,0,0,,智能体替你工作，睡觉也在干活
-Dialogue: 0,0:01:09.00,0:01:17.00,EN,,0,0,0,,Your agents work while you sleep
-Dialogue: 0,0:01:16.50,0:01:23.50,CN,,0,0,0,,Pairoa —— AI 应用现场演示
-Dialogue: 0,0:01:16.50,0:01:23.50,EN,,0,0,0,,Pairoa — an AI app, live demo
-Dialogue: 0,0:01:23.00,0:01:27.00,CN,,0,0,0,,认真倾听
-Dialogue: 0,0:01:23.00,0:01:27.00,EN,,0,0,0,,Listening closely
-Dialogue: 0,0:01:26.50,0:01:33.50,CN,,0,0,0,,现场提问
-Dialogue: 0,0:01:26.50,0:01:33.50,EN,,0,0,0,,Questions from the room
-Dialogue: 0,0:01:33.00,0:01:40.00,CN,,0,0,0,,关于 ARIAVA 的提问
-Dialogue: 0,0:01:33.00,0:01:40.00,EN,,0,0,0,,A question about ARIAVA
+Dialogue: 0,0:00:00.00,0:00:09.00,CN,,0,0,0,,全场一起大笑 —— 最暖的瞬间
+Dialogue: 0,0:00:00.00,0:00:09.00,EN,,0,0,0,,The whole room bursts into laughter — the warmest moment
+Dialogue: 0,0:00:08.50,0:00:10.50,CN,,0,0,0,,延庆路上的咖啡店外，早上开始了
+Dialogue: 0,0:00:08.50,0:00:10.50,EN,,0,0,0,,Outside the cafe on Yanqing Road, the morning begins
+Dialogue: 0,0:00:10.00,0:00:12.00,CN,,0,0,0,,为第一场分享搭起屏幕
+Dialogue: 0,0:00:10.00,0:00:12.00,EN,,0,0,0,,Setting up the screen for the first talk
+Dialogue: 0,0:00:11.50,0:00:13.50,CN,,0,0,0,,吧台上摆满了咖啡，等着大家来拿
+Dialogue: 0,0:00:11.50,0:00:13.50,EN,,0,0,0,,Coffee cups lined up on the bar, ready for the crowd
+Dialogue: 0,0:00:13.00,0:00:15.00,CN,,0,0,0,,幻灯片亮起，房间里人渐渐多了
+Dialogue: 0,0:00:13.00,0:00:15.00,EN,,0,0,0,,Slides up on the screen as the room fills in
+Dialogue: 0,0:00:14.50,0:00:16.50,CN,,0,0,0,,观众落座，找到自己的位置
+Dialogue: 0,0:00:14.50,0:00:16.50,EN,,0,0,0,,The audience settles in, finding their seats
+Dialogue: 0,0:00:16.00,0:00:21.00,CN,,0,0,0,,两位主持人在 Cursor 横幅前竖起大拇指
+Dialogue: 0,0:00:16.00,0:00:21.00,EN,,0,0,0,,Two hosts pose at the Cursor banner, thumbs up
+Dialogue: 0,0:00:20.50,0:00:25.50,CN,,0,0,0,,朋友们在街边聊天
+Dialogue: 0,0:00:20.50,0:00:25.50,EN,,0,0,0,,Friends chatting on the street outside
+Dialogue: 0,0:00:25.00,0:00:30.00,CN,,0,0,0,,从街边走进来，走进热闹的人群
+Dialogue: 0,0:00:25.00,0:00:30.00,EN,,0,0,0,,Walking in from the street, into the buzz
+Dialogue: 0,0:00:29.50,0:00:36.50,CN,,0,0,0,,周六早上满屋的人，大家都聚精会神
+Dialogue: 0,0:00:29.50,0:00:36.50,EN,,0,0,0,,A full room on a Saturday morning, everyone leaning in
+Dialogue: 0,0:00:36.00,0:00:44.00,CN,,0,0,0,,分享 A —— 用 AI 原生工具搭建
+Dialogue: 0,0:00:36.00,0:00:44.00,EN,,0,0,0,,Talk A — building with AI-native tools
+Dialogue: 0,0:00:43.50,0:00:53.50,CN,,0,0,0,,她在台上现场演示自己的手机应用
+Dialogue: 0,0:00:43.50,0:00:53.50,EN,,0,0,0,,She demos her phone app live, right on stage
+Dialogue: 0,0:00:53.00,0:01:02.00,CN,,0,0,0,,分享 F —— 你的品牌更懂你，用 AI 智能体
+Dialogue: 0,0:00:53.00,0:01:02.00,EN,,0,0,0,,Talk F — your brand knows more, with AI agents
+Dialogue: 0,0:01:01.50,0:01:09.50,CN,,0,0,0,,现场写代码，当着所有人的面
+Dialogue: 0,0:01:01.50,0:01:09.50,EN,,0,0,0,,Live code, written on stage in front of everyone
+Dialogue: 0,0:01:09.00,0:01:17.00,CN,,0,0,0,,分享 M —— 智能体替你工作，睡觉也在干活
+Dialogue: 0,0:01:09.00,0:01:17.00,EN,,0,0,0,,Talk M — your agents work while you sleep
+Dialogue: 0,0:01:16.50,0:01:23.50,CN,,0,0,0,,分享 L —— Pairoa，AI 应用现场演示
+Dialogue: 0,0:01:16.50,0:01:23.50,EN,,0,0,0,,Talk L — Pairoa, an AI app, demoed live
+Dialogue: 0,0:01:23.00,0:01:27.00,CN,,0,0,0,,认真倾听，不放过每一句话
+Dialogue: 0,0:01:23.00,0:01:27.00,EN,,0,0,0,,Listening closely, hanging on every word
+Dialogue: 0,0:01:26.50,0:01:33.50,CN,,0,0,0,,现场提问，大家纷纷举手
+Dialogue: 0,0:01:26.50,0:01:33.50,EN,,0,0,0,,Questions from the room, hands going up
+Dialogue: 0,0:01:33.00,0:01:40.00,CN,,0,0,0,,关于 ARIAVA 的提问，大家都凑了过来
+Dialogue: 0,0:01:33.00,0:01:40.00,EN,,0,0,0,,A question about ARIAVA, and the room leans in
 Dialogue: 0,0:01:39.50,0:01:44.50,CN,,0,0,0,,生动的分享，满屋笑容
-Dialogue: 0,0:01:39.50,0:01:44.50,EN,,0,0,0,,An animated presenter, a smiling room
-Dialogue: 0,0:01:44.00,0:01:48.00,CN,,0,0,0,,横幅前再见
-Dialogue: 0,0:01:44.00,0:01:48.00,EN,,0,0,0,,See you at the banner
+Dialogue: 0,0:01:39.50,0:01:44.50,EN,,0,0,0,,An animated presenter, and a room full of smiles
+Dialogue: 0,0:01:44.00,0:01:48.00,CN,,0,0,0,,下次再见，就在横幅前
+Dialogue: 0,0:01:44.00,0:01:48.00,EN,,0,0,0,,See you next time, at the banner
