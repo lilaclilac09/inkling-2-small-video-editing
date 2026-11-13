@@ -136,3 +136,18 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
 - A COFFEE CUP SHOT looks ugly ("咖啡杯有点太丑了") — identify and remove/replace the ugly cup shot.
 - MUSIC: keep Stay Useless first 24s (very good, energetic opening). After that, switch the main track to something GENTLER. (V1's funk "Just Used Music Again" is too much after the opening — use KOYO "Timing" as the gentler main track for V1; V2 keeps "Another season with you".)
 - Rest is good ("其他的还蛮好的").
+
+## 2026-11-13 15:39-15:40 — v3 story + cover redesign (major redirect)
+
+- THE CUT HAS NO STORY ("没有什么剧情"). The video must have a narrative arc, not just a montage of talks. Restructure into a story: arrival → room fills → hosts → talks (important ones FIRST) → human moments → closing. Inkling must re-pick/re-order with a story prompt, or the existing picks must be re-ordered into a story.
+- USE PHOTOS IN THE VIDEO, not only video clips ("咖啡杯和照片不要只用视频"). Mix still photos (from the 597-photo library) into the cut — Ken Burns / slow zoom on stills, interleaved with video. Find the PRETTIEST shots.
+- MUSIC (supersedes 15:36 "gentler" note in part): Stay Useless first 24s opening stays. Main track after that = "Another season with you" (Yerin Baek — she said "Eiling Back", i.e. Yerin Baek). The FUNK track ("Just Used Music Again") is ALSO good — keep it as an alternate version. (V1 main track = Yerin Baek gentle; keep a funk version available.)
+- CAPTIONS ARE UNCULTURED ("文案写得太没有文化了"). Write with more culture and restraint. DO NOT deliberately emphasize how good the atmosphere/vibe is ("不要刻意强调氛围有多好"). Do NOT write lines like "bring everyone to laugh together" / "the whole room laughs". Describe what is happening plainly, elegantly, specifically. Talk captions = "Talk 1, Talk 2, Talk 3, Talk 4..." numbering (from 15:36).
+- THE TWO HOSTS MUST NOT BE DELETED. They are important. Describe them as: "the friend who came earliest" (来的最早的朋友) and "the friend who has been helping keep order" (一直在帮我们保持秩序的朋友). The hosts shot (0032, hosts at the banner) stays.
+- "CALL THE PAT" (15:39:48, unclear — possibly Carl Yang / Talk S, or a specific person/segment): give it more story; put the IMPORTANT talks first. CLARIFY with Aileen who/what "Call the Pat" is.
+- COVER REDESIGN (supersedes the 3-photo blended collage):
+  - Three blended photos side-by-side looks UGLY. Do NOT do that again.
+  - CUT OUT the people (抠图 — mask/extract subjects from background) and ARRANGE them on the cover. The BIGGEST cutout goes in the TOP-RIGHT corner.
+  - NO ONE may have their head cut off / beheaded by the crop ("不要有任何人是断头切头").
+  - Photos to use: (a) the BEAUTIFUL GIRL UNDER THE GREEN TREES (a video frame or photo — find it, crop her out); (b) a girl ALONE with the banner (solo photo with banner); (c) the BIG GROUP PHOTO AT THE DOOR (门口大合照).
+  - Verify by reading the finished cover back: no cut-off heads, no black bar, arrangement clean.
