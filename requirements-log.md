@@ -11,7 +11,7 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
 - **Inkling 2 Small makes ALL picking decisions** (which moments, what order, why — with a reason per pick). Muse ONLY prepares raw material (download, Whisper, keyframes, shrink under 2MB, pack, ffmpeg cutting, photo rotation/classification). Repo/demos must NOT show Muse cutting.
 - The video must have story, warmth, and smooth transitions — not just spliced clips.
 - What matters in the event (her words): 自发展示 (self-organized showcases) + 气氛/交流 (atmosphere/exchange) + 追问 (follow-up questions). Most moving = music creation + solving everyday problems with AI.
-- MUST-KEEP moments: foreign man playing guitar; someone wrote/performed something for his girlfriend; piano.
+- MUST-KEEP moments: foreign man playing guitar; someone wrote/performed something for his girlfriend (FORM UNVERIFIED — could be a song, code, or something else; do NOT call it a "song" or "女友曲" until verified); piano.
 - Ending = big group photo + flashback.
 - Afternoon plum-rain downpour started SUDDENLY; volunteers 焦头烂额 (overwhelmed).
 - Cursor cup drinks tasty; cafe decor beautiful.
