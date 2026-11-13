@@ -68,11 +68,11 @@ lines at once (1 EN + 1 CN), all cards at the same bottom position.
 Each card stays a comfortable reading duration (~2–3 s) and the
 subtitle cycles through 2–3 cards per scene while the speech
 continues — never one static line. Talk captions are "Talk N" /
-"分享 N" in story order. Annotations explain HOW the person used the
+"Share N" in story order. Annotations explain HOW the person used the
 tool (the process), not just what it is — Talk E is the detailed one
 (personal care: tell it your skin, it remembers you; type in your
 address, live weather shapes your routine). A small label
-"☕ 咖啡机 · coffee machine" marks the coffee-machine noise at
+"☕ coffee machine" marks the coffee-machine noise at
 t=80–84 s (found by sustained-loudness + spectral analysis of the
 room audio). Colour emoji do not render in this libass build (they
 show as empty boxes); the monochrome ☕ glyph does, so it is used
