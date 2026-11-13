@@ -272,7 +272,7 @@ All times are Asia/Shanghai (CST, UTC+8).
   (Silicon Valley): `eq=saturation=1.05:contrast=1.15:brightness=-0.02`,
   `colorbalance=rs=-0.04:gs=0.0:bs=0.05` — crisp, cool, strong contrast.
   Reference vlog for Version 1's feel: Bilibili BV1HTp96mEQP (Berlin travel
-  vlog by 亦涵, warm/relaxed/unhurried).
+  vlog by Yihan, warm/relaxed/unhurried).
 - **Audio.** Room 1.4 (voices forward), music 0.30. **Hook music:** Cloud
   Nothings "Stay Useless" (rock, high-energy), first 24 s only, under the
   opening hook + fast flashback, then a 2 s crossfade into the version's main
@@ -343,7 +343,7 @@ All times are Asia/Shanghai (CST, UTC+8).
 
 ## 2026-11-13 14:26 — Drive re-scan: 5 new videos (all morning)
 
-- **Trigger:** Aileen said "重新扫" — she had uploaded more videos to the same Drive folder. Re-scanned the folder (689 files: 604 JPG, 81 MP4 entries / 73 unique names, 4 MP3). Compared by filename against the 68 already downloaded.
+- **Trigger:** Aileen said "re-scan" — she had uploaded more videos to the same Drive folder. Re-scanned the folder (689 files: 604 JPG, 81 MP4 entries / 73 unique names, 4 MP3). Compared by filename against the 68 already downloaded.
 - **New videos found: 5** (0 new JPGs — all Drive photos were already local).
   - `DJI_20260719084244_0041_D.MP4` (08:42, 78.9 s, 316 MB, Osmo Action 4) — new talk: young man in black tee + glasses demos a phone chat app.
   - `DJI_20260719101632_0047_D.MP4` (10:16, 63.5 s, 255 MB, Osmo Action 4) — new talk: Carl Yang (light grey suit, white cap) presents "Agent era: history and enterprise Harness solutions".
@@ -356,7 +356,7 @@ All times are Asia/Shanghai (CST, UTC+8).
 - **Priority moments — ALL STILL NOT FOUND:** guitar, piano, girlfriend piece, rain, group photo. All 5 new videos are MORNING times (08:42–10:34), indoor. The afternoon/evening footage is STILL NOT in the Drive folder. Aileen will need to upload the afternoon videos separately.
 - **Cameras:** all 5 new videos are DJI Osmo Action 4 (flat/log D-Log M profile — the grey "GoPro look"). Full set is now 16× Action 4 + 57× Pocket 3. **NOT deleted** — the flat look is fixable with colour grading (the v3 grades already do this). Action 4 clips are flagged in `shot-list.md` so a graded sample can be shown to her first.
 - **Opening candidates (new batch, front-facing, no heads/backs-only):** 1) `延时.MP4` timelapse — best new opening, whole room filling up; 2) 0047 t=8–20 s (Carl Yang, front-facing, legible title slide); 3) 0041 t=24–35 s (black-tee presenter, front-facing); 4) 0049 t=10–16 s (two women chatting — warmest human moment, more women); 5) 0049 t=25–40 s (green-tee presenter, Information Radar).
-- **Cover collage:** (1) girl with the band — NOT FOUND (no band/musicians in new footage; closest is the two women chatting in 0049); (2) people outside with logo — NOT FOUND in new batch (all indoor; best remain 0026/0032/0042/0079/0080); (3) indoor scene — YES, the 延时 timelapse.
+- **Cover collage:** (1) girl with the band — NOT FOUND (no band/musicians in new footage; closest is the two women chatting in 0049); (2) people outside with logo — NOT FOUND in new batch (all indoor; best remain 0026/0032/0042/0079/0080); (3) indoor scene — YES, the timelapse.
 - **Data saved:** `shot-list.jsonl` (1411 rows), `talks.jsonl` (20 talks), `shot-list.md` (463 lines), 303 frames in `frames-dense/`, 5 contact sheets. All committed to GitHub (see below).
 
 ## 2026-11-13 — Re-cut v5 (story arc + photos + subtitle system v6 + cutout cover)
@@ -376,7 +376,7 @@ All times are Asia/Shanghai (CST, UTC+8).
   10% zoom-in. Photo segments carry silent audio (anullsrc) so the
   acrossfade join works.
 - **Timelapse audio bug — found and fixed.** The timelapse file is
-  `延時.MP4` (simplified 时) and has NO audio track. The first v5 render
+  `延時.MP4` (simplified form) and has NO audio track. The first v5 render
   failed at the group-0 join ("Stream specifier ':a' matches no
   streams"). Fix: the render script probes each source with ffprobe and
   adds a silent anullsrc track for audio-less sources via
@@ -387,7 +387,7 @@ All times are Asia/Shanghai (CST, UTC+8).
   position. Each card stays a comfortable reading duration (~2–3 s,
   never lingering); within one scene the subtitle cycles through 2–3
   cards in a row while the speech continues. 49 cards across 23
-  segments. Talk captions "Talk N" / "分享 N" in story order.
+  segments. Talk captions "Talk N" / "Share N" in story order.
   Annotations explain HOW the person used the tool (the process):
   Talk E is the detailed one (verified transcript) — "Personal care —
   it remembers your skin" then "Type in your address — live weather
@@ -397,7 +397,7 @@ All times are Asia/Shanghai (CST, UTC+8).
 - **Coffee-machine label.** Room audio is loud in the middle. Audio
   analysis (sustained loudness + 2–4 kHz / 4–8 kHz spectral energy)
   puts the loudest sustained mechanical noise at final-video t=80–84 s
-  (Talk E segment). A small label "☕ 咖啡机 · coffee machine" shows
+  (Talk E segment). A small label "☕ coffee machine" shows
   there, above the subtitle. Room audio also denoised (afftdn).
 - **Audio mix (17:09).** Music lowered 0.30 → 0.22; room/voices boosted
   1.4 → 1.6 + acompressor (threshold −18 dB, ratio 3, makeup 4) so
@@ -483,7 +483,7 @@ sample of classifications against the frames themselves.
 | v5 story picks (Inkling) | 20 picks, 128.5 s; story arc (arrival → hosts → talks important-first → human moments → closing); 9 talks numbered in story order; 3 Ken Burns photos; 0 excluded clips; logo visible in 3 picks | picks file validation + story-order check | 2026-11-13 |
 | v5 picks cost | ≈ $0.05 (1 call, max_tokens 32000, 14,447 output tokens, end_turn) | Tinker billing rates, token counts from API | 2026-11-13 |
 | v5 cut precision | 127.5 s both versions, 1920×1080, 30 fps; 76 MB (main) / 77 MB (funk); frames verified at t=2, 30, 53, 82, 125 | ffprobe + visual frame reads | 2026-11-13 |
-| v5 subtitles (system v6) | 49 cards across 23 segments; cream/black, max 2 lines, same bottom position, ~2–3 s per card, cycling 2–3 per scene; Talk N numbering; Talk E process detail; coffee label "☕ 咖啡机 · coffee machine" at 80–84 s; no tofu (colour emoji do not render in libass, monochrome ☕ does) | visual frame reads (t=2, 30, 53, 82, 125) | 2026-11-13 |
+| v5 subtitles (system v6) | 49 cards across 23 segments; cream/black, max 2 lines, same bottom position, ~2–3 s per card, cycling 2–3 per scene; Talk N numbering; Talk E process detail; coffee label "☕ coffee machine" at 80–84 s; no tofu (colour emoji do not render in libass, monochrome ☕ does) | visual frame reads (t=2, 30, 53, 82, 125) | 2026-11-13 |
 | v5 audio | music 0.22, room 1.6 + acompressor; afftdn denoise; mean −14.4 dB, max 0.0 dB (was −21.2 dB / −2.4 dB); two versions have different audio (different beds) confirmed by hash | ffmpeg volumedetect + audio hash | 2026-11-13 |
 | v5 grades | korean sat 1.32 / contrast 1.12 / bright 0.07 / rs +0.12; silicon sat 1.22 / contrast 1.12 / bright 0.05 / rs +0.08 (flipped from cool to warm); both warmer + more vivid than v5 | visual frame reads | 2026-11-13 |
 | v5 cover | cutouts on warm cream #F7F1E5, 1920×1080; hero girl-trees top-right (biggest), black-hat girl bottom-left, group bottom-centre; no cut-off heads, no black bar, no overlap; text legible, no face/logo covered | visual read of cover-v5.jpg | 2026-11-13 |
