@@ -157,6 +157,47 @@ All times are Asia/Shanghai (CST, UTC+8).
   match on action, J/L-cuts, cut to the listener, peak close-up saved,
   cut on phrase boundaries).
 
+## 2026-11-13 11:52 — Re-cut v2 done (Inkling picks + crossfades + music + subtitles)
+
+- **v2 picks (Inkling 2 Small, 256K variant):** one API call over the dense
+  shot list, ~60-80 representative frames + master prompt (§13 taxonomy,
+  §14 transitions). 17 picks, 120.0 s total. Arc: wide open (storefront +
+  banner 0026, hosts 0032) → setup → talks (A/B/E/G/H) → Pairoa build-up
+  (0049, 0050) → **peak: 0051 room laughs, pick #12, 12 s (longest)** →
+  listener cut (0063) → ARIAVA (0059, 0062) → wide close (0052, 0079).
+  All timestamps within clip durations, all filenames match real files,
+  all nodes "morning". No guitar moment — correctly not included.
+- **First attempt truncated:** `stop_reason: max_tokens` at 16,000 output
+  tokens (only 5 complete picks) — the model's 35,711-char thinking block
+  ate the budget. Re-ran with `max_tokens: 32000`; finished
+  `stop_reason: end_turn`, 17 picks, 15,933 output tokens. Total cost for
+  both calls ≈ **$0.05** (input $0.30/1M, cached $0.03/1M, output $1.00/1M).
+- **Cut:** `recap-v2.mp4`, **112.0 s**, 1920×1080, 30 fps, H.264 + AAC,
+  64 MB, 3360 frames. 17 segments joined with **0.5 s crossfades**
+  (xfade video + acrossfade audio) between every pair. **Music:** KOYO
+  "Timing" mixed at 0.15 under the room audio. **Subtitles:** one caption
+  per segment (the pick title) burned in, white with black outline.
+- **Two build problems found and fixed:**
+  - Source clips have mixed resolution/fps (2688×1512 @ 59.94, 2688×1512
+    @ 29.97, 1920×1080 @ 29.97). xfade requires identical inputs, so
+    segments are now normalized to 1920×1080 @ 30 fps during the cut
+    (`inkling-video-recut.py`).
+  - The single 18-input xfade join **OOM-killed** the VM (6 GB). Rebuilt
+    the join in two groups (seg 0–8 → groupA, seg 9–16 → groupB, then
+    A+B) with `inkling-video-join.py`; peak memory stayed under 4 GB.
+- **Verification:** final duration 112.0 s = 120.0 s picks − 16×0.5 s
+  crossfades (exact). Frame check: opening subtitle "Storefront and
+  Cursor Cafe banner" visible at t=3 s; peak subtitle "Talk L: the room
+  laughs" visible at t=80 s with the laughing room in frame. Audio: stereo
+  AAC, room + music mixed.
+- **Two model-read details to confirm on viewing:** pick 8 names a
+  "CREWCLAW code demo" / "white Coca-Cola tee" (shot list: "white tee with
+  red logo"); pick 6 reads the screen as "Tame your wild, vibe-coded apps"
+  (shot list: "Taste your wild…"). Both are plausible reads from the
+  frames; flag for a visual check, not a re-pick.
+- **Delivered to Aileen in chat** (recap-v2.mp4 attached) with a note on
+  the "Tame/Taste" wording to confirm.
+
 ## In progress
 
 - **Frame extraction + shot list.** Dense 1 fps extraction across all clips,
@@ -184,7 +225,9 @@ sample of classifications against the frames themselves.
 | Frame extraction density | 1108 frames / 1110.2 s = 0.998 fps, 68/68 clips covered (100%) | frames / total video seconds | 2026-11-13 10:47 |
 | Shot-type classification counts | (1) 59, (2) 38, (3) 754, (4) 194, (5) 52, (6) 7, (7) 0, uncertain 4 | per-category frame counts | 2026-11-13 10:47 |
 | Classification accuracy (est.) | 5/5 correct in a random 5-frame spot check (one per category) — small sample, looks sound | random-sample spot check | 2026-11-13 10:47 |
-| Cut precision | pending | final segments vs Inkling picks | after re-cut |
+| Cut precision | exact: final 112.0 s = 120.0 s picks − 16×0.5 s crossfades; all 17 segments present; subtitles verified on frames (opening t=3 s, peak t=80 s) | final duration vs picks sum; visual frame check | 2026-11-13 11:52 |
+| v2 picks (Inkling) | 17 picks, 120.0 s; all timestamps in range, all files exist, all nodes "morning"; peak 0051 laughter in at #12 | picks file validation + clip existence check | 2026-11-13 11:52 |
+| v2 picks cost | ≈ $0.05 for 2 calls (attempt 1 truncated at 16k tokens, attempt 2 at 32k succeeded) | Tinker billing rates, token counts from API | 2026-11-13 11:52 |
 | Music duration verification | 4/4 exact | ffprobe vs expected length | 2026-11-13 10:02 |
 | Photo rotation | 70/70 upright, 0 failures | EXIF Orientation check | 2026-11-13 10:13 |
 | Photo index integrity | 296 rows, all files present | row count + file existence | 2026-11-13 10:13 |
