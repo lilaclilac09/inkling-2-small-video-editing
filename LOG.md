@@ -359,6 +359,86 @@ All times are Asia/Shanghai (CST, UTC+8).
 - **Cover collage:** (1) girl with the band — NOT FOUND (no band/musicians in new footage; closest is the two women chatting in 0049); (2) people outside with logo — NOT FOUND in new batch (all indoor; best remain 0026/0032/0042/0079/0080); (3) indoor scene — YES, the 延时 timelapse.
 - **Data saved:** `shot-list.jsonl` (1411 rows), `talks.jsonl` (20 talks), `shot-list.md` (463 lines), 303 frames in `frames-dense/`, 5 contact sheets. All committed to GitHub (see below).
 
+## 2026-11-13 — Re-cut v5 (story arc + photos + subtitle system v6 + cutout cover)
+
+- **The redirect.** Aileen: the v3 cut "has no story" — a montage with no
+  plot. Restructure into a STORY: arrival → hosts (early, kept) → talks,
+  important first → human moments → closing (group photo + sign-off).
+  Inkling 2 Small re-picked/re-ordered via the Tinker API with a STORY
+  prompt (max_tokens 32000, ~$0.05, 14,447 output tokens, stop_reason
+  end_turn). 20 picks, 128.5 s. Talk numbering is in STORY order
+  (important first): Talk 1 Pairoa (laughter), Talk 2 Carl Yang
+  Agent/Harness, Talk 3 A, Talk 4 R, Talk 5 E, Talk 6 F, Talk 7 G,
+  Talk 8 T, Talk 9 M.
+- **Photos in the video (Ken Burns).** 3 stills interleaved: Photo A
+  (green-trees girl, 0054 frame-0003, 3 s), Photo B (black-hat girl
+  HM5A1822, 3 s), Photo C (group HM5A1478, 4 s, final frame). Zoompan
+  10% zoom-in. Photo segments carry silent audio (anullsrc) so the
+  acrossfade join works.
+- **Timelapse audio bug — found and fixed.** The timelapse file is
+  `延時.MP4` (simplified 时) and has NO audio track. The first v5 render
+  failed at the group-0 join ("Stream specifier ':a' matches no
+  streams"). Fix: the render script probes each source with ffprobe and
+  adds a silent anullsrc track for audio-less sources via
+  `-filter_complex` (not `-vf` + `-map`, which ffmpeg rejects).
+- **Subtitle system v6 (17:09 + 17:14 feedback).** Rebuilt from scratch:
+  cream/beige background (opaque warm cream box, &H00CCE6F5), BLACK text,
+  max 2 lines at once (1 EN + 1 CN), all cards at the same bottom
+  position. Each card stays a comfortable reading duration (~2–3 s,
+  never lingering); within one scene the subtitle cycles through 2–3
+  cards in a row while the speech continues. 49 cards across 23
+  segments. Talk captions "Talk N" / "分享 N" in story order.
+  Annotations explain HOW the person used the tool (the process):
+  Talk E is the detailed one (verified transcript) — "Personal care —
+  it remembers your skin" then "Type in your address — live weather
+  shapes your routine". Emoji note: colour emoji (🧴 etc.) do NOT render
+  in this libass build (tofu boxes, tested twice); the monochrome ☕
+  glyph (U+2615) DOES render cleanly in DejaVu Sans.
+- **Coffee-machine label.** Room audio is loud in the middle. Audio
+  analysis (sustained loudness + 2–4 kHz / 4–8 kHz spectral energy)
+  puts the loudest sustained mechanical noise at final-video t=80–84 s
+  (Talk E segment). A small label "☕ 咖啡机 · coffee machine" shows
+  there, above the subtitle. Room audio also denoised (afftdn).
+- **Audio mix (17:09).** Music lowered 0.30 → 0.22; room/voices boosted
+  1.4 → 1.6 + acompressor (threshold −18 dB, ratio 3, makeup 4) so
+  voices are louder and more solid/full. Measured: mean −14.4 dB,
+  max 0.0 dB (was −21.2 dB / −2.4 dB in the v5-subtitle version).
+- **Grades (17:09).** Both pushed warmer + more vivid (old grade too
+  flat/cold; silicon was actually cool/blue). korean: saturation 1.32,
+  contrast 1.12, brightness 0.07, rs +0.12 / bs −0.10. silicon:
+  saturation 1.22, contrast 1.12, brightness 0.05, rs +0.08 / bs −0.06
+  (flipped from cool to warm). korean stays warm/glowy, silicon clean.
+- **Cover v5 (cutout approach, supersedes the blended collage).**
+  `cover-v5.jpg` (1920×1080): cutouts on a clean warm cream background
+  (#F7F1E5). Hero top-right, BIGGEST — the girl under the green trees
+  (0054 frame-0003), rembg u2netp. Bottom-left — the black-hat girl
+  (HM5A1822), waist-up. Bottom-centre — the group (HM5A1478),
+  u2net_human_seg. Text "Cursor Cafe Shanghai" / "2026.07.19" top-left,
+  Playfair Display Bold + Montserrat SemiBold, dark warm brown. No
+  cut-off heads, no black bar, no overlapping cutouts, verified by
+  reading it back. (bria-rmbg OOM-killed the VM twice — do not use it.)
+- **Per-talk annotations.** Added (6): Talk 2 Carl Yang, Talk 4 chat app,
+  Talk 5 personal care (verified), Talk 6 agents for a brand, Talk 8
+  Information Radar, Talk 9 agents while you sleep. Skipped (3): Talk 1
+  Pairoa (landing page, purpose unclear), Talk 3 (screen only says
+  "AI-native tools"), Talk 7 CREWCLAW (audio hallucinated, screen is
+  terminal code). Nothing invented for skipped talks.
+- **Earlier fixes (still in).** Pink/blonde woman removed; Cursor logo in
+  3 picks; ugly cup shot (0002) removed, replaced by the timelapse;
+  flashback 2.5 s per shot.
+- **Videos (local only).** `recap-v5-another-season.mp4` (Yerin Baek,
+  silicon, 127.5 s, 1920×1080, 30 fps, 76 MB) and
+  `recap-v5-just-used-music-again.mp4` (funk, korean, 127.5 s, 77 MB).
+  Both verified with ffprobe + frames at t=2, 30, 53, 82, 125
+  (arrival, Talk 1, Carl Yang, Talk E + coffee label with no tofu,
+  closing group photo with Cursor logo). Audio: mean −14.4 dB; the two
+  versions have different audio (different music beds) confirmed by hash.
+- **Build note.** A VM/runtime restart mid-render wiped /tmp and killed
+  the v5-main v6 render at ~17/23 segments; it was re-run from scratch
+  (workspace files survive restarts; /tmp does not). The v5-funk render
+  was also stopped once (old subtitle system) and re-run with v6.
+- **Full v5 report:** `report-v5.md`.
+
 ## In progress
 
 - **Frame extraction + shot list.** Dense 1 fps extraction across all clips,
@@ -369,10 +449,10 @@ All times are Asia/Shanghai (CST, UTC+8).
   must-keep guitar moment (foreigner with glasses + guitar + wife behind).
   Quality metrics (extraction density, classification counts, confidence)
   will be recorded here when it reports.
-- **Re-cut v3 (vlog style).** Done — see the 2026-11-13 v3 entry above.
-  Two versions (Korean variety + Silicon Valley), bilingual outline subtitles,
-  hook + flashback, pink/blonde woman removed, Cursor logo prominent.
-  Report maps the Kling/Seedance/director principles to where they were used.
+- **Re-cut v5 (story arc).** Done — see the 2026-11-13 v5 entry above.
+  Two versions (Yerin Baek main + funk alternate), subtitle system v6
+  (cream/black, max 2 lines, cycling cards, coffee label), cutout cover.
+  This is now the current cut; v3 is the previous version.
 
 ---
 
@@ -400,4 +480,11 @@ sample of classifications against the frames themselves.
 | v3 audio | room 1.4, music 0.30; Stay Useless hook 0–24 s, 2 s crossfade to main track; mean −21.6 dB, max −2.2 dB (V1, new render) | ffmpeg volumedetect; music bed files 108.0 s | 2026-11-13 |
 | v3 cover | 3-photo collage, feathered edges, 1920x1080; girl+group (HM5A1557), group+logo (HM5A1478), indoor (presenter); text legible, no face/logo covered | visual read of cover-v3.jpg | 2026-11-13 |
 | Vlog template verification | 3/3 subtitle styles legible on frames; opening card + scroll + card render at 1920x1080; assembled sample 22.04 s = 3+12+8−2×0.5 s (exact); dissolves verified on frames | visual frame reads + ffprobe durations | 2026-11-13 13:20 |
+| v5 story picks (Inkling) | 20 picks, 128.5 s; story arc (arrival → hosts → talks important-first → human moments → closing); 9 talks numbered in story order; 3 Ken Burns photos; 0 excluded clips; logo visible in 3 picks | picks file validation + story-order check | 2026-11-13 |
+| v5 picks cost | ≈ $0.05 (1 call, max_tokens 32000, 14,447 output tokens, end_turn) | Tinker billing rates, token counts from API | 2026-11-13 |
+| v5 cut precision | 127.5 s both versions, 1920×1080, 30 fps; 76 MB (main) / 77 MB (funk); frames verified at t=2, 30, 53, 82, 125 | ffprobe + visual frame reads | 2026-11-13 |
+| v5 subtitles (system v6) | 49 cards across 23 segments; cream/black, max 2 lines, same bottom position, ~2–3 s per card, cycling 2–3 per scene; Talk N numbering; Talk E process detail; coffee label "☕ 咖啡机 · coffee machine" at 80–84 s; no tofu (colour emoji do not render in libass, monochrome ☕ does) | visual frame reads (t=2, 30, 53, 82, 125) | 2026-11-13 |
+| v5 audio | music 0.22, room 1.6 + acompressor; afftdn denoise; mean −14.4 dB, max 0.0 dB (was −21.2 dB / −2.4 dB); two versions have different audio (different beds) confirmed by hash | ffmpeg volumedetect + audio hash | 2026-11-13 |
+| v5 grades | korean sat 1.32 / contrast 1.12 / bright 0.07 / rs +0.12; silicon sat 1.22 / contrast 1.12 / bright 0.05 / rs +0.08 (flipped from cool to warm); both warmer + more vivid than v5 | visual frame reads | 2026-11-13 |
+| v5 cover | cutouts on warm cream #F7F1E5, 1920×1080; hero girl-trees top-right (biggest), black-hat girl bottom-left, group bottom-centre; no cut-off heads, no black bar, no overlap; text legible, no face/logo covered | visual read of cover-v5.jpg | 2026-11-13 |
 | Full training dataset | 32 examples (17 real v2 + 15 synthetic); all 9 priority moments covered, none missing; every file real, every timestamp in range, every keyframe path real (except timelapse row); ~2,827 tokens; 5 placeholder rows (S8–S12, afternoon moments) need re-anchoring to real afternoon files before training | build_full_picks.py validation (JSON, clip fields, ffprobe durations, file + frame existence) | 2026-11-13 |
