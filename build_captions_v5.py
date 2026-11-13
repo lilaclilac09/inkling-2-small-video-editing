@@ -9,7 +9,7 @@ Caption style (Aileen 2026-11-13 15:39-15:40): restrained, cultured,
 understated. Describe what is happening plainly and specifically.
 Do NOT hype the atmosphere/vibe ("warmest moment", "whole room laughs",
 "everyone leaning in" are all out).
-Talk segments are numbered "Talk N" / "分享 N" in STORY order
+Talk segments are numbered "Talk N" / "Share N" in STORY order
 (important first), not by their original letter.
 Non-talk segments get one observant, specific line.
 Fonts: Caveat EN 52pt / Ma Shan Zheng CN 46pt, semi-transparent box
