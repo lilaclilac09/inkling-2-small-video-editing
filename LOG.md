@@ -105,6 +105,22 @@ All times are Asia/Shanghai (CST, UTC+8).
   in the index and will need their own classification + rotation pass.
   The 37 files still at Orientation 8 are all from this new batch.
 
+## 2026-11-13 10:29 — Report: is Inkling 2 Small suitable for frame work?
+
+- `inkling-frame-classification-suitability.md` (283 lines, English).
+- Verdict: suitable for the judgment half (keyframe selection, shot
+  classification), unsuitable for the mechanical half (raw frame extraction —
+  it cannot ingest video at all; ffmpeg does that, deterministically, free).
+- Evidence: model card benchmarks (PerceptionBench 64.7%, MMMU Pro 81.6%,
+  ScreenSpot Pro 83.8%, MuirBench 79.2%); 6 arXiv papers (CLIP, SGNet/
+  MovieShots, ReaSon, KTV, EFS, FORTE); 5 GitHub repos (HotClip, learn-video,
+  CLIPPER, KTV, ReaSon) + Tinker Cookbook.
+- Explicit finding: no public GitHub repo using Inkling 2 Small for video
+  work exists yet (model is 8 days old).
+- Limits noted: no audio input, no fine-grained temporal precision (12 of 16
+  version-B picks defaulted to clip starts), no video benchmark on the model
+  card — accuracy on our shot taxonomy is unmeasured until spot-checked.
+
 ## In progress
 
 - **Frame extraction + shot list.** Dense 1 fps extraction across all clips,
