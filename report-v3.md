@@ -51,48 +51,48 @@ Inkling 2 Small (256K variant) made all picking decisions from the dense
 "Exclusions").
 
 1. 0051 (0:05–0:14, 9 s) — **HOOK**: the whole room laughs. "The whole room
-   bursts into laughter — the warmest moment" / "全场一起大笑 —— 最暖的瞬间"
+   bursts into laughter — the warmest moment" / "The whole room laughs together — the warmest moment"
 2. 0037 (0:01–0:03, 2 s) — flashback: storefront. "Outside the cafe on
-   Yanqing Road, the morning begins" / "延庆路上的咖啡店外，早上开始了"
+   Yanqing Road, the morning begins" / "Outside the café on Yanqing Road, the morning begins"
 3. 0001 (0:00–0:02, 2 s) — flashback: setup. "Setting up the screen for the
-   first talk" / "为第一场分享搭起屏幕"
+   first talk" / "Setting up the screen for the first talk"
 4. 0002 (0:00–0:02, 2 s) — flashback: cups. "Coffee cups lined up on the
-   bar, ready for the crowd" / "吧台上摆满了咖啡，等着大家来拿"
+   bar, ready for the crowd" / "Coffee cups line the bar, waiting for everyone to pick them up"
 5. 0033 (0:00–0:02, 2 s) — flashback: screen. "Slides up on the screen as
-   the room fills in" / "幻灯片亮起，房间里人渐渐多了"
+   the room fills in" / "Slides light up as the room fills with people"
 6. 0053 (0:01–0:03, 2 s) — flashback: audience. "The audience settles in,
-   finding their seats" / "观众落座，找到自己的位置"
+   finding their seats" / "The audience settles in, finding their seats"
 7. 0032 (0:00–0:05, 5 s) — hosts at the Cursor banner. "Two hosts pose at
-   the Cursor banner, thumbs up" / "两位主持人在 Cursor 横幅前竖起大拇指"
+   the Cursor banner, thumbs up" / "Two hosts give a thumbs up in front of the Cursor banner"
    *(corrected pick — see below)*
 8. 0054 (0:00–0:05, 5 s) — people chatting on the street. "Friends chatting
-   on the street outside" / "朋友们在街边聊天"
+   on the street outside" / "Friends chatting on the street outside"
 9. 0055 (0:00–0:05, 5 s) — walking in from the street. "Walking in from the
-   street, into the buzz" / "从街边走进来，走进热闹的人群"
+   street, into the buzz" / "Walking in from the street, into the buzzing crowd"
 10. 0020 (0:03–0:10, 7 s) — the full room, morning. "A full room on a
-    Saturday morning, everyone leaning in" / "周六早上满屋的人，大家都聚精会神"
+    Saturday morning, everyone leaning in" / "A full room on a Saturday morning, everyone focused"
 11. 0034 (0:03–0:11, 8 s) — Talk A: AI-native tools. "Talk A — building with
-    AI-native tools" / "分享 A —— 用 AI 原生工具搭建"
+    AI-native tools" / "Talk A — building with AI-native tools"
 12. 0042 Talk E (0:28–0:38, 10 s) — woman demos her phone app, close-up.
-    "She demos her phone app live, right on stage" / "她在台上现场演示自己的手机应用"
+    "She demos her phone app live, right on stage" / "She demos her phone app live, right on stage"
 13. 0043 (0:15–0:24, 9 s) — Talk F: "Your brand knows more". "Talk F — your
-    brand knows more, with AI agents" / "分享 F —— 你的品牌更懂你，用 AI 智能体"
+    brand knows more, with AI agents" / "Talk F — your brand knows you better, with AI agents"
 14. 0044 (0:15–0:23, 8 s) — Talk G: live code. "Live code, written on stage
-    in front of everyone" / "现场写代码，当着所有人的面"
+    in front of everyone" / "Writing code live, in front of everyone"
 15. 0059 (0:00–0:08, 8 s) — Talk M: "Your agents work. You are sleeping."
-    "Talk M — your agents work while you sleep" / "分享 M —— 智能体替你工作，睡觉也在干活"
+    "Talk M — your agents work while you sleep" / "Talk M — agents work for you, even while you sleep"
 16. 0049 (0:03–0:10, 7 s) — Talk L: Pairoa. "Talk L — Pairoa, an AI app,
-    demoed live" / "分享 L —— Pairoa，AI 应用现场演示"
+    demoed live" / "Talk L — Pairoa, an AI app demoed live"
 17. 0063 (0:00–0:04, 4 s) — audience close-up by the door. "Listening
-    closely, hanging on every word" / "认真倾听，不放过每一句话"
+    closely, hanging on every word" / "Listening closely, not missing a word"
 18. 0050 (0:02–0:09, 7 s) — Q&A, audience gestures back. "Questions from
-    the room, hands going up" / "现场提问，大家纷纷举手"
+    the room, hands going up" / "Questions from the floor, hands going up"
 19. 0062 (0:02–0:09, 7 s) — Q&A about ARIAVA. "A question about ARIAVA, and
-    the room leans in" / "关于 ARIAVA 的提问，大家都凑了过来"
+    the room leans in" / "A question about ARIAVA, everyone leans in"
 20. 0070 (0:06–0:11, 5 s) — Talk N: animated presenter, smiling room. "An
-    animated presenter, and a room full of smiles" / "生动的分享，满屋笑容"
+    animated presenter, and a room full of smiles" / "A lively talk, a room full of smiles"
 21. 0079 (0:00–0:04, 4 s) — sign-off at the banner. "See you next time, at
-    the banner" / "下次再见，就在横幅前"
+    the banner" / "See you next time, at the banner"
 
 ## Exclusions (pink/blonde woman)
 
