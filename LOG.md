@@ -198,6 +198,37 @@ All times are Asia/Shanghai (CST, UTC+8).
 - **Delivered to Aileen in chat** (recap-v2.mp4 attached) with a note on
   the "Tame/Taste" wording to confirm.
 
+## 2026-11-13 13:20 — Vlog template system (reusable: opening + subtitles + closing)
+
+- **`vlog-template/`** turns the one-off Cafe Cursor pipeline into a reusable
+  vlog modulator. Every piece takes plain inputs (title, date, location,
+  captions list, credits list) — nothing is hardcoded to this event.
+- **Subtitles** (`subtitles/make_subtitles.py` + `styles.json`): 3 styles,
+  captions JSON -> ASS, burned with ffmpeg libass.
+  `cute` = Caveat EN / Ma Shan Zheng CN, warm white, handwritten;
+  `clean` = DejaVu Sans / Noto Sans CJK SC, no box, tech talks;
+  `bilingual` = EN over CN on a semi-transparent box.
+  All three verified legible on real footage frames.
+- **Opening** (`opening/make_opening.py`): 1920x1080 title card from any wide
+  shot (darkened + bottom gradient, text in the lower half so a banner/logo
+  in the top quarter is never covered), slow Ken Burns zoom, fades in from
+  black. Title font auto-picks Caveat (Latin) or Ma Shan Zheng (Chinese).
+- **Closing** (`closing/make_closing.py`): movie-style, credits JSON driven.
+  `scroll` = rolling credits over black (gold headings, "Shot with Inkling
+  2 Small" footer, music attribution); `card` = static "Thanks for watching"
+  end card. Both take `--music` (mixed at 0.3, faded out).
+- **Assembler** (`assemble_vlog.py`): opening + body + closing with 0.5 s
+  dissolves (xfade + acrossfade). Sample: 3 + 12 + 8 − 2×0.5 = **22.04 s
+  exact**; dissolve frames verified (title card melting into footage).
+- **Two bugs found and fixed during testing:** (1) `styles.json` lacked
+  `back_color` for cute/clean — generator now defaults it; (2) the scroll
+  credits filter referenced audio input `[1:a]` but music is input `[2:a]`
+  (background + roll image come first) — fixed by threading the audio index
+  through; (3) long footer lines overflowed the 1920 px roll — fonts now
+  shrink-to-fit (max width 1760 px).
+- Sample videos are local only (`vlog-template/samples/`); scripts, docs,
+  and verification frames are in the repo.
+
 ## In progress
 
 - **Frame extraction + shot list.** Dense 1 fps extraction across all clips,
@@ -231,3 +262,4 @@ sample of classifications against the frames themselves.
 | Music duration verification | 4/4 exact | ffprobe vs expected length | 2026-11-13 10:02 |
 | Photo rotation | 70/70 upright, 0 failures | EXIF Orientation check | 2026-11-13 10:13 |
 | Photo index integrity | 296 rows, all files present | row count + file existence | 2026-11-13 10:13 |
+| Vlog template verification | 3/3 subtitle styles legible on frames; opening card + scroll + card render at 1920x1080; assembled sample 22.04 s = 3+12+8−2×0.5 s (exact); dissolves verified on frames | visual frame reads + ffprobe durations | 2026-11-13 13:20 |
