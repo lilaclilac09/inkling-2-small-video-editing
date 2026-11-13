@@ -229,6 +229,113 @@ All times are Asia/Shanghai (CST, UTC+8).
 - Sample videos are local only (`vlog-template/samples/`); scripts, docs,
   and verification frames are in the repo.
 
+## 2026-11-13 — Re-cut v3 (hook + flashback + bilingual subtitles + two grades)
+
+- **v3 picks (Inkling 2 Small, 256K variant):** one API call over the dense
+  shot list + master prompt (§13 taxonomy, §14 transitions). First attempt
+  failed on a transient `RemoteDisconnected`; the retry succeeded
+  (`stop_reason: end_turn`, 14,720 output tokens). 21 picks, 118.0 s.
+  Total cost both calls ≈ **$0.05**. Arc: hook (0051 laughter) → 5×2 s
+  flashback → exterior/street (banner, street, walking in) → full room
+  (0020) → talks (A/E/F/G/M/L) → listener cut (0063) → Q&A (0050, 0062) →
+  Talk N → sign-off at the banner (0079). All filenames match real files;
+  no excluded clips.
+- **Pink/blonde woman removed (hard requirement).** Clips 0026 and 0052 were
+  excluded in the prompt and never picked. 0052 ("full room before noon") was
+  the user's requested full-room shot, but it shows the pink-blonde woman in
+  the foreground for its whole duration, so the removal takes precedence;
+  clip 0020 is the substitute full-room shot. **One correction after the
+  picks came back:** Inkling's pick #7 was clip 0042 (10:18, storefront),
+  but visual inspection showed the blonde woman in a pink top in the
+  foreground for the whole 0:02–0:07 range, so it was replaced with clip
+  0032 (hosts thumbs up at the Cursor banner, 0:00–0:05, same 5 s, logo
+  clearly readable, no excluded person). Total pick duration unchanged
+  (118.0 s). No other v3 pick shows her.
+- **Cursor logo prominent.** 3 picks show the black Cursor banner with a
+  readable logo: #2 (0037 flashback storefront), #7 (0032 hosts at the
+  banner), #21 (0079 sign-off). Opening wide (#7) and closing (#21) both
+  show it.
+- **Close-up counts.** Person close-ups (type 4): 4 picks. Audience
+  close-ups (type 5): 2 picks. Total close-ups: 6. Storefront ultra-wide
+  (type 1): 3 picks. Exterior/street: 4 picks + sign-off.
+- **Subtitles (bilingual outline).** 21 captions, one per segment, English +
+  Chinese. English: Caveat (Google Fonts, handwritten), 52 pt bold. Chinese:
+  Ma Shan Zheng (Google Fonts, handwritten-style), 46 pt. Semi-transparent
+  dark box (BorderStyle=4, BackColour &H99000000). Verified legible on real
+  frames (hook t=2 s, flashback t=15 s, full room t=30 s, Pairoa t=80 s).
+  Each caption is a fluent, detailed one-line description of the scene (who
+  is doing what, the mood) — rewritten for v3 after the user flagged broken
+  English in an earlier sample. Longest caption verified to fit on one line.
+- **Grades (two versions, same picks).** Version 1 (Korean variety /
+  dating-show): `eq=saturation=1.10:contrast=1.05:brightness=0.05`,
+  `colorbalance=rs=0.06:gs=0.02:bs=-0.06` — soft, glowy, warm. Version 2
+  (Silicon Valley): `eq=saturation=1.05:contrast=1.15:brightness=-0.02`,
+  `colorbalance=rs=-0.04:gs=0.0:bs=0.05` — crisp, cool, strong contrast.
+  Reference vlog for Version 1's feel: Bilibili BV1HTp96mEQP (Berlin travel
+  vlog by 亦涵, warm/relaxed/unhurried).
+- **Audio.** Room 1.4 (voices forward), music 0.30. **Hook music:** Cloud
+  Nothings "Stay Useless" (rock, high-energy), first 24 s only, under the
+  opening hook + fast flashback, then a 2 s crossfade into the version's main
+  track. Pre-built music beds (`music/v1-music-bed.mp3`,
+  `music/v2-music-bed.mp3`, 108.0 s each). Measured on Version 1 (new
+  render): mean −21.6 dB, max −2.2 dB. Honest caveat: the source is noisy
+  crowd chatter; raising the volume makes voices more prominent but will not
+  make unclear speech crystal-clear.
+- **Cover image (Somi-style 3-photo collage, supersedes the single-shot
+  cover).** `cover-v3.jpg` (1920x1080). Three photos with feathered/soft
+  edges, blending into each other (no hard rectangles): (1) girl with a
+  group — HM5A1557, woman in a white shirt with a group by the banner
+  (no band/musicians photo exists in the morning material, so this is the
+  closest match); (2) people outside with the logo — HM5A1478, the group
+  photo, eight men posed by the Cursor banner, logo fully readable
+  ("Ella" could not be identified in the material); (3) indoor scene — a
+  woman presenting at the screen, audience at tables. Text in Caveat at the
+  bottom ("Cursor Cafe Shanghai" / "2026.07.19"), over a subtle dark
+  gradient; it does not cover any face or the Cursor logo. Verified by
+  reading the image.
+- **Version 1 (Korean, "Just Used Music Again"):** `recap-v3-just-used-music-again.mp4`,
+  **107.6 s**, 1920x1080, 30 fps, H.264 + AAC, 66 MB. 0.5 s crossfades
+  between all 21 segments. Expected 108.0 s = 118.0 − 20×0.5; 0.4 s is join
+  rounding. Re-rendered with the new captions + Stay Useless hook music bed.
+  Verified on frames (hook t=2 s with the new caption).
+- **Version 2 (Silicon Valley, "Another season with you"):**
+  `recap-v3-another-season.mp4` — rendering; same picks/ASS, silicon grade.
+  (First render was killed by a VM/runtime restart at ~19/21 segments; the
+  segments in /tmp were lost, so it was re-run from scratch.)
+- **Full v3 report:** `report-v3.md`.
+
+## 2026-11-13 — Full LoRA training dataset (17 real + 15 synthetic)
+
+- **Dataset:** `inkling-video-picks-full.jsonl`, **32 examples** (17 real v2 picks,
+  unchanged, + 15 synthetic requirement-teaching rows). Built by
+  `build_full_picks.py` (loads the v2 picks, appends the synthetic rows, validates).
+- **Coverage:** all 9 priority moments covered (guitar, girlfriend, piano,
+  showcase monologue, follow-up, laughter, rain, volunteers, group photo) —
+  none missing. The 17 real picks alone covered only 3 (follow-up, laughter,
+  showcase monologue); the synthetic rows fill the other 6.
+- **Grounding:** every `clip.file` is a real filename (morning files in
+  `media/DJI_001/`; `延时.MP4` verified in the Drive listing). Every start/end
+  is inside the file's ffprobe-verified duration. Every keyframe path is a real
+  extracted frame (except the timelapse row, whose frames are not extracted yet).
+  ~2,827 tokens. Nodes: 26 morning, 6 afternoon.
+- **Synthetic rows teach the log's rules:** laughter hook first (S1), wide
+  panoramic opening with front-facing people + readable Cursor logo and never a
+  close-up/backs-only open (S2), women presenters (S3, S4), showcase monologues
+  (S3, S5), follow-up Q&A (S6), volunteers (S7), guitar/piano/girlfriend/rain/
+  group-photo must-keeps (S8–S12), timelapse (S13), cultured detailed writing
+  (S14), sentence-boundary cuts (S15). All titles/reasons in proper, fluent,
+  detailed English.
+- **PLACEHOLDER ROWS (re-anchor before training): S8–S12.** The afternoon
+  moments (guitar, piano, girlfriend, rain, group photo) are not yet verified
+  in Drive, so their file/start/end are format placeholders anchored to real
+  morning files. Replace with the real afternoon files from the re-scan before
+  training; the taste signal (tags, title, reason) is the point of those rows.
+- **README:** `TRAINING-DATA-README.md` documents the file, the synthetic-row
+  mapping, the placeholder re-anchoring step, and the fine-tune command
+  (`INKLING_PICKS_PATH=inkling-video-picks-full.jsonl uv run
+  inkling-video-sft.py` on Aileen's Mac).
+- **Training NOT run here** — it needs the Tinker auth on Aileen's Mac.
+
 ## In progress
 
 - **Frame extraction + shot list.** Dense 1 fps extraction across all clips,
@@ -239,10 +346,10 @@ All times are Asia/Shanghai (CST, UTC+8).
   must-keep guitar moment (foreigner with glasses + guitar + wife behind).
   Quality metrics (extraction density, classification counts, confidence)
   will be recorded here when it reports.
-- **Re-cut (vlog style).** New picks, transitions, story arc, wide shots,
-  flashback photos (1–2 s), subtitles, music mix (Timing main, 3 alternates
-  available). Report will map each Kling/Seedance/director principle to
-  where it was used in the cut.
+- **Re-cut v3 (vlog style).** Done — see the 2026-11-13 v3 entry above.
+  Two versions (Korean variety + Silicon Valley), bilingual outline subtitles,
+  hook + flashback, pink/blonde woman removed, Cursor logo prominent.
+  Report maps the Kling/Seedance/director principles to where they were used.
 
 ---
 
@@ -262,4 +369,11 @@ sample of classifications against the frames themselves.
 | Music duration verification | 4/4 exact | ffprobe vs expected length | 2026-11-13 10:02 |
 | Photo rotation | 70/70 upright, 0 failures | EXIF Orientation check | 2026-11-13 10:13 |
 | Photo index integrity | 296 rows, all files present | row count + file existence | 2026-11-13 10:13 |
+| v3 picks (Inkling) | 21 picks, 118.0 s; hook 0051 laughter first, 5×2 s flashback, exterior→interior by space; 0 excluded clips (0026/0052); 1 correction (pick #7: 0042→0032, pink-blonde woman removed); logo visible in 3 picks; type 4 close-ups 4, type 5 close-ups 2 | picks file validation + visual frame inspection of all 21 picks | 2026-11-13 |
+| v3 picks cost | ≈ $0.05 for 2 calls (attempt 1 transient network failure, attempt 2 at 32k succeeded, 14,720 output tokens) | Tinker billing rates, token counts from API | 2026-11-13 |
+| v3 cut precision (V1) | 107.6 s vs expected 108.0 s = 118.0 − 20×0.5 s crossfades (0.4 s join rounding); 1920x1080, 30 fps, 66 MB; subtitles verified on frames (t=2, 15, 30, 80 s) | final duration vs picks sum; visual frame check | 2026-11-13 |
+| v3 subtitles | 21 bilingual outline captions, Caveat EN 52 pt + Ma Shan Zheng CN 46 pt, dark box; fluent/detailed writing, longest caption verified to fit one line; legible on 4 checked frames | visual frame reads | 2026-11-13 |
+| v3 audio | room 1.4, music 0.30; Stay Useless hook 0–24 s, 2 s crossfade to main track; mean −21.6 dB, max −2.2 dB (V1, new render) | ffmpeg volumedetect; music bed files 108.0 s | 2026-11-13 |
+| v3 cover | 3-photo collage, feathered edges, 1920x1080; girl+group (HM5A1557), group+logo (HM5A1478), indoor (presenter); text legible, no face/logo covered | visual read of cover-v3.jpg | 2026-11-13 |
 | Vlog template verification | 3/3 subtitle styles legible on frames; opening card + scroll + card render at 1920x1080; assembled sample 22.04 s = 3+12+8−2×0.5 s (exact); dissolves verified on frames | visual frame reads + ffprobe durations | 2026-11-13 13:20 |
+| Full training dataset | 32 examples (17 real v2 + 15 synthetic); all 9 priority moments covered, none missing; every file real, every timestamp in range, every keyframe path real (except timelapse row); ~2,827 tokens; 5 placeholder rows (S8–S12, afternoon moments) need re-anchoring to real afternoon files before training | build_full_picks.py validation (JSON, clip fields, ffprobe durations, file + frame existence) | 2026-11-13 |
