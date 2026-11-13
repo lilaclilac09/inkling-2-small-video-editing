@@ -299,9 +299,14 @@ All times are Asia/Shanghai (CST, UTC+8).
   rounding. Re-rendered with the new captions + Stay Useless hook music bed.
   Verified on frames (hook t=2 s with the new caption).
 - **Version 2 (Silicon Valley, "Another season with you"):**
-  `recap-v3-another-season.mp4` — rendering; same picks/ASS, silicon grade.
-  (First render was killed by a VM/runtime restart at ~19/21 segments; the
-  segments in /tmp were lost, so it was re-run from scratch.)
+  `recap-v3-another-season.mp4`, **107.6 s**, 1920x1080, 30 fps, H.264 +
+  AAC, 68 MB. Audio: mean −21.9 dB, max −2.4 dB. Same picks/ASS/music-bed
+  structure as V1, silicon grade. Verified on frames (hook t=2 s, full room
+  t=30 s — cool/crisp grade visibly different from V1). (First render was
+  killed by a VM/runtime restart at ~19/21 segments; the segments in /tmp
+  were lost, so it was re-run from scratch. The re-run was then stopped
+  mid-way to apply the Stay Useless hook + rewritten captions, and re-run
+  again from scratch with the music bed.)
 - **Full v3 report:** `report-v3.md`.
 
 ## 2026-11-13 — Full LoRA training dataset (17 real + 15 synthetic)
