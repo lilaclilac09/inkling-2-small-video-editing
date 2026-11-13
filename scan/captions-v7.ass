@@ -1,0 +1,119 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CAP_EN,Caveat,56,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,1,0,0,0,100,100,0,0,4,0,0,2,60,60,110,1
+Style: CAP_CN,Ma Shan Zheng,48,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,0,0,0,0,100,100,0,0,4,0,0,2,60,60,50,1
+Style: NOTE_EN,Caveat,38,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,1,0,0,0,100,100,0,0,4,0,0,2,60,60,110,1
+Style: NOTE_CN,Ma Shan Zheng,36,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,0,0,0,0,100,100,0,0,4,0,0,2,60,60,50,1
+Style: COFFEE_EN,DejaVu Sans,40,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,1,0,0,0,100,100,0,0,4,0,0,2,60,60,275,1
+Style: COFFEE_CN,Noto Sans CJK SC,40,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,1,0,0,0,100,100,0,0,4,0,0,2,60,60,205,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:02.75,CAP_CN,,0,0,0,,\h\h\h早上的延庆路\h\h\h
+Dialogue: 0,0:00:00.00,0:00:02.75,CAP_EN,,0,0,0,,\h\h\hYanqing Road in the morning\h\h\h
+Dialogue: 0,0:00:02.75,0:00:05.50,CAP_CN,,0,0,0,,\h\h\h演讲开始前的咖啡馆\h\h\h
+Dialogue: 0,0:00:02.75,0:00:05.50,CAP_EN,,0,0,0,,\h\h\hThe café, before the talks begin\h\h\h
+Dialogue: 0,0:00:05.50,0:00:08.00,CAP_CN,,0,0,0,,\h\h\h座位一个一个坐满\h\h\h
+Dialogue: 0,0:00:05.50,0:00:08.00,CAP_EN,,0,0,0,,\h\h\hThe room fills, one chair at a time\h\h\h
+Dialogue: 0,0:00:08.00,0:00:10.50,CAP_CN,,0,0,0,,\h\h\h纸灯笼，亮着的屏幕\h\h\h
+Dialogue: 0,0:00:08.00,0:00:10.50,CAP_EN,,0,0,0,,\h\h\hPaper lanterns, a glowing screen\h\h\h
+Dialogue: 0,0:00:10.50,0:00:13.00,CAP_CN,,0,0,0,,\h\h\h四十分钟，浓缩成八秒\h\h\h
+Dialogue: 0,0:00:10.50,0:00:13.00,CAP_EN,,0,0,0,,\h\h\hForty minutes, in eight seconds\h\h\h
+Dialogue: 0,0:00:13.00,0:00:15.75,CAP_CN,,0,0,0,,\h\h\h穿过玻璃门\h\h\h
+Dialogue: 0,0:00:13.00,0:00:15.75,CAP_EN,,0,0,0,,\h\h\hThrough the glass doors\h\h\h
+Dialogue: 0,0:00:15.75,0:00:18.50,CAP_CN,,0,0,0,,\h\h\h街道、梧桐、门口\h\h\h
+Dialogue: 0,0:00:15.75,0:00:18.50,CAP_EN,,0,0,0,,\h\h\hThe street, the trees, the door\h\h\h
+Dialogue: 0,0:00:18.50,0:00:21.00,CAP_CN,,0,0,0,,\h\h\h一杯饮料，一块平板，梧桐树下\h\h\h
+Dialogue: 0,0:00:18.50,0:00:21.00,CAP_EN,,0,0,0,,\h\h\hA drink, a tablet, under the plane trees\h\h\h
+Dialogue: 0,0:00:21.00,0:00:23.75,CAP_CN,,0,0,0,,\h\h\h来得最早的朋友\h\h\h
+Dialogue: 0,0:00:21.00,0:00:23.75,CAP_EN,,0,0,0,,\h\h\hThe friend who came earliest\h\h\h
+Dialogue: 0,0:00:23.75,0:00:26.50,CAP_CN,,0,0,0,,\h\h\h维持秩序的朋友\h\h\h
+Dialogue: 0,0:00:23.75,0:00:26.50,CAP_EN,,0,0,0,,\h\h\hThe friend who kept order\h\h\h
+Dialogue: 0,0:00:26.50,0:00:29.00,CAP_CN,,0,0,0,,\h\h\h黑帽子，抱着胳膊，横幅旁\h\h\h
+Dialogue: 0,0:00:26.50,0:00:29.00,CAP_EN,,0,0,0,,\h\h\hBlack cap, arms crossed, by the banner\h\h\h
+Dialogue: 0,0:00:29.00,0:00:31.06,CAP_CN,,0,0,0,,\h\h\h分享 1\h\h\h
+Dialogue: 0,0:00:29.00,0:00:31.06,CAP_EN,,0,0,0,,\h\h\hTalk 1\h\h\h
+Dialogue: 0,0:00:31.06,0:00:34.50,NOTE_CN,,0,0,0,,\h\h\hPairoa，现场演示\h\h\h
+Dialogue: 0,0:00:31.06,0:00:34.50,NOTE_EN,,0,0,0,,\h\h\hPairoa, demoed live\h\h\h
+Dialogue: 0,0:00:34.50,0:00:37.75,CAP_CN,,0,0,0,,\h\h\h台下有人提问\h\h\h
+Dialogue: 0,0:00:34.50,0:00:37.75,CAP_EN,,0,0,0,,\h\h\hA question from the floor\h\h\h
+Dialogue: 0,0:00:37.75,0:00:41.00,CAP_CN,,0,0,0,,\h\h\h一个手势作答\h\h\h
+Dialogue: 0,0:00:37.75,0:00:41.00,CAP_EN,,0,0,0,,\h\h\hAnswered with a gesture\h\h\h
+Dialogue: 0,0:00:41.00,0:00:43.19,CAP_CN,,0,0,0,,\h\h\h分享 1\h\h\h
+Dialogue: 0,0:00:41.00,0:00:43.19,CAP_EN,,0,0,0,,\h\h\hTalk 1\h\h\h
+Dialogue: 0,0:00:43.19,0:00:46.85,CAP_CN,,0,0,0,,\h\h\h演示引来了一阵笑声\h\h\h
+Dialogue: 0,0:00:43.19,0:00:46.85,CAP_EN,,0,0,0,,\h\h\hThe demo gets a laugh\h\h\h
+Dialogue: 0,0:00:46.85,0:00:50.50,CAP_CN,,0,0,0,,\h\h\h浅蓝衬衫，现场演示\h\h\h
+Dialogue: 0,0:00:46.85,0:00:50.50,CAP_EN,,0,0,0,,\h\h\hA light-blue shirt, a live demo\h\h\h
+Dialogue: 0,0:00:50.50,0:00:52.56,CAP_CN,,0,0,0,,\h\h\h分享 2\h\h\h
+Dialogue: 0,0:00:50.50,0:00:52.56,CAP_EN,,0,0,0,,\h\h\hTalk 2\h\h\h
+Dialogue: 0,0:00:52.56,0:00:56.00,NOTE_CN,,0,0,0,,\h\h\hAgent 时代——一段历史\h\h\h
+Dialogue: 0,0:00:52.56,0:00:56.00,NOTE_EN,,0,0,0,,\h\h\hThe Agent era — a history\h\h\h
+Dialogue: 0,0:00:56.00,0:00:58.44,CAP_CN,,0,0,0,,\h\h\h分享 2\h\h\h
+Dialogue: 0,0:00:56.00,0:00:58.44,CAP_EN,,0,0,0,,\h\h\hTalk 2\h\h\h
+Dialogue: 0,0:00:58.44,0:01:02.50,NOTE_CN,,0,0,0,,\h\h\h以及企业级 Harness 方案\h\h\h
+Dialogue: 0,0:00:58.44,0:01:02.50,NOTE_EN,,0,0,0,,\h\h\hand enterprise Harness solutions\h\h\h
+Dialogue: 0,0:01:02.50,0:01:04.56,CAP_CN,,0,0,0,,\h\h\h分享 3\h\h\h
+Dialogue: 0,0:01:02.50,0:01:04.56,CAP_EN,,0,0,0,,\h\h\hTalk 3\h\h\h
+Dialogue: 0,0:01:04.56,0:01:08.00,NOTE_CN,,0,0,0,,\h\h\h屏幕上是 AI 原生工具\h\h\h
+Dialogue: 0,0:01:04.56,0:01:08.00,NOTE_EN,,0,0,0,,\h\h\hAI-native tools, on the screen\h\h\h
+Dialogue: 0,0:01:08.00,0:01:11.50,CAP_CN,,0,0,0,,\h\h\h后排的听众\h\h\h
+Dialogue: 0,0:01:08.00,0:01:11.50,CAP_EN,,0,0,0,,\h\h\hListening, from the back row\h\h\h
+Dialogue: 0,0:01:11.50,0:01:13.23,CAP_CN,,0,0,0,,\h\h\h分享 4\h\h\h
+Dialogue: 0,0:01:11.50,0:01:13.23,CAP_EN,,0,0,0,,\h\h\hTalk 4\h\h\h
+Dialogue: 0,0:01:13.23,0:01:16.12,NOTE_CN,,0,0,0,,\h\h\h一个聊天 App\h\h\h
+Dialogue: 0,0:01:13.23,0:01:16.12,NOTE_EN,,0,0,0,,\h\h\hA chat app\h\h\h
+Dialogue: 0,0:01:16.12,0:01:19.00,NOTE_CN,,0,0,0,,\h\h\h用手机现场演示\h\h\h
+Dialogue: 0,0:01:16.12,0:01:19.00,NOTE_EN,,0,0,0,,\h\h\hDemoed live from his phone\h\h\h
+Dialogue: 0,0:01:19.00,0:01:20.50,CAP_CN,,0,0,0,,\h\h\h分享 5\h\h\h
+Dialogue: 0,0:01:19.00,0:01:20.50,CAP_EN,,0,0,0,,\h\h\hTalk 5\h\h\h
+Dialogue: 0,0:01:20.50,0:01:23.00,NOTE_CN,,0,0,0,,\h\h\h个人护理——它记住你的皮肤\h\h\h
+Dialogue: 0,0:01:20.50,0:01:23.00,NOTE_EN,,0,0,0,,\h\h\hPersonal care — it remembers your skin\h\h\h
+Dialogue: 0,0:01:23.00,0:01:25.50,NOTE_CN,,0,0,0,,\h\h\h输入你的地址——实时天气来调整日常护理\h\h\h
+Dialogue: 0,0:01:23.00,0:01:25.50,NOTE_EN,,0,0,0,,\h\h\hType in your address — live weather shapes your routine\h\h\h
+Dialogue: 0,0:01:25.50,0:01:26.77,CAP_CN,,0,0,0,,\h\h\h分享 6\h\h\h
+Dialogue: 0,0:01:25.50,0:01:26.77,CAP_EN,,0,0,0,,\h\h\hTalk 6\h\h\h
+Dialogue: 0,0:01:26.77,0:01:28.88,NOTE_CN,,0,0,0,,\h\h\h为品牌工作的智能体\h\h\h
+Dialogue: 0,0:01:26.77,0:01:28.88,NOTE_EN,,0,0,0,,\h\h\hAgents that work for your brand\h\h\h
+Dialogue: 0,0:01:28.88,0:01:31.00,NOTE_CN,,0,0,0,,\h\h\h它比你更了解你的品牌\h\h\h
+Dialogue: 0,0:01:28.88,0:01:31.00,NOTE_EN,,0,0,0,,\h\h\hIt knows more than you remember\h\h\h
+Dialogue: 0,0:01:31.00,0:01:32.50,CAP_CN,,0,0,0,,\h\h\h分享 7\h\h\h
+Dialogue: 0,0:01:31.00,0:01:32.50,CAP_EN,,0,0,0,,\h\h\hTalk 7\h\h\h
+Dialogue: 0,0:01:32.50,0:01:35.00,NOTE_CN,,0,0,0,,\h\h\h屏幕上是终端代码\h\h\h
+Dialogue: 0,0:01:32.50,0:01:35.00,NOTE_EN,,0,0,0,,\h\h\hTerminal code, on the screen\h\h\h
+Dialogue: 0,0:01:35.00,0:01:37.50,NOTE_CN,,0,0,0,,\h\h\h终端里的 CREWCLAW\h\h\h
+Dialogue: 0,0:01:35.00,0:01:37.50,NOTE_EN,,0,0,0,,\h\h\hCREWCLAW, in the terminal\h\h\h
+Dialogue: 0,0:01:37.50,0:01:39.00,CAP_CN,,0,0,0,,\h\h\h分享 8\h\h\h
+Dialogue: 0,0:01:37.50,0:01:39.00,CAP_EN,,0,0,0,,\h\h\hTalk 8\h\h\h
+Dialogue: 0,0:01:39.00,0:01:41.50,NOTE_CN,,0,0,0,,\h\h\h信息雷达\h\h\h
+Dialogue: 0,0:01:39.00,0:01:41.50,NOTE_EN,,0,0,0,,\h\h\hInformation Radar\h\h\h
+Dialogue: 0,0:01:41.50,0:01:44.00,NOTE_CN,,0,0,0,,\h\h\hAI 新闻，集中在一个面板\h\h\h
+Dialogue: 0,0:01:41.50,0:01:44.00,NOTE_EN,,0,0,0,,\h\h\hAI news, in one dashboard\h\h\h
+Dialogue: 0,0:01:44.00,0:01:45.50,CAP_CN,,0,0,0,,\h\h\h分享 9\h\h\h
+Dialogue: 0,0:01:44.00,0:01:45.50,CAP_EN,,0,0,0,,\h\h\hTalk 9\h\h\h
+Dialogue: 0,0:01:45.50,0:01:48.00,NOTE_CN,,0,0,0,,\h\h\h你的 agent 在工作\h\h\h
+Dialogue: 0,0:01:45.50,0:01:48.00,NOTE_EN,,0,0,0,,\h\h\hYour agents work\h\h\h
+Dialogue: 0,0:01:48.00,0:01:50.50,NOTE_CN,,0,0,0,,\h\h\h你在睡觉\h\h\h
+Dialogue: 0,0:01:48.00,0:01:50.50,NOTE_EN,,0,0,0,,\h\h\hYou are sleeping\h\h\h
+Dialogue: 0,0:01:50.50,0:01:53.25,CAP_CN,,0,0,0,,\h\h\h手指着二维码\h\h\h
+Dialogue: 0,0:01:50.50,0:01:53.25,CAP_EN,,0,0,0,,\h\h\hA finger at the QR codes\h\h\h
+Dialogue: 0,0:01:53.25,0:01:56.00,CAP_CN,,0,0,0,,\h\h\h分享结束后的提问\h\h\h
+Dialogue: 0,0:01:53.25,0:01:56.00,CAP_EN,,0,0,0,,\h\h\hQuestions, after the talk\h\h\h
+Dialogue: 0,0:01:56.00,0:01:58.25,CAP_CN,,0,0,0,,\h\h\h四个人，手里拿着饮料\h\h\h
+Dialogue: 0,0:01:56.00,0:01:58.25,CAP_EN,,0,0,0,,\h\h\hFour people, drinks in hand\h\h\h
+Dialogue: 0,0:01:58.25,0:02:00.50,CAP_CN,,0,0,0,,\h\h\h两场分享之间的闲聊\h\h\h
+Dialogue: 0,0:01:58.25,0:02:00.50,CAP_EN,,0,0,0,,\h\h\hChatting between talks\h\h\h
+Dialogue: 0,0:02:00.50,0:02:03.50,CAP_CN,,0,0,0,,\h\h\h横幅前，一天结束\h\h\h
+Dialogue: 0,0:02:00.50,0:02:03.50,CAP_EN,,0,0,0,,\h\h\hAt the banner, the day ends\h\h\h
+Dialogue: 0,0:02:03.50,0:02:07.50,CAP_CN,,0,0,0,,\h\h\h门口的大合照\h\h\h
+Dialogue: 0,0:02:03.50,0:02:07.50,CAP_EN,,0,0,0,,\h\h\hThe group, at the door\h\h\h
+Dialogue: 0,0:01:20.00,0:01:24.00,COFFEE_EN,,0,0,0,,\h\h\h🔊 This is the coffee machine sound\h\h\h
+Dialogue: 0,0:01:20.00,0:01:24.00,COFFEE_CN,,0,0,0,,\h\h\h这是咖啡机的声音\h\h\h
