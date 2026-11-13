@@ -229,3 +229,17 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
 - FONT OUTLINE: remove the outline/border around the glyphs ("字体本身就不要去包线了") — black text on the cream box, no stroke/border around the letters.
 - SPEED IS GOOD: the current subtitle timing/cycling speed is fine ("现在这个速度就蛮好") — do NOT change the timing.
 - (Bundled re-render fix from 19:16: pull the room audio DOWN during the opening ~24s only — the voices are too loud at the start. The rest of the mix stays as v5.)
+
+## 2026-11-13 19:19 — coffee label: bigger speaker icon + "this is the coffee machine sound"
+
+- COFFEE LABEL CHANGE (video): where the coffee machine sound is heard mid-video, replace the small "☕ 咖啡机 · coffee machine" label with a BIGGER SPEAKER icon (small horn/loudspeaker, e.g. 🔊) plus text saying THIS IS THE COFFEE MACHINE SOUND ("这是咖啡机的声音"). Make the label bigger/more prominent than the current small one.
+- Note: colour emoji do NOT render in this libass build (tofu) — only the monochrome ☕ glyph rendered. If a speaker emoji does not render, use an image overlay or a text glyph that does render; do not ship tofu boxes.
+
+## 2026-11-13 19:19 — COVER: NO MORE CUTOUTS — mood board style (supersedes the cutout direction)
+
+- User verdict: the cover is very good ("这个封面很好啊"), BUT the cutouts look weird ("你抠得起那怪怪的") and the middle group's legs STILL have not come back ("中间这个腿还是没有回来").
+- DECISION — STOP CUTTING OUT PEOPLE ENTIRELY ("你干脆不要抠了", "我觉得还是不要抠了"). This SUPERSEDES the 15:40 cutout direction (cut out people and arrange cutouts) and the v5/v5b cutout approach.
+- NEW APPROACH — MOOD BOARD: put the photos on a canvas like a mood board ("用一个 canvas 上面放像 mood board 一样把它放上去，中间隔一点就可以了"). Rectangular photo panels placed on the cream canvas with a little SPACE/GAP between them. No masks, no rembg cutouts, no feathered edges — just the photos as they are.
+- Same photos/layout as the v5b cover (text top-left, interior speaking shot top-centre, green-trees girl top-right, black-hat girl with banner bottom-left, group bottom-centre, bigger with full legs + background). The hero girl becomes a photo panel too (full photo with her green-trees background), NOT a cutout.
+- The legs problem is solved by construction: full photos show full bodies naturally, no mask can truncate them.
+- (Her "cut out the top-right girl and another girl in profile" suggestion in the same message is superseded by the "don't cut out" decision that followed it in the same breath.)
