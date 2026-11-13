@@ -62,7 +62,7 @@ correction (subtitles should switch, not linger).
   23 segments.
 - **Captions**: restrained, cultured, understated. No atmosphere-hyping
   ("warmest moment", "the whole room laughs" are out). Talk captions
-  are "Talk N" / "分享 N" in story order.
+  are "Talk N" / "Share N" in story order.
 - **Annotations**: where the audio is intelligible, they explain HOW
   the person used the tool (the process), not just what it is.
   Talk E is the detailed one (verified transcript): "Personal care —
@@ -91,7 +91,7 @@ The room audio is loud in the middle. Audio analysis (sustained
 loudness + 2–4 kHz / 4–8 kHz spectral energy) puts the loudest
 sustained mechanical noise at final-video t=80–84 s (inside the
 Talk E segment, 79–86 s). A small label shows there, above the
-subtitle: "☕ 咖啡机 · coffee machine". The room audio is also
+subtitle: "☕ coffee machine". The room audio is also
 denoised (afftdn) where it is loud.
 
 ### Audio mix (17:09)
@@ -164,8 +164,7 @@ Both videos: ffprobe 127.5 s, 1920×1080, 30 fps, H.264 + AAC.
 Frames read back at t=2 (arrival, cream subtitle legible), t=30
 (Talk 1 Pairoa, "Talk 1" + Pairoa screen), t=53 (Carl Yang title
 slide + annotation), t=82 (Talk E: presenter in green cap, bottle
-screen "欢迎来到你的瓶瓶", coffee label "☕ 咖啡机 · coffee
-machine" above the "Personal care" annotation, no tofu), t=125
+screen "Welcome to your bottle", coffee label "☕ coffee machine" above the "Personal care" annotation, no tofu), t=125
 (closing group photo, Cursor logo clear).
 Audio: mean −14.4 dB, max 0.0 dB; the two versions have different
 audio (different music beds) confirmed by hash.
