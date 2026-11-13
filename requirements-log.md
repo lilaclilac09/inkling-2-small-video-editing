@@ -190,3 +190,42 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
 - Instead, show MORE segments in sequence: within one scene, cycle through 2-3 subtitle lines consecutively.
 - When a scene holds/pauses, keep SWITCHING the subtitle 2-3 times in a row while the person's speech continues in the audio. Do not leave one subtitle static.
 - (Max 2 lines at once, cream background, black/high-contrast text, Apple emojis, bottom placement — those stand.)
+
+## 2026-11-13 19:06 — v5 cover: OK overall, cutout edges must be cleaner
+
+- User reviewed cover-v5.jpg: "还可以 这个 还可以 边缘扣的干净点" — the cover is OK overall, but the cutout edges must be cleaned up.
+- DO NOT redesign the layout — same composition, same positions, same sizes, same text. Only cleaner edges.
+- The previous rembg cutouts have halos / rough fringes / background-colour bleed, and faint grey smudges around the group cutout. Fix by re-extracting with alpha matting and/or refining the alpha mask (erode 1-2px, feather, defringe).
+
+## 2026-11-13 19:07 — v5 cover: group bigger, banner in background, legs back
+
+- User's verdict: the cutouts are good, sizes/placement are good, the beautiful girl (hero, green trees) is very good — "真的很不错，好多了好多了". Just these small changes and it will be perfect.
+- MIDDLE GROUP BIGGER: the group in the middle (HM5A1478) should be made larger — they are the group, show them bigger.
+- GROUP LEGS WERE CUT OFF: "中间这个，怎么把腿抠没了" — the group's legs got cut off in the cutout. Restore the FULL legs (re-extract so the whole body including legs is in the mask, and place them so the legs are fully visible inside the canvas, not cropped).
+- BACKGROUND: show a bit of the BANNER in the background (the Cursor / collaboration banner) — the cover background should not be only plain cream; a bit of banner should show through.
+- LEFT GIRL (black-hat girl, HM5A1822): REVEAL HER BACKGROUND — do not cut her out clean onto plain cream; show the background behind her (the banner she was photographed in front of).
+- SHOW ALL THE TEXT: the words/text on the banner must be visible and legible ("把所有的字亮出来").
+- Cleaner cutout edges (from 19:06) still apply.
+
+## 2026-11-13 19:08 — v5 cover: legs + background behind the men + interior speaking shots + typography
+
+- User is quite satisfied with the cover overall ("这个封面图还蛮满意的", "剪得很好"), only the typography/layout is a bit ugly ("只有排版有点难看").
+- THE MAN/MEN IN THE MIDDLE HAVE NO LEGS (repeated, emphatic): "中间那个男的怎么没有腿啊" — restore full legs on the group cutout. This repeats the 19:07 legs point; make sure the legs are actually visible this time.
+- BACKGROUND BEHIND THE MAN/MEN MUST SHOW TOO: "那个男的背后的那个背景也要露出来" — like the left girl, the group should keep their background visible behind them, not be a clean cutout on plain cream.
+- INTERIOR SPEAKING SHOTS: pick shots that show someone SPEAKING/presenting — interior scenes of a talk in progress ("选一些能够看到就是他正在演讲的那种内部的景象"), inside + banner ("内内外 banner"). Use an interior presenting shot as a background element if it fits the layout.
+- TYPOGRAPHY: improve the cover text styling — current layout/typography looks a bit ugly. Keep the same text ("Cursor Cafe Shanghai" / "2026.07.19") but make it look better.
+
+## 2026-11-13 19:16 — v5 video: subtitles need more adjustment + opening voices too loud
+
+- SUBTITLES STILL NEED ADJUSTMENT (she did not specify exactly how yet — clarification pending; she trailed off mid-sentence).
+- OPENING VOICES TOO LOUD: at the very start, where the video shows/says the outside is bustling/noisy ("外面闹"), the human voices (room/crowd audio) are WAY too loud. The v5 boost (room 1.6 + compressor) overshot at the opening. Pull the room audio down at the opening and/or rebalance vs music.
+- The opening does not SHOW the bustling outside the way the subtitle describes it ("你没有展现出来这个样子") — the visuals/audio do not convey the noisy/bustling street as claimed. Needs clarification on what she wants the opening to show.
+- She trailed off ("然后我觉得这个不是很,那个什么我们就对先") — asked to finish the sentence before re-rendering.
+
+## 2026-11-13 19:17 — v5 subtitles: unify fonts, wider cream box, no outline; speed is good
+
+- SUBTITLES ARE INCONSISTENT: the live subtitles are not uniform — fonts differ between earlier and later parts ("字体前后不一致"). UNIFY the fonts: same font set for all captions and annotations throughout the whole video.
+- CREAM BACKGROUND BOX WIDER: the light-yellow/cream subtitle box should be LONGER (wider) so that ALL text has a bit of blank space on the LEFT and RIGHT sides — visible padding/margin on both sides of the text inside the box.
+- FONT OUTLINE: remove the outline/border around the glyphs ("字体本身就不要去包线了") — black text on the cream box, no stroke/border around the letters.
+- SPEED IS GOOD: the current subtitle timing/cycling speed is fine ("现在这个速度就蛮好") — do NOT change the timing.
+- (Bundled re-render fix from 19:16: pull the room audio DOWN during the opening ~24s only — the voices are too loud at the start. The rest of the mix stays as v5.)
