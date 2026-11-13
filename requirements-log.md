@@ -243,3 +243,11 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
 - Same photos/layout as the v5b cover (text top-left, interior speaking shot top-centre, green-trees girl top-right, black-hat girl with banner bottom-left, group bottom-centre, bigger with full legs + background). The hero girl becomes a photo panel too (full photo with her green-trees background), NOT a cutout.
 - The legs problem is solved by construction: full photos show full bodies naturally, no mask can truncate them.
 - (Her "cut out the top-right girl and another girl in profile" suggestion in the same message is superseded by the "don't cut out" decision that followed it in the same breath.)
+
+## 2026-11-13 19:42 — COVER mood board: use the ORIGINAL full photos, no cropping + add more photos
+
+- User: the mood-board direction is right ("对，是这样"), BUT the photos are still cropped/cut ("你还是call图了") — she can tell they are not the full pictures.
+- DO NOT CROP: go find the ORIGINAL full photos of the four images and place them on the canvas AT PROPORTIONAL SCALE ("按比例贴") — keep each photo's original aspect ratio, just scale to fit. No cropping, no cutting out.
+  - This means: full HM5A1822 (black-hat girl, not the 0.76 crop) and full HM5A1478 (group, not the 0.84 crop — even if the 8th man is in it). Full frames for the interior shot and the hero too.
+- ADD MORE PHOTOS to the mood board: find interior shots of talks/speaking in CLOSE-UP ("室内的演讲的大头的画面") and shots of people INTERACTING/CHATTING ("大家交流的画面"), and paste those on as well.
+- Still a mood board, still no cutouts, still cream canvas with gaps between panels. Same text ("Cursor Cafe Shanghai" / "2026.07.19").
