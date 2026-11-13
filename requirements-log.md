@@ -182,3 +182,11 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
 - GRADE: warmer, prettier colors, stronger/more vivid contrast, CUTER. Current grade is too flat/cold.
 - AUDIO MIX (after the cut): music must NOT cover the voices. Voices should be LOUDER and more SOLID/full. Lower the music relative to the voices; boost/compress the voices if needed.
 - ON-SCREEN INFO must be clearer / more legible (captions, annotations, screen text).
+
+## 2026-11-13 17:14 — subtitle timing CORRECTION (supersedes 17:09 "longer duration")
+
+- CORRECTION: do NOT make each subtitle last longer. The OPPOSITE.
+- Each subtitle stays for a COMFORTABLE human reading duration (normal, not extended).
+- Instead, show MORE segments in sequence: within one scene, cycle through 2-3 subtitle lines consecutively.
+- When a scene holds/pauses, keep SWITCHING the subtitle 2-3 times in a row while the person's speech continues in the audio. Do not leave one subtitle static.
+- (Max 2 lines at once, cream background, black/high-contrast text, Apple emojis, bottom placement — those stand.)
