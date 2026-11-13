@@ -156,3 +156,9 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
 
 - There is a scene where a HAT-WEARING GIRL introduces her app (Talk E, clip 0042, woman demos her phone app). For the talks, IF the audio is clear enough to hear and transcribe, make a SMALL SUMMARY of what the person is introducing and WHAT IT IS FOR, and add it as a small annotation on the video: an emoji + simple text in a simple font. (Conditional on audio intelligibility — the room audio is noisy; if a talk cannot be heard clearly, do not invent a summary.)
 - Ideally do this simple intro for ALL talks, not just the hat girl — a one-line note per talk saying what it is and what it is for.
+
+## 2026-11-13 16:08 — Talk E annotation style
+
+- Do NOT label Talk E narrowly as a "skincare app" (护肤App). Categorize it more broadly as PERSONAL CARE (个人护理) or everyday items/lifestyle (物品/生活类). The annotation should feel like LIFESTYLE content, not a product spec.
+- The annotation text should be BIGGER and NICER-LOOKING (larger font, better styling).
+- Example direction: "🧴 个人护理——记住你的皮肤，按所在城市的实时天气定制日常护理" / "🧴 Personal care — a routine that remembers your skin and adapts to your city's live weather".
