@@ -115,3 +115,14 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
 - When Aileen gives a new requirement or correction, APPEND it here (with date/time) BEFORE acting on it, and confirm it back to her.
 - When a requirement changes, do NOT edit the old entry — append a new entry that supersedes it and references the old one.
 - If a requirement in this log conflicts with what a subagent is doing, the log wins — stop the subagent and redirect it.
+
+## 2026-11-13 15:31 — v3 feedback (she dislikes the cover + subtitles)
+
+- COVER IS UGLY (her words: "这篇的太丑了"). Problems:
+  - BLACK BAR in the middle of the collage — the feathered edge between photos reads as a black vertical bar, looks like a film-strip simulation. REMOVE it: photos must be properly cut out and blended into each other, NO dark seam/bar.
+  - LEFT photo has a HAND stretched across the frame — remove/replace that photo.
+  - NO girl front-facing in the cover. She wants a girl's front face.
+  - SPECIFIC PHOTO SHE NAMES: a girl in a BLACK HAT and BLACK CLOTHES, front-facing — "把她拿出来" (use her). Find this photo in the photo index (photos/ + photo-index.jsonl) and put her in the cover.
+  - TEXT IS UGLY — do not use that font/style for the cover text. Use a better-looking, more refined font.
+- SUBTITLES FEEL BRAINLESS ("没有脑袋的感觉") — the captions read as generic/thoughtless. Rewrite them to be genuinely observant and specific to what is actually happening in each segment (real details, real talk content, real human moments), not formulaic scene descriptions. Do not invent talk content.
+- FLASHBACK slightly too fast, but acceptable ("还可以") — keep, or slow slightly; do not over-fix.
