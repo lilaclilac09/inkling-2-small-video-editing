@@ -151,3 +151,8 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
   - NO ONE may have their head cut off / beheaded by the crop ("不要有任何人是断头切头").
   - Photos to use: (a) the BEAUTIFUL GIRL UNDER THE GREEN TREES (a video frame or photo — find it, crop her out); (b) a girl ALONE with the banner (solo photo with banner); (c) the BIG GROUP PHOTO AT THE DOOR (门口大合照).
   - Verify by reading the finished cover back: no cut-off heads, no black bar, arrangement clean.
+
+## 2026-11-13 15:59 — app intro annotations
+
+- There is a scene where a HAT-WEARING GIRL introduces her app (Talk E, clip 0042, woman demos her phone app). For the talks, IF the audio is clear enough to hear and transcribe, make a SMALL SUMMARY of what the person is introducing and WHAT IT IS FOR, and add it as a small annotation on the video: an emoji + simple text in a simple font. (Conditional on audio intelligibility — the room audio is noisy; if a talk cannot be heard clearly, do not invent a summary.)
+- Ideally do this simple intro for ALL talks, not just the hat girl — a one-line note per talk saying what it is and what it is for.
