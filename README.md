@@ -39,34 +39,88 @@ The recap is cut as a vlog, not a montage. The structure is: a hook (the warmest
 
 Transitions follow the directors' rules, not hard cuts: coverage goes wide → tight and re-establishes with a wide after close-ups; cuts hide inside motion (match on action); sound bridges the cut (J/L-cuts) instead of silence; the cut lands on the listener's reaction, not the speaker; the tightest close-up is saved for the emotional peak; cuts land on music phrase boundaries (see the beat grid below); photos are 1–2 s flashbacks, never long holds. The full research behind these rules is in `research-shot-picking-transitions.md` (in the build workspace) and the per-cut mapping is in the re-cut report.
 
-## Re-cut v3 (current)
+## Re-cut v5 (current)
 
-The current cut. 21 picks from Inkling 2 Small (256K variant), 118.0 s of picks, 107.6 s finished. Same picks, subtitles and audio in both versions; they differ in grade and music only.
+The current cut — a STORY, not a montage. Inkling 2 Small re-picked and
+re-ordered the day into a 5-beat arc: arrival (storefront, the timelapse
+of the room filling up, walking in) → the hosts, introduced early and
+kept → the talks, important first (Pairoa's laughter, then Carl Yang's
+Agent/Harness talk) → human moments (Q&A, reactions, chatting) →
+closing (sign-off at the banner + the group photo). 20 video picks
++ 3 interleaved still photos (Ken Burns slow zoom), 127.5 s finished.
+Same picks, subtitles and audio in both versions; they differ in grade
+and music only.
 
-| | Version 1 — Korean variety | Version 2 — Silicon Valley |
+| | Version 1 — main | Version 2 — funk alternate |
 |---|---|---|
-| File | `recap-v3-just-used-music-again.mp4` | `recap-v3-another-season.mp4` |
-| Music | "Just Used Music Again" (funk) | "Another season with you" (soft/gentle) |
-| Grade | Korean variety / dating-show: soft, glowy, warm. `eq=saturation=1.10:contrast=1.05:brightness=0.05`, warm tint | Silicon Valley: crisp, cool, strong contrast. `eq=saturation=1.05:contrast=1.15:brightness=-0.02`, cool tint |
-| Duration | 107.6 s, 1920×1080, 30 fps, 66 MB | 107.6 s (expected) |
+| File | `recap-v5-another-season.mp4` | `recap-v5-just-used-music-again.mp4` |
+| Music | Yerin Baek "Another season with you" (soft/gentle) | "Just Used Music Again" (funk) |
+| Grade | silicon — clean, warm. `eq=saturation=1.22:contrast=1.12:brightness=0.05`, warm tint | korean — warm, glowy. `eq=saturation=1.32:contrast=1.12:brightness=0.07`, warm tint |
+| Duration | 127.5 s, 1920×1080, 30 fps, 76 MB | 127.5 s, 1920×1080, 30 fps, 77 MB |
 
-Both versions open with the same hook: Cloud Nothings "Stay Useless" (rock, high-energy) for the first 24 s — the hook and fast flashback — then crossfade into the version's main track. Room audio 1.4 (voices forward), music 0.30.
+Both versions open with Cloud Nothings "Stay Useless" (rock) for the
+first 24 s, then crossfade into the version's main track. Music 0.22
+(lowered so it never covers the voices); room audio 1.6 + acompressor
+so voices are louder and more solid/full; afftdn denoise on the room bus.
 
-**Subtitles:** bilingual outline captions, one per segment. English in Caveat (handwritten, 52 pt bold), Chinese in Ma Shan Zheng (handwritten-style, 46 pt), on a semi-transparent dark box. Each caption is a fluent, detailed one-line description of the scene (who is doing what, the mood), not just a title.
+**Subtitles (system v6):** cream/beige background, BLACK text, max 2
+lines at once (1 EN + 1 CN), all cards at the same bottom position.
+Each card stays a comfortable reading duration (~2–3 s) and the
+subtitle cycles through 2–3 cards per scene while the speech
+continues — never one static line. Talk captions are "Talk N" /
+"分享 N" in story order. Annotations explain HOW the person used the
+tool (the process), not just what it is — Talk E is the detailed one
+(personal care: tell it your skin, it remembers you; type in your
+address, live weather shapes your routine). A small label
+"☕ 咖啡机 · coffee machine" marks the coffee-machine noise at
+t=80–84 s (found by sustained-loudness + spectral analysis of the
+room audio). Colour emoji do not render in this libass build (they
+show as empty boxes); the monochrome ☕ glyph does, so it is used
+for the coffee label.
 
-**What v3 changed vs v2:** hook first (Talk L, the room laughing), fast 5×2 s flashback, organised by space (exterior → interior), more women and more exterior/street shots, the pink/blonde woman removed (clips 0026/0052 excluded; one Inkling pick corrected 0042→0032), the Cursor logo prominent in 3 picks, louder audio, two grades and two music tracks to compare. The v2 structure is the backbone; v3 is a refinement, not a reinvention. Full detail in `report-v3.md`.
+**What v5 changed vs v3:** a story arc instead of a montage; the
+hosts introduced early; important talks first; still photos mixed
+into the cut (Ken Burns); the ugly cup shot removed (replaced by the
+timelapse); warmer, more vivid grades on both versions; music lowered
+and voices boosted/compressed; the subtitle system rebuilt
+(cream/black, max 2 lines, cycling cards). The pink/blonde woman
+stays removed; the Cursor logo is prominent in 3 picks. Full detail
+in `report-v5.md`.
 
-**What is NOT in the cut:** the guitar/piano/music showcases and the afternoon rain are not in the morning footage (all 17 talks are AI tools/agents/apps/code). They are afternoon material, to be added when that footage arrives. Nothing was invented.
+**What is NOT in the cut:** the guitar/piano/music showcases and the
+afternoon rain are not in the morning footage (all talks are AI
+tools/agents/apps/code). They are afternoon material, to be added
+when that footage arrives. Nothing was invented.
+
+## Re-cut v3 (previous)
+
+21 picks from Inkling 2 Small (256K variant), 118.0 s of picks,
+107.6 s finished. Hook first (Talk L, the room laughing), fast 5×2 s
+flashback, organised by space, more women and more exterior/street
+shots, the pink/blonde woman removed, the Cursor logo prominent in
+3 picks, two grades and two music tracks. Full detail in `report-v3.md`.
+The v3 videos are `recap-v3-just-used-music-again.mp4` and
+`recap-v3-another-season.mp4` (local only).
 
 ## Cover image
 
-`cover-v3.jpg` (1920×1080). A Somi-style 3-photo collage with feathered/soft edges — the three photos blend into each other, no hard-cut rectangles:
+`cover-v5.jpg` (1920×1080). Aileen rejected the blended 3-photo
+collage, so the cover is rebuilt as CUTOUTS on a clean warm cream
+background (#F7F1E5) — no blended photos side by side, no black bar:
 
-1. A girl with a group (HM5A1557 — woman in a white shirt with a group by the banner). There is no band/musicians photo in the morning material, so this is the closest match.
-2. People outside with the logo (HM5A1478 — the group photo, eight men posed by the Cursor banner, logo fully readable).
-3. An indoor scene (a woman presenting at the screen, audience at tables).
+1. **Hero, top-right, biggest** — the girl under the green plane
+   trees (0054 frame-0003), cut out with rembg, full figure, head
+   intact, smiling at the camera.
+2. **Bottom-left** — the girl in the black cap and black clothes
+   (HM5A1822), waist-up, arms crossed, smiling, by the Cursor banner.
+3. **Bottom-centre** — the group by the banner (HM5A1478), cut out,
+   all 7–8 men solid.
 
-Date "2026.07.19" and "Cursor Cafe Shanghai" in Caveat (handwritten) at the bottom, over a subtle dark gradient. The text does not cover any face or the Cursor logo; the banner logo stays visible and uncovered.
+Text "Cursor Cafe Shanghai" / "2026.07.19" top-left, Playfair Display
+Bold + Montserrat SemiBold, dark warm brown. No face and no Cursor
+logo covered; no one has their head cut off. The previous cover
+(`cover-v3.jpg`) was a Somi-style 3-photo collage with feathered
+edges; it is kept in the repo for reference.
 
 ## Music
 
@@ -113,6 +167,9 @@ Footage and working files live on the builder machine or in the shared Google Dr
 | `inkling-video-cut.py` | Cut one clip per pick with the vintage grade |
 | `inkling-video-recap.py` | Cut picked segments from many source clips and join them into the recap |
 | `inkling-video-recut-v3.py` | v3 re-cut: cut + grouped join + bilingual ASS subtitles + music bed (room 1.4, music 0.30), `--grade korean\|silicon` |
+| `inkling-video-recut-v5.py` | v5 story re-cut: cut + grouped join + v6 subtitles + music beds (room 1.6 + acompressor, music 0.22), warmer grades, `--grade korean\|silicon`, `--ass` |
+| `build_captions_v5.py` | v5 caption builder (restrained captions, Talk N numbering, annotations) |
+| `build_captions_v6.py` | v6 caption builder (cream/black, max 2 lines, 49 cycling cards, coffee label 80–84 s) |
 | `inkling_picks_v3.py` | v3 picks: call Inkling 2 Small via Tinker with the v3 constraints |
 | `inkling-video-sft.py` | Summarise approved picks and fine-tune Inkling 2 Small on Tinker |
 | `inkling-video-editor-mcp.py` | Minimal MCP server: probe, transcribe, keyframes, cut, recap |
@@ -124,6 +181,11 @@ Footage and working files live on the builder machine or in the shared Google Dr
 - `LOG.md` — a running build log: every step, with dates and quality numbers (extraction density, classification counts, spot-check accuracy, cut precision).
 - `requirements-log.md` — the append-only requirements log: every requirement from Aileen, in order, from the original brief through v3. All cutting/picking/subtitling/grading/cover work follows this log.
 - `report-v3.md` — the v3 re-cut report (picks, exclusions, counts, grades, audio, cover, verification).
+- `report-v5.md` — the v5 story-cut report (story arc, photos, subtitle system v6, coffee label, audio mix, grades, cover, verification).
+- `scan/inkling-video-picks-v5.jsonl` — the v5 story picks (20 picks, Inkling 2 Small, story arc).
+- `scan/captions-v5.ass` — the v5 subtitles (superseded by v6).
+- `scan/captions-v6.ass` — the v6 subtitles actually burned into the v5 videos (cream/black, max 2 lines, 49 cycling cards, coffee label).
+- `cover-v5.jpg` — the v5 cover (cutout approach on warm cream).
 - `shot-list.md` — the dense 1 fps shot list: 68 clips, 1108 frames, 7 shot types, per-talk table.
 - `scan/inkling-video-picks-v3.jsonl` — the v3 picks (21 picks, Inkling 2 Small).
 - `scan/captions-v3.ass` — the v3 bilingual outline subtitles (Caveat + Ma Shan Zheng).
