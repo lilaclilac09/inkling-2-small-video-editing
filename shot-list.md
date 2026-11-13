@@ -1,36 +1,38 @@
 # Cafe Cursor Shanghai — Shot List (dense 1 fps)
 
 **Source:** Google Drive folder `1Bnwhav0ZaKmBc6BWXHuwg8mcFN--R6CL`, downloaded to `~/workspace/inkling-recap/media/DJI_001/`.
-**Coverage:** 68 DJI clips, 07:23–12:21 on 2026-07-19 (morning only). Total footage 1110.2 s (~18.5 min).
-**Frames:** 1108 extracted at 1 frame per second (1280 px wide, JPEG q4) into `frames-dense/<clip>/frame-NNNN.jpg`.
+**Coverage:** 73 DJI clips, 07:23–12:21 on 2026-07-19 (morning only). Total footage 1412.5 s (~23.5 min).
+**Frames:** 1411 extracted at 1 frame per second (1280 px wide, JPEG q4) into `frames-dense/<clip>/frame-NNNN.jpg`.
 
-> Note on density: literally every frame at 30 fps would be ~33,000 frames and is not usable. 1 fps is the dense, workable version — one still per second, enough to see every shot change and every presenter.
+> Note on density: literally every frame at 30 fps would be ~42,000 frames and is not usable. 1 fps is the dense, workable version — one still per second, enough to see every shot change and every presenter.
+
+> Re-scan 2026-11-13: the user uploaded 5 more videos to the same Drive folder. Only those 5 were downloaded and processed (the original 68 were NOT re-downloaded). The 5 new clips add 302.3 s and 303 frames. They are all MORNING times (08:42–10:34) — no afternoon/evening footage was in the folder. See "Re-scan batch (2026-11-13)" below.
 
 ## Quality metrics
 
 ### 1. Frame extraction density
 
-- Total video duration: **1110.2 s** (~18.5 min)
-- Total frames extracted: **1108**
-- Effective fps: **0.998** (frames / duration)
-- Coverage: **68/68 clips have at least one frame (100%)** — no clip is missing frames.
+- Total video duration: **1412.5 s** (~23.5 min)
+- Total frames extracted: **1411**
+- Effective fps: **0.999** (frames / duration)
+- Coverage: **73/73 clips have at least one frame (100%)** — no clip is missing frames.
 
 ### 2. Classification detail (frames per shot type)
 
 | # | Shot type | Frames | Share |
 |---|------------------------------|--------|-------|
-| 1 | ultra-wide storefront + whole poster/banner | 59 | 5.3% |
-| 2 | secondary wide, one screen / one poster | 38 | 3.4% |
-| 3 | interior ultra-wide | 754 | 68.1% |
-| 4 | interior person close-up | 194 | 17.5% |
-| 5 | interior audience close-up | 52 | 4.7% |
-| 6 | hands/items close-up | 7 | 0.6% |
-| 7 | timelapse | 0 | 0.0% |
-| U | uncertain | 4 | 0.4% |
+| 1 | ultra-wide storefront + whole poster/banner | 59 | 4.2% |
+| 2 | secondary wide, one screen / one poster | 38 | 2.7% |
+| 3 | interior ultra-wide | 812 | 57.5% |
+| 4 | interior person close-up | 392 | 27.8% |
+| 5 | interior audience close-up | 59 | 4.2% |
+| 6 | hands/items close-up | 7 | 0.5% |
+| 7 | timelapse | 40 | 2.8% |
+| U | uncertain | 4 | 0.3% |
 
 ### 3. Accuracy signal (confidence)
 
-- Confident: **1104 frames**
+- Confident: **1407 frames**
 - Uncertain: **4 frames** (the 4 motion-blurred frames in clip 0038, 07:43, t=14–18s, where the camera swings to the door — shot type not readable).
 - Every frame in `shot-list.jsonl` carries its own `confidence` field (`confident` / `uncertain`), so a spot-check can be scored per frame. Nothing is inflated: where the frame is a blur or the category is a best fit, it is marked and noted.
 - Note on category 4: the taxonomy labels (4) 'interior person close-up', but 7 clips are *exterior* street shots of people (0025, 0033 10:09, 0034 10:09, 0035, 0054, 0055, 0058 — 55 frames). They are person close-ups, just outdoors, so (4) is the closest fit; each is flagged 'EXTERIOR' in its description.
@@ -39,7 +41,7 @@
 
 **The user named a must-keep moment: a foreigner (non-Chinese man) wearing glasses, showing/playing his guitar, with his wife standing/sitting behind him.**
 
-**Result: this moment is NOT in the footage currently on Drive.** I viewed first/middle/last frames of all 68 clips (plus extra frames of the 9 long clips) and there is no guitar, no foreigner with a guitar, and no music performance anywhere in the 07:23–12:21 morning footage. Every presenter in this batch is at a screen doing a talk/demo. The guitar/piano/rain/girlfriend-piece moments are afternoon/evening material — they are not in this batch. If she uploads afternoon footage, the guitar moment should be searched for there. **Do not cut a guitar moment from this batch; there is none to cut.**
+**Result: this moment is NOT in the footage currently on Drive.** I viewed first/middle/last frames of all 68 original clips (plus extra frames of the 9 long clips) and all 5 new clips from the 2026-11-13 re-scan, and there is no guitar, no foreigner with a guitar, and no music performance anywhere in the 07:23–12:21 morning footage. Every presenter in this batch is at a screen doing a talk/demo. The guitar/piano/rain/girlfriend-piece moments are afternoon/evening material — they are not in this batch. If she uploads afternoon footage, the guitar moment should be searched for there. **Do not cut a guitar moment from this batch; there is none to cut.**
 
 ## Wide / panoramic shots (what the user explicitly wants more of)
 
@@ -56,7 +58,7 @@
 **Interior ultra-wide (category 3) — the whole room in one frame (754 frames, 68% of the footage):** the best room-wide shots are the long early-session takes — `0033` (07:23), `0034` (07:27), `0044` (09:24), `0051` (10:38, the laughter moment), and the ARIAVA run `0059–0064` (11:05–11:12). These show the presenter, the screen, and the seated audience together.
 
 **Missing categories (stated explicitly, not invented):**
-- **(7) timelapse — none.** No timelapse footage exists in this batch.
+- **(7) timelapse — now 40 frames.** The re-scan batch (2026-11-13) added one timelapse clip, `延时.MP4` (09:29, 40 s), a wide shot of the whole room filling up. Before the re-scan there was no timelapse footage.
 - **(6) hands/items close-up — only 7 frames** (one clip, `0002`, coffee/drinks on the bar). Very thin.
 - **(2) secondary wide, one screen/poster — 38 frames.** Mostly the CURSOR logo on the glass door (0022, 0023, 0074) and the screen filling the frame in `0039` (08:22).
 - **No guitar, no piano, no rain, no girlfriend piece, no group photo in this batch** (all morning footage).
@@ -389,9 +391,9 @@ One row per distinct talk/demo, grouped by presenter (same person presenting = o
 
 ## Files
 
-- `shot-list.jsonl` — one row per extracted frame (1108 rows): clip, frame file, timestamp, shot type, description, confidence.
-- `talks.jsonl` — one row per talk (17 talks): speaker, clips, topic, content, audience size, reaction, Q&A, relatable, narration.
-- `frames-dense/<clip>/frame-NNNN.jpg` — the 1108 dense frames (1 fps, 1280 px, JPEG q4).
+- `shot-list.jsonl` — one row per extracted frame (1411 rows): clip, frame file, timestamp, shot type, description, confidence.
+- `talks.jsonl` — one row per talk (20 talks): speaker, clips, topic, content, audience size, reaction, Q&A, relatable, narration.
+- `frames-dense/<clip>/frame-NNNN.jpg` — the 1411 dense frames (1 fps, 1280 px, JPEG q4).
 - `contact-sheets-dense/sheet-*.jpg` — 24 contact sheets (first/middle/last frame per clip) used for classification.
 
 ## New files found on Drive during this job
@@ -405,3 +407,57 @@ The Drive folder kept updating while this job ran. Three re-checks were done; ea
 - **Total added by re-checks:** 9 MP4s (~549 s) on top of the original 59. Final total: **68 MP4s, 1110.2 s, 1108 frames.**
 - **Photos:** 597 JPGs now in `photos/` (original 300, minus the 4 delete candidates the user told us to delete, plus 293 + 12 newly downloaded). The 4 delete candidates (HM5A1332, HM5A1357, HM5A1539, HM5A1614) are confirmed absent from `photos/` — they stay deleted.
 - **Note:** the Drive folder is still updating; if more files arrive after this report, they are not in this shot list and will need a fresh pass.
+---
+
+## Re-scan batch (2026-11-13) — 5 new videos, all morning
+
+The user uploaded 5 more videos to the same Drive folder and asked for a re-scan ("重新扫"). Only these 5 were downloaded and processed; the original 68 were NOT re-downloaded. All 5 are MORNING times — no afternoon/evening footage was in the folder, so the guitar, piano, rain, and group-photo moments are STILL NOT FOUND (see below).
+
+| Clip | Time | Dur. | Camera | Frames | What it is |
+|---|---|---|---|---|---|
+| `DJI_20260719084244_0041_D.MP4` | 08:42 | 78.9 s | Osmo Action 4 | 79 | New talk: young man in black tee + glasses demos a phone chat app (Chinese text on screen). Wide room, then closes in on the speaker. |
+| `DJI_20260719101632_0047_D.MP4` | 10:16 | 63.5 s | Osmo Action 4 | 64 | New talk: Carl Yang (light grey suit, white cap, glasses) presents "Agent era: history and enterprise Harness solutions" (title slide dated 2026.7.11). |
+| `DJI_20260719103001_0048_D.MP4` | 10:30 | 55.5 s | Osmo Action 4 | 56 | Carl Yang continues the Agent/Harness talk with detailed slides (tables, architecture diagrams). |
+| `DJI_20260719103442_0049_D.MP4` | 10:34 | 64.3 s | Osmo Action 4 | 64 | Two women chat by the drinks fridge (t=10–16 s, front-facing, warm social moment), then a man in a green tee presents "Information Radar", an AI newsletter/trending product. |
+| `延时.MP4` | 09:29 | 40.1 s | Osmo Action 4 | 40 | TIMELAPSE (shot type 7 — the first in this footage): a wide shot of the whole room filling up, paper lanterns overhead, the big screen glowing blue. |
+
+**New total: 73 clips, 1412.5 s, 1411 frames. New talks: R (black-tee phone app), S (Carl Yang, Agent/Harness), T (green-tee, Information Radar).** Talks R/S/T are in `talks.jsonl` (20 talks total now).
+
+### Priority moments — re-checked in the new batch
+
+- **Guitar (foreign man, ~45–50, glasses, wife behind him): NOT FOUND.** No guitar, no foreigner with a guitar, no music performance in any of the 5 new clips.
+- **Piano / other music showcases: NOT FOUND.** No piano, no music creation or performance in the new clips.
+- **Girlfriend piece: NOT FOUND.** No one writing or performing something for a girlfriend.
+- **Afternoon plum-rain downpour: NOT FOUND.** No rain in any clip. All 5 new clips are indoor morning footage.
+- **Big group photo at the end: NOT FOUND.** No group photo in the new clips.
+- **New talks: YES — 3 new talks (R, S, T).** See the table above and `talks.jsonl`.
+
+**Bottom line: the 5 new videos are all morning footage (08:42–10:34). The afternoon/evening material the user is waiting for — guitar, piano, rain, group photo — is STILL NOT in the Drive folder. She will need to upload the afternoon videos separately.**
+
+### Cameras — the "GoPro" flat look
+
+All 5 new videos are shot on a **DJI Osmo Action 4** (the action camera). Across the full 73 clips, the cameras are:
+- **DJI Osmo Action 4: 16 clips** (the 11 original Action 4 clips + these 5 new ones)
+- **DJI Osmo Pocket 3: 57 clips**
+
+The Action 4 shoots in a flat/log profile (D-Log M), so its footage looks grey and washed out straight out of camera — that is the "GoPro look" the user noticed. **Do NOT delete these clips.** The flat look is fixable with colour grading (saturation/contrast boost); the v3 grades already do this. The Action 4 clips are flagged here so a graded sample can be shown to her first; she decides after seeing it.
+
+**Action 4 clips (flat/log, grade before judging):** 0033, 0034, 0037, 0038, 0039, 0040, 0041, 0042, 0043, 0044, 0047, 0048, 0049 (all in `DJI_001/`), plus `延时.MP4`. (Note: clip numbers repeat between the two cameras — e.g. there is an Action 4 `0048` at 10:30 and a Pocket 3 `0048` at 10:32:50. Use the full filename, not just the clip number, to tell them apart.)
+
+### Opening candidates (from the new batch)
+
+The user rejected heads-only/backs-only opening shots. These new wide shots have front-facing people and a clear scene:
+
+1. **`延时.MP4` (09:29, t=0–40 s) — BEST NEW OPENING CANDIDATE.** A timelapse of the whole room filling up: the audience arrives and takes their seats, the big screen glows blue, paper lanterns overhead. Wide, front-facing audience, the whole event in one frame. It shows what the event IS. (Shot type 7, timelapse.)
+2. **`DJI_20260719101632_0047_D.MP4` (10:16, t=8–20 s) — Carl Yang, front-facing.** The speaker in a light suit and white cap faces the room, the big screen behind him reads "Agent 时代的到来" in large type. Clear, legible, a real presenter mid-talk.
+3. **`DJI_20260719084244_0041_D.MP4` (08:42, t=24–35 s) — black-tee presenter, front-facing.** The young man in a black tee and glasses speaks into a mic, facing the room, with the phone-app screen beside him. A clean, human opening on a presenter.
+4. **`DJI_20260719103442_0049_D.MP4` (10:34, t=10–16 s) — two women chatting.** Front-facing, warm, social — two women by the drinks fridge, laughing and talking. Not a wide establishing shot, but the warmest human moment in the new batch, and good "more women" footage.
+5. **`DJI_20260719103442_0049_D.MP4` (10:34, t=25–40 s) — green-tee presenter.** The man in a green tee presents "Information Radar" to a full room; the screen shows its dashboard. Front-facing, clear product on screen.
+
+### Cover collage candidates (from the new batch)
+
+The cover is now a 3-photo collage (Somi vlog style, feathered edges): (1) a girl with the band, (2) people outside with the logo, (3) an indoor scene.
+
+- **(1) Girl with the band: NOT FOUND.** No band or musicians in the new footage, so no "girl with the band" photo exists yet. The closest is the two women chatting in 0049 (t=10–16 s) — women, social, but no band.
+- **(2) People outside with the logo: NOT FOUND in the new batch.** All 5 new clips are indoor. The best outdoor-with-logo shots remain the original batch (0026, 0032, 0042, 0079, 0080).
+- **(3) Indoor scene: YES — the 延时 timelapse (09:29).** A wide shot of the full room filling up is a strong indoor-scene candidate for the collage.
