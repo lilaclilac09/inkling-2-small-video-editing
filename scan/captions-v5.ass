@@ -1,0 +1,77 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: EN,Caveat,52,&H00FFFFFF,&H000000FF,&H80000000,&H99000000,1,0,0,0,100,100,0,0,4,1,0,2,60,60,110,1
+Style: CN,Ma Shan Zheng,46,&H00FFFFFF,&H000000FF,&H80000000,&H99000000,0,0,0,0,100,100,0,0,4,1,0,2,60,60,50,1
+Style: NOTE_EN,DejaVu Sans,36,&H00FFFFFF,&H000000FF,&H80000000,&H99000000,1,0,0,0,100,100,0,0,4,1,0,2,60,60,245,1
+Style: NOTE_CN,Noto Sans CJK SC,34,&H00FFFFFF,&H000000FF,&H80000000,&H99000000,1,0,0,0,100,100,0,0,4,1,0,2,60,60,195,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:05.50,CN,,0,0,0,,早上的延庆路
+Dialogue: 0,0:00:00.00,0:00:05.50,EN,,0,0,0,,Yanqing Road in the morning
+Dialogue: 0,0:00:05.50,0:00:13.00,CN,,0,0,0,,座位一个一个坐满
+Dialogue: 0,0:00:05.50,0:00:13.00,EN,,0,0,0,,The room fills, one chair at a time
+Dialogue: 0,0:00:13.00,0:00:18.50,CN,,0,0,0,,穿过玻璃门
+Dialogue: 0,0:00:13.00,0:00:18.50,EN,,0,0,0,,Through the glass doors
+Dialogue: 0,0:00:18.50,0:00:21.00,CN,,0,0,0,,一杯饮料，一块平板，梧桐树下
+Dialogue: 0,0:00:18.50,0:00:21.00,EN,,0,0,0,,A drink, a tablet, under the plane trees
+Dialogue: 0,0:00:21.00,0:00:26.50,CN,,0,0,0,,主持人——一位来得最早，一位维持着秩序
+Dialogue: 0,0:00:21.00,0:00:26.50,EN,,0,0,0,,The hosts — one came earliest, one kept order
+Dialogue: 0,0:00:26.50,0:00:29.00,CN,,0,0,0,,黑帽子，抱着胳膊，横幅旁
+Dialogue: 0,0:00:26.50,0:00:29.00,EN,,0,0,0,,Black cap, arms crossed, by the banner
+Dialogue: 0,0:00:29.00,0:00:34.50,CN,,0,0,0,,分享 1
+Dialogue: 0,0:00:29.00,0:00:34.50,EN,,0,0,0,,Talk 1
+Dialogue: 0,0:00:34.50,0:00:41.00,CN,,0,0,0,,一个问题，一个手势作答
+Dialogue: 0,0:00:34.50,0:00:41.00,EN,,0,0,0,,A question, answered with a gesture
+Dialogue: 0,0:00:41.00,0:00:50.50,CN,,0,0,0,,分享 1
+Dialogue: 0,0:00:41.00,0:00:50.50,EN,,0,0,0,,Talk 1
+Dialogue: 0,0:00:50.50,0:00:56.00,CN,,0,0,0,,分享 2
+Dialogue: 0,0:00:50.50,0:00:56.00,EN,,0,0,0,,Talk 2
+Dialogue: 0,0:00:50.50,0:00:56.00,NOTE_CN,,0,0,0,,Agent 时代——历史，以及企业级 Harness 方案
+Dialogue: 0,0:00:50.50,0:00:56.00,NOTE_EN,,0,0,0,,The Agent era — history, and enterprise Harness solutions
+Dialogue: 0,0:00:56.00,0:01:02.50,CN,,0,0,0,,分享 2
+Dialogue: 0,0:00:56.00,0:01:02.50,EN,,0,0,0,,Talk 2
+Dialogue: 0,0:00:56.00,0:01:02.50,NOTE_CN,,0,0,0,,Agent 时代——历史，以及企业级 Harness 方案
+Dialogue: 0,0:00:56.00,0:01:02.50,NOTE_EN,,0,0,0,,The Agent era — history, and enterprise Harness solutions
+Dialogue: 0,0:01:02.50,0:01:08.00,CN,,0,0,0,,分享 3
+Dialogue: 0,0:01:02.50,0:01:08.00,EN,,0,0,0,,Talk 3
+Dialogue: 0,0:01:08.00,0:01:11.50,CN,,0,0,0,,坐在座位上拍
+Dialogue: 0,0:01:08.00,0:01:11.50,EN,,0,0,0,,Filming from the seats
+Dialogue: 0,0:01:11.50,0:01:19.00,CN,,0,0,0,,分享 4
+Dialogue: 0,0:01:11.50,0:01:19.00,EN,,0,0,0,,Talk 4
+Dialogue: 0,0:01:11.50,0:01:19.00,NOTE_CN,,0,0,0,,一个聊天 App，用手机现场演示
+Dialogue: 0,0:01:11.50,0:01:19.00,NOTE_EN,,0,0,0,,A chat app, demoed live from his phone
+Dialogue: 0,0:01:19.00,0:01:25.50,CN,,0,0,0,,分享 5
+Dialogue: 0,0:01:19.00,0:01:25.50,EN,,0,0,0,,Talk 5
+Dialogue: 0,0:01:19.00,0:01:25.50,NOTE_CN,,0,0,0,,个人护理——记住你的皮肤，按所在城市的实时天气定制日常护理
+Dialogue: 0,0:01:19.00,0:01:25.50,NOTE_EN,,0,0,0,,Personal care — a routine that remembers your skin and adapts to your city's live weather
+Dialogue: 0,0:01:25.50,0:01:31.00,CN,,0,0,0,,分享 6
+Dialogue: 0,0:01:25.50,0:01:31.00,EN,,0,0,0,,Talk 6
+Dialogue: 0,0:01:25.50,0:01:31.00,NOTE_CN,,0,0,0,,为品牌工作的智能体——它比你更了解你的品牌
+Dialogue: 0,0:01:25.50,0:01:31.00,NOTE_EN,,0,0,0,,Agents that work for your brand — it knows more than you remember
+Dialogue: 0,0:01:31.00,0:01:37.50,CN,,0,0,0,,分享 7
+Dialogue: 0,0:01:31.00,0:01:37.50,EN,,0,0,0,,Talk 7
+Dialogue: 0,0:01:37.50,0:01:44.00,CN,,0,0,0,,分享 8
+Dialogue: 0,0:01:37.50,0:01:44.00,EN,,0,0,0,,Talk 8
+Dialogue: 0,0:01:37.50,0:01:44.00,NOTE_CN,,0,0,0,,信息雷达——AI 资讯仪表盘
+Dialogue: 0,0:01:37.50,0:01:44.00,NOTE_EN,,0,0,0,,Information Radar — an AI-news dashboard
+Dialogue: 0,0:01:44.00,0:01:50.50,CN,,0,0,0,,分享 9
+Dialogue: 0,0:01:44.00,0:01:50.50,EN,,0,0,0,,Talk 9
+Dialogue: 0,0:01:44.00,0:01:50.50,NOTE_CN,,0,0,0,,智能体替你工作，你睡觉也没停
+Dialogue: 0,0:01:44.00,0:01:50.50,NOTE_EN,,0,0,0,,Your agents work while you sleep
+Dialogue: 0,0:01:50.50,0:01:56.00,CN,,0,0,0,,手指着二维码
+Dialogue: 0,0:01:50.50,0:01:56.00,EN,,0,0,0,,A finger at the QR codes
+Dialogue: 0,0:01:56.00,0:02:00.50,CN,,0,0,0,,四个人，手里拿着饮料
+Dialogue: 0,0:01:56.00,0:02:00.50,EN,,0,0,0,,Four people, drinks in hand
+Dialogue: 0,0:02:00.50,0:02:03.50,CN,,0,0,0,,横幅前，一天结束
+Dialogue: 0,0:02:00.50,0:02:03.50,EN,,0,0,0,,At the banner, the day ends
+Dialogue: 0,0:02:03.50,0:02:07.50,CN,,0,0,0,,门口的大合照
+Dialogue: 0,0:02:03.50,0:02:07.50,EN,,0,0,0,,The group, at the door
