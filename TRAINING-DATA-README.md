@@ -44,7 +44,7 @@ Aileen demanded (never garbled English like "that everybody love").
 | S7 | The volunteers, before anyone arrives | Volunteers as a thread (setup + rain scramble) |
 | S8 | The guitar: a song for the room | Guitar is must-keep |
 | S9 | Piano: the room goes quiet | Piano is must-keep |
-| S10 | A song written for his girlfriend | Girlfriend piece is must-keep |
+| S10 | Something written for his girlfriend | Girlfriend piece is must-keep, form unverified |
 | S11 | The rain arrives all at once | Rain is must-keep; volunteers; exterior |
 | S12 | The big group photo | Group photo is must-keep; ending + flashback |
 | S13 | The whole day, in six seconds | Timelapse |
