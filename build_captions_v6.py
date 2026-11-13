@@ -24,7 +24,7 @@ Supersedes captions-v5.ass. Changes per Aileen 2026-11-13 17:09 + 17:14
 - COFFEE MACHINE LABEL: audio analysis (sustained-loudness + spectral
   2-4k/4-8k energy) puts the loudest sustained mechanical noise at
   final-video t=80-84s (Talk E segment, 79-86s). A small label
-  "☕ 咖啡机 · coffee machine" shows there, above the subtitle.
+  The coffee-machine label shows there, above the subtitle.
 
 Timeline = 20 Inkling video picks + 3 interleaved still photos (Ken Burns).
 Segments joined with 0.5s crossfades, so segment k starts at
