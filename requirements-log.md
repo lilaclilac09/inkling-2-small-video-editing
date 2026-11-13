@@ -162,3 +162,23 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
 - Do NOT label Talk E narrowly as a "skincare app" (护肤App). Categorize it more broadly as PERSONAL CARE (个人护理) or everyday items/lifestyle (物品/生活类). The annotation should feel like LIFESTYLE content, not a product spec.
 - The annotation text should be BIGGER and NICER-LOOKING (larger font, better styling).
 - Example direction: "🧴 个人护理——记住你的皮肤，按所在城市的实时天气定制日常护理" / "🧴 Personal care — a routine that remembers your skin and adapts to your city's live weather".
+
+## 2026-11-13 17:09 — v5 subtitle / audio / grade feedback
+
+- NOISE: the noise is loud. When the coffee machine sound is AUDIBLE, ADD A LABEL for it on screen (e.g. "☕ 咖啡机" / "coffee machine") — annotate the sound instead of only denoising it.
+- SUBTITLES — layout:
+  - Each subtitle stays on screen LONGER.
+  - MAX 2 LINES at once — never 4 lines. Mixing EN + CN in 4 lines looks ugly.
+  - Format: 1 line EN + 1 line CN max, short and concise. If there is more to say, split it into MULTIPLE sequential subtitles (cycle through them) instead of one long block.
+  - When a scene holds/pauses, CYCLE through several subtitle lines for that scene — do not leave one static subtitle sitting there.
+  - Placement: keep subtitles at the BOTTOM, consistent. Do NOT scatter them into empty areas of the frame (that looks messy).
+- SUBTITLES — style:
+  - Background: CREAM / BEIGE (米黄色).
+  - Text: BLACK or high-contrast colors. Use APPLE emojis.
+  - Current style is uncomfortable to look at; the new style should be warm, clear, cute.
+- ANNOTATIONS — content:
+  - When you can hear what someone is introducing, explain HOW they used the software/tool to make it (the process), not just what it is.
+  - Text MAY BE MORE DETAILED (not just one short line) — but split it into multiple sequential subtitles (max 2 lines each) if long.
+- GRADE: warmer, prettier colors, stronger/more vivid contrast, CUTER. Current grade is too flat/cold.
+- AUDIO MIX (after the cut): music must NOT cover the voices. Voices should be LOUDER and more SOLID/full. Lower the music relative to the voices; boost/compress the voices if needed.
+- ON-SCREEN INFO must be clearer / more legible (captions, annotations, screen text).
