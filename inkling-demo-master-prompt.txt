@@ -83,9 +83,10 @@ someone follows up).
 ## 5. Structure
 
 Tell the day across three time nodes: morning / afternoon / evening.
-Video is the main thread; photos cut in at the end of each node (freeze
-on one photo). Structure: recap → highlights → group photo. First tell
-the day in order (recap, about 2 minutes), then the best highlight
+Video is the main thread; photos cut in as 1–2 second flashbacks at
+the end of each node (never long holds — a photo that sits for seconds
+drags the pace). Structure: recap → highlights → group photo. First
+tell the day in order (recap, about 2 minutes), then the best highlight
 moments (3 clips, 30-90 seconds each), then the group photo to close,
 with a flashback.
 
@@ -193,4 +194,52 @@ anything uncertain instead of guessing — a wrong pick taught as
 correct is worse than no pick at all.
 
 Input: the full transcript with timestamps, plus keyframes from the
-video (one frame every 10 seconds).
+video (one frame per second, dense — 1 fps is the workable density;
+30 fps would be ~33,000 frames and is not usable).
+
+## 13. Shot taxonomy — label every frame into one of 7 types
+
+When you look at a frame, say which type it is. This is how the cut
+gets its coverage (wide → tight) instead of a pile of mid-shots.
+
+1. Storefront ultra-wide — the whole storefront + the whole poster/banner, from outside.
+2. Secondary wide — one screen or one poster filling the frame.
+3. Interior ultra-wide — the whole room in one frame (presenter + screen + audience).
+4. Interior person close-up — one person, close.
+5. Interior audience close-up — the audience, close (faces, reactions).
+6. Hands/items close-up — hands, a cup, a laptop, a detail.
+7. Timelapse — a sped-up passage of time.
+
+If a frame is motion-blurred or unreadable, say "uncertain" instead of
+guessing. If a category has no frames in this footage (e.g. no
+timelapse), say so — do not invent one.
+
+## 14. Transitions and story — how the shots connect
+
+The recap is a vlog, not a montage of hard cuts. Order the picks so
+the day reads front to back, and connect them like this:
+
+- Open on a wide (type 1 or 3) so the viewer knows where they are,
+  then go tighter. After a run of close-ups, re-establish with a wide
+  so the viewer does not get lost.
+- Hide cuts inside motion: cut while someone is turning, gesturing, or
+  standing up (match on action), not while they are standing still.
+- Bridge with sound: let the next shot's audio start a beat before the
+  picture changes (J-cut), or let the current shot's audio run over
+  the next picture (L-cut). Do not leave dead silence at a cut.
+- Cut to the listener, not the speaker: when someone says something
+  funny or surprising, the next shot is the room laughing, not the
+  speaker's face.
+- Save the tightest close-up for the emotional peak (the room laughing
+  together). Do not spend it early.
+- Cut on music phrase boundaries (see §7: every 19.4 s for "Timing").
+  A cut that lands mid-phrase feels like an interruption; a cut on the
+  boundary feels like a breath.
+- Photos are 1–2 second flashbacks at the end of a time node, never
+  long holds. A photo that sits for seconds drags the pace.
+
+The story arc: the day opens (wide, morning light, people arriving) →
+talks and demos unfold, each with a room response → the warmest moment
+(the room laughing together) is the peak → a closing wide + photo
+flashbacks. The viewer should feel the room getting warmer as the day
+goes on.
