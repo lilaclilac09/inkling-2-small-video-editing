@@ -121,6 +121,30 @@ All times are Asia/Shanghai (CST, UTC+8).
   version-B picks defaulted to clip starts), no video benchmark on the model
   card — accuracy on our shot taxonomy is unmeasured until spot-checked.
 
+## 2026-11-13 10:47 — Shot list done (dense 1 fps, 68 clips, 1108 frames)
+
+- `shot-list.md` (407 lines) + `shot-list.jsonl` (1108 rows) + `talks.jsonl`
+  (17 talks). Frames in `frames-dense/` (1 fps, 1280 px, JPEG q4).
+- Coverage: 68 clips, 1110.2 s total, 07:23–12:21 (morning only). Effective
+  fps 0.998. 68/68 clips have frames (100%).
+- Shot-type counts: (1) storefront ultra-wide 59; (2) secondary wide 38;
+  (3) interior ultra-wide 754 (68%); (4) person close-up 194; (5) audience
+  close-up 52; (6) hands/items 7; (7) timelapse 0; uncertain 4.
+- Confidence: 1104 confident, 4 uncertain (motion-blurred frames in clip
+  0038, t=14–18s).
+- **Guitar moment: NOT FOUND in this footage.** Actively searched all 68
+  clips (first/middle/last frames + extra frames of long clips). No guitar,
+  no foreigner with a guitar, no music performance. Guitar/piano/rain/
+  girlfriend-piece are afternoon/evening material, not in this morning batch.
+  If afternoon footage is uploaded, search there.
+- Warmest talk: Talk L (Pairoa) — room laughs together in clip 0051,
+  audience member gestures back in 0050. Best human-warmth beat.
+- New files folded in during the job: 9 MP4s (final 68 clips) + photos now
+  597 JPGs. Final Drive re-check before delivery: no new files.
+- Spot-check (parent, 5 random frames, one per category 1/3/4/5/6):
+  **5/5 correct.** Small sample — a larger check would firm up the number,
+  but the classification looks sound.
+
 ## In progress
 
 - **Frame extraction + shot list.** Dense 1 fps extraction across all clips,
@@ -145,9 +169,9 @@ sample of classifications against the frames themselves.
 
 | Metric | Value | How measured | When |
 |---|---|---|---|
-| Frame extraction density | pending | frames / total video seconds | after shot list |
-| Shot-type classification counts | pending | frames per category | after shot list |
-| Classification accuracy (est.) | pending | random-sample spot check | after shot list |
+| Frame extraction density | 1108 frames / 1110.2 s = 0.998 fps, 68/68 clips covered (100%) | frames / total video seconds | 2026-11-13 10:47 |
+| Shot-type classification counts | (1) 59, (2) 38, (3) 754, (4) 194, (5) 52, (6) 7, (7) 0, uncertain 4 | per-category frame counts | 2026-11-13 10:47 |
+| Classification accuracy (est.) | 5/5 correct in a random 5-frame spot check (one per category) — small sample, looks sound | random-sample spot check | 2026-11-13 10:47 |
 | Cut precision | pending | final segments vs Inkling picks | after re-cut |
 | Music duration verification | 4/4 exact | ffprobe vs expected length | 2026-11-13 10:02 |
 | Photo rotation | 70/70 upright, 0 failures | EXIF Orientation check | 2026-11-13 10:13 |
