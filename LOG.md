@@ -439,6 +439,54 @@ All times are Asia/Shanghai (CST, UTC+8).
   was also stopped once (old subtitle system) and re-run with v6.
 - **Full v5 report:** `report-v5.md`.
 
+## 2026-11-13 — Subtitle system v7 + opening audio fix (re-render of both v5 versions)
+
+- **Trigger:** Aileen 2026-11-13 19:17 — the v6 subtitles were inconsistent
+  (fonts differ front-to-back) and 19:19 — replace the small coffee label
+  with a bigger speaker icon; 19:16 — the opening voices are way too loud.
+- **UNIFIED FONTS:** one font set for ALL cards now — Caveat EN / Ma Shan
+  Zheng CN for captions AND annotations. v6 used DejaVu Sans / Noto Sans
+  CJK SC for the annotation cards, which read as a different font from
+  the handwritten caption cards. Ma Shan Zheng has no bold weight, so
+  NOTE_CN is Bold=0 like CAP_CN; Caveat has a real Bold, so EN stays Bold=1.
+- **NO OUTLINE:** Outline=0 on every style — black text directly on the
+  cream box, no stroke/border around the glyphs. (v6 Outline=3 drew a
+  pale fringe around the letters.)
+- **WIDER CREAM BOX:** every line is padded with 3 hard spaces (\h) on
+  each side, so the box is longer and all text has visible blank space
+  on the LEFT and RIGHT. Box height unchanged. Pre-tested on a still
+  frame before the full render: padded box ~60 px/side vs ~20 px/side
+  unpadded at 56 pt.
+- **COFFEE LABEL REPLACED:** the small "☕ 咖啡机 · coffee machine" label
+  is gone. New label at t=80–84 s, two lines, 40 pt, DejaVu Sans Bold /
+  Noto Sans CJK SC Bold: "🔊 This is the coffee machine sound" /
+  "这是咖啡机的声音". The 🔊 glyph (U+1F50A) was TESTED in this libass
+  build and renders cleanly as a monochrome speaker (unlike colour emoji
+  like 🧴, which show as tofu) — no image overlay was needed.
+- **OPENING AUDIO DOWN:** room 1.1 for the first 22 s, ramping smoothly
+  back to 1.6 by 26 s (the Stay Useless hook section). Rest of the mix
+  unchanged (music 0.22, room 1.6 + acompressor after the opening).
+  Measured: opening 0–24 s mean −22.6 dB (was −20.3 dB), max −0.7 dB
+  (was −0.2 dB); 24–60 s mean −14.0 dB (was −13.9 dB) — the rest is
+  untouched.
+- **TIMING UNCHANGED:** same 49 cards, same ~2–3 s cycling, same
+  positions (19:17: "the speed is good"). Picks, story order, grades,
+  and music beds are identical to v5.
+- **Re-render:** both versions re-rendered from scratch with
+  `scan/captions-v7.ass` (`build_captions_v7.py`) and the patched
+  `inkling-video-recut-v5.py` (grouped join, same grades/music beds):
+  `recap-v5-another-season.mp4` (silicon) and
+  `recap-v5-just-used-music-again.mp4` (korean), both 127.5 s,
+  1920×1080, 30 fps, H.264 + AAC. One VM/runtime restart killed the
+  first render attempt mid-way (SIGTERM, /tmp wiped); re-ran from
+  scratch and both completed. The old v5-subtitle render is kept as
+  `recap-v5-another-season-v5sub.mp4`.
+- **Verification:** frames read back at t=2 (opening CAP), t=30 (Talk 1),
+  t=53 (Talk 2 NOTE — now Caveat, confirming unification), t=82 (Talk E
+  NOTE + new 🔊 coffee label, no tofu), plus the funk version at t=82.
+  All fixes confirmed on frames; durations exact (127.5 s).
+
+
 ## In progress
 
 - **Frame extraction + shot list.** Dense 1 fps extraction across all clips,
@@ -485,6 +533,7 @@ sample of classifications against the frames themselves.
 | v5 cut precision | 127.5 s both versions, 1920×1080, 30 fps; 76 MB (main) / 77 MB (funk); frames verified at t=2, 30, 53, 82, 125 | ffprobe + visual frame reads | 2026-11-13 |
 | v5 subtitles (system v6) | 49 cards across 23 segments; cream/black, max 2 lines, same bottom position, ~2–3 s per card, cycling 2–3 per scene; Talk N numbering; Talk E process detail; coffee label "☕ coffee machine" at 80–84 s; no tofu (colour emoji do not render in libass, monochrome ☕ does) | visual frame reads (t=2, 30, 53, 82, 125) | 2026-11-13 |
 | v5 audio | music 0.22, room 1.6 + acompressor; afftdn denoise; mean −14.4 dB, max 0.0 dB (was −21.2 dB / −2.4 dB); two versions have different audio (different beds) confirmed by hash | ffmpeg volumedetect + audio hash | 2026-11-13 |
+| v7 subtitles + opening audio | unified Caveat/Ma Shan Zheng for all 49 cards; Outline=0; box widened with \\h padding (~60 px/side vs ~20 px); coffee label 🔊 + "这是咖啡机的声音" at 80–84 s, 40 pt, no tofu; opening room 1.1 → 1.6 ramp (0–24 s mean −22.6 dB vs −20.3 dB; 24–60 s −14.0 dB vs −13.9 dB, unchanged); timing/picks/grades/music identical to v5 | visual frame reads (t=2, 30, 53, 82 both versions) + ffmpeg volumedetect | 2026-11-13 |
 | v5 grades | korean sat 1.32 / contrast 1.12 / bright 0.07 / rs +0.12; silicon sat 1.22 / contrast 1.12 / bright 0.05 / rs +0.08 (flipped from cool to warm); both warmer + more vivid than v5 | visual frame reads | 2026-11-13 |
 | v5 cover | cutouts on warm cream #F7F1E5, 1920×1080; hero girl-trees top-right (biggest), black-hat girl bottom-left, group bottom-centre; no cut-off heads, no black bar, no overlap; text legible, no face/logo covered | visual read of cover-v5.jpg | 2026-11-13 |
 | Full training dataset | 32 examples (17 real v2 + 15 synthetic); all 9 priority moments covered, none missing; every file real, every timestamp in range, every keyframe path real (except timelapse row); ~2,827 tokens; 5 placeholder rows (S8–S12, afternoon moments) need re-anchoring to real afternoon files before training | build_full_picks.py validation (JSON, clip fields, ffprobe durations, file + frame existence) | 2026-11-13 |
