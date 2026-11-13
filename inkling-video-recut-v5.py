@@ -5,15 +5,18 @@ re-ordered into a 5-beat arc (arrival -> hosts -> talks, important first ->
 human moments -> closing) + 3 interleaved still photos (Ken Burns slow
 zoom, 2-4s each).
 
-Subtitle system v6 (Aileen 2026-11-13 17:09 + 17:14, see
-build_captions_v6.py): cream/beige background, black text, max 2 lines
-(1 EN + 1 CN), all cards at the same bottom position, cycling 2-3 cards
-per scene at a comfortable reading pace (~2-3s each, never lingering),
-coffee-machine label at t=80-84s. Pass --ass scan/captions-v6.ass.
+Subtitle system v7 (Aileen 2026-11-13 19:17 + 19:19, see
+build_captions_v7.py): ONE font set (Caveat EN / Ma Shan Zheng CN) for
+all cards, Outline=0 (no glyph stroke), cream box widened with \\h
+padding so all text has left/right blank space, coffee label replaced
+by a bigger 🔊 speaker icon + "这是咖啡机的声音" at t=80-84s.
+Timing/cycling unchanged (speed is good). Pass --ass scan/captions-v7.ass.
 
-Audio mix (17:09): music 0.22 (lowered so it never covers voices),
-room 1.6 + acompressor so voices are louder and more solid/full,
-afftdn denoise on the room bus (coffee-machine hum).
+Audio mix (17:09 + 19:16 fix): music 0.22 (lowered so it never covers
+voices), room 1.6 + acompressor so voices are louder and more solid/full,
+afftdn denoise on the room bus (coffee-machine hum). 19:16 fix: room is
+1.1 for the opening 22s (voices were way too loud at the start), ramping
+smoothly back to 1.6 by 26s; the rest of the mix is unchanged.
 Grades (17:09): both pushed warmer + more vivid than v5;
 korean = warm/glowy, silicon = clean (no longer cool/blue).
 
@@ -47,6 +50,12 @@ ROOM_VOL = 1.6
 # acompressor on the room bus: gentle compression + makeup gain so
 # speech sits solidly above the music instead of dipping under it.
 ROOM_COMP = "acompressor=threshold=-18dB:ratio=3:attack=5:release=100:makeup=4"
+# Audio fix (Aileen 2026-11-13 19:16): the room voices are way too loud
+# during the opening ~24s (Stay Useless hook). Keep the room lower
+# (1.1) for the first 22s, then ramp smoothly back to 1.6 by 26s.
+# The rest of the mix is unchanged (music 0.22, room 1.6 + compressor).
+ROOM_VOL_OPEN = 1.1
+ROOM_VOL_RAMP = "volume='1.1+0.5*min(max((t-22)/4,0),1)':eval=frame"
 
 # Grades (Aileen 2026-11-13 17:09): warmer, prettier, stronger/more
 # vivid contrast, CUTER. Both grades pushed warmer + more saturated
@@ -172,7 +181,7 @@ def main():
             return False
         seg = os.path.join(tmp, f"seg-{len(seg_files):02d}.mp4")
         seg_files.append(seg)
-        # Some sources (e.g. the timelapse) have NO audio track; the
+        # Some sources (e.g. the 延時 timelapse) have NO audio track; the
         # acrossfade join needs every segment to carry audio, so give those
         # a silent track instead of letting the join fail.
         if has_audio(src):
@@ -268,10 +277,10 @@ def main():
     ass_path = os.path.abspath(args.ass)
     vf_parts.append(f"[{prev_v}]subtitles={ass_path}[vsub]")
     if args.music:
-        af_parts.append(f"[{prev_a}]afftdn=nr=8:nf=-30[adn];[adn]{ROOM_COMP}[acomp];[acomp]volume={ROOM_VOL}[a0];[{music_idx}:a]volume={MUSIC_VOL}[a1];[a0][a1]amix=inputs=2:duration=first:dropout_transition=0[aout]")
+        af_parts.append(f"[{prev_a}]afftdn=nr=8:nf=-30[adn];[adn]{ROOM_COMP}[acomp];[acomp]{ROOM_VOL_RAMP}[a0];[{music_idx}:a]volume={MUSIC_VOL}[a1];[a0][a1]amix=inputs=2:duration=first:dropout_transition=0[aout]")
         final_a = "[aout]"
     else:
-        af_parts.append(f"[{prev_a}]afftdn=nr=8:nf=-30[adn];[adn]{ROOM_COMP}[acomp];[acomp]volume={ROOM_VOL}[aout]")
+        af_parts.append(f"[{prev_a}]afftdn=nr=8:nf=-30[adn];[adn]{ROOM_COMP}[acomp];[acomp]{ROOM_VOL_RAMP}[aout]")
         final_a = "[aout]"
     fc = ";".join(vf_parts + af_parts)
     cmd = ["ffmpeg", "-y"] + inputs + [
