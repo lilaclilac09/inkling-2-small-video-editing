@@ -172,7 +172,7 @@ def main():
             return False
         seg = os.path.join(tmp, f"seg-{len(seg_files):02d}.mp4")
         seg_files.append(seg)
-        # Some sources (e.g. the 延時 timelapse) have NO audio track; the
+        # Some sources (e.g. the timelapse) have NO audio track; the
         # acrossfade join needs every segment to carry audio, so give those
         # a silent track instead of letting the join fail.
         if has_audio(src):
