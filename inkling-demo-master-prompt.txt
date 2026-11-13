@@ -168,13 +168,13 @@ The recap has a voiceover, timed to the phrase grid. It plays over the
 long take; room audio dips under it, music stays low. Read it exactly
 as written, with pauses between lines — the footage carries the gaps.
 
-- 0:00–0:19 (morning): 今年 7 月 19 号，上海延庆路的一家咖啡馆，梧桐树下，一张桌子，一杯咖啡——我们办了一场 Cafe Cursor。这里没有 keynote，没有固定议程。
-- 0:19–0:39 (morning): 上午大家坐下来，解解惑，cowork 一下；下午是 demo 区，谁做了东西就拿出来 show，找找 bug。
-- 0:39–0:58 (rain): 然后下午，梅雨突然就下来了，街上一下子空了，屋里却挤满了。志愿者在门口忙得焦头烂额，一个核对签到，一个端着咖啡穿过人群。可没人走。
-- 0:58–1:18 (music): 屋里最打动人的，是音乐：有个老外抱着吉他弹了一段，还有钢琴，有人给女朋友写了东西。
-- 1:18–1:37 (everyday problems): 还有人拿 AI 解决生活里的小问题。不是什么大项目，就是日常里真实卡住的事。
-- 1:37–1:56 (evening): 雨还在下，没人想走。
-- 1:56–2:00 (close): 最后，所有人站在一起，拍了一张大合照。在这里，总有人能接住你的问题。这 2 分钟，是 Inkling 2 Small 从一整天的录像里挑出来的。
+- 0:00–0:19 (morning): On July 19 this year, at a café on Yanqing Road in Shanghai, under the plane trees — one table, one coffee — we held a Cafe Cursor. No keynote, no fixed agenda.
+- 0:19–0:39 (morning): In the morning everyone sat down, asked questions, and coworked a little; the afternoon was the demo area — whoever built something showed it and hunted for bugs.
+- 0:39–0:58 (rain): Then in the afternoon, the plum rain came down all at once — the street emptied in an instant, but inside it was packed. The volunteers were overwhelmed at the door, one checking people in, one carrying coffee through the crowd. But nobody left.
+- 0:58–1:18 (music): What moved people most inside was the music: a foreigner played a piece on guitar, there was piano, and someone shared something he wrote for his girlfriend.
+- 1:18–1:37 (everyday problems): And people used AI to solve small problems in everyday life. Not big projects — just real things that get stuck in daily life.
+- 1:37–1:56 (evening): The rain kept falling, and nobody wanted to leave.
+- 1:56–2:00 (close): In the end, everyone stood together for a big group photo. Here, there is always someone to catch your question. These 2 minutes were picked by Inkling 2 Small from a full day of footage.
 
 ## 12. The loop — and what your picks become
 
