@@ -367,7 +367,7 @@ One row per distinct talk/demo, grouped by presenter (same person presenting = o
 
 | Talk | Speaker | Clips | Topic | Content | Audience | Reaction | Q&A | Relatable | Narration |
 |------|---------|-------|-------|---------|----------|----------|-----|-----------|-----------|
-| A | man in striped shirt | DJI_20260719072352_0033_D.MP4 0-66s<br>DJI_20260719072707_0034_D.MP4 0-69s | AI-native tools (Chinese slides, 'AI-native 工具') | A talk on AI-native tools; the screen shows Chinese slides about tech innovation and a dashboard with a QR code. | ~15-20 people seated | attentive; several audience members film the screen with their phones | no clear Q&A visible in these clips | audience engaged and filming; no laughter or questions visible | The morning opens with a talk on AI-native tools — the room is already full and filming. |
+| A | man in striped shirt | DJI_20260719072352_0033_D.MP4 0-66s<br>DJI_20260719072707_0034_D.MP4 0-69s | AI-native tools (slides in Chinese) | A talk on AI-native tools; the screen shows Chinese slides about tech innovation and a dashboard with a QR code. | ~15-20 people seated | attentive; several audience members film the screen with their phones | no clear Q&A visible in these clips | audience engaged and filming; no laughter or questions visible | The morning opens with a talk on AI-native tools — the room is already full and filming. |
 | B | man in black tee with glasses | DJI_20260719073634_0037_D.MP4 0-56s<br>DJI_20260719074342_0038_D.MP4 0-32s | unclear (screen shows a website, 'Taste your wild...') | A demo of a website/product; the topic is not legible from the screen in the frames. | ~15-20 people seated | attentive; quiet | no clear Q&A visible | unclear — quiet, low visible reaction | A website demo in the early session; the room watches quietly. |
 | C | man in light shirt | DJI_20260719082251_0039_D.MP4 0-44s | unclear (screen shows a dark product UI) | A demo of a product with a dark UI; the topic is not legible from the screen. | ~12-15 people seated | attentive; quiet | no clear Q&A visible | unclear — quiet, low visible reaction | A product demo with a dark interface; the room watches. |
 | D | man in grey shirt with glasses, holding a mic | DJI_20260719082925_0040_D.MP4 0-77s | unclear (screen shows code/text) | A technical talk with code/text on screen; the topic is not legible from the frames. | ~15-20 people seated, some on laptops | attentive; some audience members on laptops | no clear Q&A visible | unclear — attentive but no visible laughter or questions | A long technical talk; the camera moves in close on the speaker. |
@@ -411,7 +411,7 @@ The Drive folder kept updating while this job ran. Three re-checks were done; ea
 
 ## Re-scan batch (2026-11-13) — 5 new videos, all morning
 
-The user uploaded 5 more videos to the same Drive folder and asked for a re-scan ("重新扫"). Only these 5 were downloaded and processed; the original 68 were NOT re-downloaded. All 5 are MORNING times — no afternoon/evening footage was in the folder, so the guitar, piano, rain, and group-photo moments are STILL NOT FOUND (see below).
+The user uploaded 5 more videos to the same Drive folder and asked for a re-scan ("re-scan"). Only these 5 were downloaded and processed; the original 68 were NOT re-downloaded. All 5 are MORNING times — no afternoon/evening footage was in the folder, so the guitar, piano, rain, and group-photo moments are STILL NOT FOUND (see below).
 
 | Clip | Time | Dur. | Camera | Frames | What it is |
 |---|---|---|---|---|---|
@@ -449,7 +449,7 @@ The Action 4 shoots in a flat/log profile (D-Log M), so its footage looks grey a
 The user rejected heads-only/backs-only opening shots. These new wide shots have front-facing people and a clear scene:
 
 1. **`延时.MP4` (09:29, t=0–40 s) — BEST NEW OPENING CANDIDATE.** A timelapse of the whole room filling up: the audience arrives and takes their seats, the big screen glows blue, paper lanterns overhead. Wide, front-facing audience, the whole event in one frame. It shows what the event IS. (Shot type 7, timelapse.)
-2. **`DJI_20260719101632_0047_D.MP4` (10:16, t=8–20 s) — Carl Yang, front-facing.** The speaker in a light suit and white cap faces the room, the big screen behind him reads "Agent 时代的到来" in large type. Clear, legible, a real presenter mid-talk.
+2. **`DJI_20260719101632_0047_D.MP4` (10:16, t=8–20 s) — Carl Yang, front-facing.** The speaker in a light suit and white cap faces the room, the big screen behind him reads "The Arrival of the Agent Era" in large type. Clear, legible, a real presenter mid-talk.
 3. **`DJI_20260719084244_0041_D.MP4` (08:42, t=24–35 s) — black-tee presenter, front-facing.** The young man in a black tee and glasses speaks into a mic, facing the room, with the phone-app screen beside him. A clean, human opening on a presenter.
 4. **`DJI_20260719103442_0049_D.MP4` (10:34, t=10–16 s) — two women chatting.** Front-facing, warm, social — two women by the drinks fridge, laughing and talking. Not a wide establishing shot, but the warmest human moment in the new batch, and good "more women" footage.
 5. **`DJI_20260719103442_0049_D.MP4` (10:34, t=25–40 s) — green-tee presenter.** The man in a green tee presents "Information Radar" to a full room; the screen shows its dashboard. Front-facing, clear product on screen.
@@ -460,4 +460,4 @@ The cover is now a 3-photo collage (Somi vlog style, feathered edges): (1) a gir
 
 - **(1) Girl with the band: NOT FOUND.** No band or musicians in the new footage, so no "girl with the band" photo exists yet. The closest is the two women chatting in 0049 (t=10–16 s) — women, social, but no band.
 - **(2) People outside with the logo: NOT FOUND in the new batch.** All 5 new clips are indoor. The best outdoor-with-logo shots remain the original batch (0026, 0032, 0042, 0079, 0080).
-- **(3) Indoor scene: YES — the 延时 timelapse (09:29).** A wide shot of the full room filling up is a strong indoor-scene candidate for the collage.
+- **(3) Indoor scene: YES — the timelapse (09:29).** A wide shot of the full room filling up is a strong indoor-scene candidate for the collage.
