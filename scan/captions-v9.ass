@@ -1,0 +1,119 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CAP_EN,DejaVu Sans,56,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,1,0,0,0,100,100,0,0,4,0,0,2,60,60,110,1
+Style: CAP_CN,Ma Shan Zheng,48,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,0,0,0,0,100,100,0,0,4,0,0,2,60,60,50,1
+Style: NOTE_EN,DejaVu Sans,38,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,1,0,0,0,100,100,0,0,4,0,0,2,60,60,110,1
+Style: NOTE_CN,Ma Shan Zheng,36,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,0,0,0,0,100,100,0,0,4,0,0,2,60,60,50,1
+Style: COFFEE_EN,DejaVu Sans,40,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,1,0,0,0,100,100,0,0,4,0,0,2,60,60,275,1
+Style: COFFEE_CN,Noto Sans CJK SC,40,&H00000000,&H000000FF,&H00FFFFFF,&H00CCE6F5,1,0,0,0,100,100,0,0,4,0,0,2,60,60,205,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:02.75,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h一天从这里开始\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:00.00,0:00:02.75,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hThe day starts here\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:02.75,0:00:05.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h人还没来齐\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:02.75,0:00:05.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hNot everyone is here yet\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:05.50,0:00:08.00,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h一个接一个，人来了\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:05.50,0:00:08.00,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hOne by one, they arrive\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:08.00,0:00:10.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h房间活过来了\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:08.00,0:00:10.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hThe room comes alive\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:10.50,0:00:13.00,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h四十分钟，八秒看完\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:10.50,0:00:13.00,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hForty minutes, in eight seconds\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:13.00,0:00:15.75,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h推门进来\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:13.00,0:00:15.75,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hPush the door, step inside\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:15.75,0:00:18.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h外面是街，里面是房间\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:15.75,0:00:18.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hOutside the street, inside the room\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:18.50,0:00:21.00,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h树下，她在等开场\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:18.50,0:00:21.00,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hUnder the trees, waiting for it to start\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:21.00,0:00:23.75,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h来得最早的朋友\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:21.00,0:00:23.75,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hThe friend who came earliest\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:23.75,0:00:26.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h一直维持秩序的朋友\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:23.75,0:00:26.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hThe friend who's been keeping order\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:26.50,0:00:29.00,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h黑帽子，开场前站住了\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:26.50,0:00:29.00,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hBlack cap, standing by before it starts\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:29.00,0:00:31.06,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h分享 1\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:29.00,0:00:31.06,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk 1\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:31.06,0:00:34.50,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h现场演示，全场盯着屏幕\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:31.06,0:00:34.50,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hDemoed live — the room leans in\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:34.50,0:00:37.75,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h台下有人举手了\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:34.50,0:00:37.75,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hA hand goes up\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:37.75,0:00:41.00,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h一个手势，就是回答\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:37.75,0:00:41.00,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hOne gesture — that's the answer\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:41.00,0:00:43.19,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h分享 1\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:41.00,0:00:43.19,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk 1\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:43.19,0:00:46.85,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h一个演示，把全场逗笑了\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:43.19,0:00:46.85,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hOne demo, and the room is laughing\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:46.85,0:00:50.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h讲的人笑了，听的人也笑了\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:46.85,0:00:50.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hThe speaker laughs, so does the room\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:50.50,0:00:52.56,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h分享 2\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:50.50,0:00:52.56,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk 2\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:52.56,0:00:56.00,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hAgent 时代从哪来\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:52.56,0:00:56.00,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hWhere the Agent era came from\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:56.00,0:00:58.44,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h分享 2\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:56.00,0:00:58.44,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk 2\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:58.44,0:01:02.50,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h企业级 Harness，怎么落地\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:00:58.44,0:01:02.50,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hEnterprise Harness — how to ship it\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:02.50,0:01:04.56,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h分享 3\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:02.50,0:01:04.56,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk 3\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:04.56,0:01:08.00,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h为 AI 而生的工具\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:04.56,0:01:08.00,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTools born for AI\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:08.00,0:01:11.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h后排，手机都举起来了\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:08.00,0:01:11.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hBack row — phones are up\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:11.50,0:01:13.23,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h分享 4\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:11.50,0:01:13.23,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk 4\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:13.23,0:01:16.12,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h自己做的聊天 App\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:13.23,0:01:16.12,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hA chat app he built himself\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:16.12,0:01:19.00,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h拿着手机，现场演示\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:16.12,0:01:19.00,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hPhone in hand, demoed live\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:19.00,0:01:20.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h分享 5\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:19.00,0:01:20.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk 5\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:20.50,0:01:23.00,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h个人护理，记住你的皮肤\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:20.50,0:01:23.00,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hPersonal care — it remembers your skin\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:23.00,0:01:25.50,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h按实时天气，调你的护理\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:23.00,0:01:25.50,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hLive weather shapes your routine\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:25.50,0:01:26.77,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h分享 6\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:25.50,0:01:26.77,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk 6\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:26.77,0:01:28.88,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hAI 替你扮演你的用户\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:26.77,0:01:28.88,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hAI plays your customers for you\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:28.88,0:01:31.00,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h它比你更懂你的品牌\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:28.88,0:01:31.00,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hIt knows your brand better than you\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:31.00,0:01:32.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h分享 7\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:31.00,0:01:32.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk 7\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:32.50,0:01:35.00,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h终端里，代码在跑\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:32.50,0:01:35.00,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hCode running in the terminal\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:35.00,0:01:37.50,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h现场敲代码，现场跑\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:35.00,0:01:37.50,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTyped live, run live\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:37.50,0:01:39.00,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h分享 8\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:37.50,0:01:39.00,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk 8\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:39.00,0:01:41.50,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h一个面板，看遍 AI 新闻\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:39.00,0:01:41.50,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hOne dashboard, all the AI news\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:41.50,0:01:44.00,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h趋势、排名、地图，全在这\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:41.50,0:01:44.00,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTrends, rankings, a map — all here\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:44.00,0:01:45.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h分享 9\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:44.00,0:01:45.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk 9\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:45.50,0:01:48.00,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h你的 agent 在工作\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:45.50,0:01:48.00,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hYour agents work\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:48.00,0:01:50.50,NOTE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h而你在睡觉\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:48.00,0:01:50.50,NOTE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hWhile you sleep\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:50.50,0:01:53.25,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h指着二维码提问\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:50.50,0:01:53.25,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hPointing at the QR, asking\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:53.25,0:01:56.00,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h讲完了，问题来了\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:53.25,0:01:56.00,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTalk's over — questions begin\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:56.00,0:01:58.25,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h端着饮料，站着聊\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:56.00,0:01:58.25,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hDrinks in hand, chatting on their feet\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:58.25,0:02:00.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h两场分享之间，喘口气\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:58.25,0:02:00.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hBetween talks, a breather\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:02:00.50,0:02:03.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h横幅前，散场了\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:02:00.50,0:02:03.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hAt the banner — that's a wrap\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:02:03.50,0:02:07.50,CAP_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h人齐了，拍张大合照\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:02:03.50,0:02:07.50,CAP_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hEveryone's here — group photo\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:20.00,0:01:24.00,COFFEE_EN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h🔊 This is the coffee machine sound\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:20.00,0:01:24.00,COFFEE_CN,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h这是咖啡机的声音\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h

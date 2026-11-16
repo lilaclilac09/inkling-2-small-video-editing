@@ -256,3 +256,153 @@ APPEND-ONLY. Every new requirement from Aileen gets added at the end with a time
 
 - Per Aileen's instruction (2026-11-13 19:46): the complete work goes to GitHub in English. Her feedback stays as this structured log for fine-tuning — rendered in English, not as verbatim Chinese quotes. No Chinese is written in the repo.
 - This translation is the one authorised exception to the log's append-only rule: the Chinese quotes in earlier entries were translated in place to faithful English paraphrases (meaning, dates, and structure preserved; no entries added or dropped). From here on, new entries are written in English directly.
+
+## 2026-11-14 09:13 — HM5A1319 held, do not add yet
+- Photo HM5A1319 (three men chatting at small round tables, coffee cups; indexed as scene "social", burst "social-three-men-tables") is a candidate for the Human moments section of the v5 story framework.
+- User decision (2026-11-14 09:13): do NOT add it to the cut yet. Hold. Add only when she says so.
+
+## 2026-11-14 11:23 — v6 subtitle + cover feedback (Aileen)
+- Photos well selected/cropped. She will tell me LATER where to add more photos — do NOT add any yet.
+- Subtitles: NO handwritten font. English = normal font, slightly bold (replace Caveat). Chinese = keep as is (looks OK, Ma Shan Zheng stays).
+- Subtitle box: left AND right must have whitespace padding, about 2-3 words wide on each side, so it looks comfortable.
+- Cover (mood board): last group photo crop ratio is too weird — use ORIGINAL aspect ratio if cropping. Other panels: pale yellow background. Keep mood-board style.
+
+## 2026-11-15 16:49 — v6 captions feedback: rewrite punchy, ≤15 chars; final photo original ratio on cream
+- CAPTIONS ARE FLAT / ESSAY-LIKE — the current captions read as flat prose with no highlighted focus. The video as cut feels flavorless because of the captions. The narration/voiceover and the scenes themselves are very good — only the captions need work.
+- REWRITE RULE: for each segment, simply pull out WHAT THE PERSON IS ACTUALLY SAYING (the key point), then give a SHORT description — within about 15 Chinese characters. Do NOT necessarily name the brand or the product name. Each caption must have a clear focus/punch, not a flat scene description.
+- FINAL PHOTO (the group photo at the end): do NOT stretch its aspect ratio. Use the ORIGINAL photo, placed on the CREAM background that matches the subtitles. (Re-stated: she already said this before; make sure the re-cut does it.)
+- Note: v6 already uses force_original_aspect_ratio=decrease + cream #F7F1E5 pad for inserted photos — verify the final group photo in the re-cut actually renders at original ratio on cream, and fix if it does not.
+
+## 2026-11-15 16:55 — captions workflow change: draft + style mockup first, no full render yet
+- Do NOT render the full v7 video yet. First deliver: (1) the rewritten captions v9 as a TEXT DRAFT for her to review/approve, (2) a SCREENSHOT mockup of the new subtitle style: Chinese + English together in ONE cream rectangle (a single box holding both lines), slightly TALLER than the current box. Render only after she approves the draft + mockup.
+
+## 2026-11-15 16:55 — cover: use the pretty girls' photos (black-clothes long-hair girl + others)
+- COVER (new direction): use the PRETTY GIRLS' photos for the cover. Specifically: there is a photo with THREE GIRLS, and in it there is a girl in BLACK CLOTHES with LONG HAIR — that photo looks good. Pull out THAT girl's photo, plus pull out a few OTHER girls' photos and find the prettiest ones. Use these for the COVER (the first hook / first thing people see).
+- This is a cover selection task: identify the three-girls photo + the black-clothes long-hair girl in it, and find other pretty girls' photos from the library. Mood-board style still applies (full photos, no cutouts, cream canvas) unless she says otherwise.
+
+## 2026-11-15 16:56 — cover structure: 3 photos (outdoor/indoor/speaker), no cutouts, unified tone
+- COVER STRUCTURE (clarified, supersedes any cutout idea): mood board, NO CUTOUTS. Scale each photo down PROPORTIONALLY (original aspect ratio, just smaller). UNIFY the color tone across the photos. THREE photos, one per category: (1) OUTDOOR, (2) INDOOR, (3) SPEAKER. One photo per category. Feature the pretty girls (black-clothes long-hair girl + other pretty girls).
+
+## 2026-11-15 16:56 — story stronger + cover typography nicer
+- STORY: strengthen the narrative/storytelling of the video further. The story arc (arrival → room fills → hosts → talks → human moments → closing) must read clearly; captions and pacing should reinforce the arc, not just isolated moments.
+- COVER TYPOGRAPHY: the cover text/font must look NICER. Use a refined, good-looking font for "Cursor Cafe Shanghai" / "2026.07.19" — not the ugly layout/typography from before (recurring concern from 2026-11-13 19:08).
+
+## 2026-11-15 16:56 — cover: multiple font versions + comparison images, no finalize yet
+- COVER FONTS — MAKE MULTIPLE VERSIONS: avoid the handwritten font; make a version with a NORMAL English font too, so she can see whether it looks more comfortable than the previous handwritten one. Make SEVERAL versions (different fonts), and make COMPARISON images against the previous cover. Show her a few options FIRST — do NOT finalize/render directly. She picks before anything is final.
+
+## 2026-11-15 17:06 — captions v9 REJECTED: must say WHAT the speaker is showing, from the transcript
+- v9 captions are NOT good enough. The problem: they describe the SCENE ("the whole room staring at the screen") but not WHAT the speaker is actually demonstrating/showing. E.g. "live demo" is not detailed enough — it does not say what he is showing.
+- RULE (new): for each talk, the caption must be a SUMMARY (within ~15 Chinese characters) of WHAT the speaker is presenting/demonstrating — what the thing IS. Base it on the full transcript/script (the Whisper transcripts per talk, already organized in scan/) — what the speaker actually said. Do NOT just describe the room/scene. The caption answers: what is he showing.
+- Overall direction is OK — only the content-detail is missing. Rewrite the talk captions from the transcripts, keep the ≤15-char limit, keep the story arc, keep headers + coffee label.
+
+## 2026-11-15 17:12 — v10 fine-tuning (user): merge Talk 4 + Talk 8 to one line each; Talk 7 unchanged
+- Talk 4: merge the two NOTE lines into ONE line (≤15 chars): "自制AI聊天App，手机版" (13 chars) / "His own AI chat app, on his phone" — one NOTE pair spanning 0:01:13.23–0:01:19.00. (v10's two lines merged; content = made his own AI chat app + phone version.)
+- Talk 7: UNCHANGED (v10 as-is: "终端里 Agent 在审代码" / "任务排队，一个一个跑").
+- Talk 8: merge the two NOTE lines into ONE line (≤15 chars): "信息雷达，创业情报全在这" (12 chars) / "Information Radar — founders' intel, all here" — one NOTE pair spanning 0:01:39.00–0:01:44.00. (User's example is 24 chars — condensed to fit 15; the policy/subsidy/rankings/maps detail lives in the EN line's spirit.)
+- Result: scan/captions-v11.ass (96 Dialogue lines, was 100; all NOTE_CN ≤15 chars). Talk 7 verified untouched.
+
+## 2026-11-15 17:15 — cover photos: three-people-discussing + white-haired foreign man speaker
+- THREE-PEOPLE-DISCUSSING UNDER GREEN LEAVES: user wants this photo. Identified as HM5A1910.JPG (outdoor, storefront, 3 people, mixed gender) — visual grounding found the black-clothes girl at x=737 (far right), matching her "a black-clothes girl at the far right". (HM5A1378 also has a black-clothes girl at x=584 center-right; HM5A1536 has none.)
+- WHITE-HAIRED FOREIGN MAN SPEAKING: user wants this in the cover too. Identified as HM5A1923.JPG (solo male speaker at screen) — visual grounding found the white-haired man at x=302. (HM5A1725 group photo also has a white-haired man at x=187 far left, but HM5A1923 is the solo speaker shot.)
+- OPEN: how these fit the cover (currently 3 photos: HM5A1413 featured / HM5A1893 outdoor / woman speaker frame). Does the white-haired man REPLACE the woman speaker, or does the cover become 4 photos? Does HM5A1910 REPLACE the outdoor HM5A1893, or is it for the video? Awaiting her call after she sees the photos.
+
+## 2026-11-15 17:19 — cover: GREEN-TREES GIRL is the cover; find ALL her images
+- GREEN-TREES GIRL IDENTIFIED (user confirmed yes): the girl from the FIRST cutout cover (cover-v5.jpg), TOP-RIGHT corner, biggest cutout. Original = video frame frames-dense/DJI_20260719104432_0054_D/frame-0003.jpg (clip 0054, 10:44:32). She is outdoors with green trees behind her. Appearance: long brown hair in a low ponytail with a beige claw clip, black short-sleeved top. In frame-0003 she is at ~(838, 697).
+- COVER: use THIS girl (the green-trees girl, the rightmost girl) as the cover — she is the featured cover image. (Supersedes the HM5A1413-featured v7 covers — she now wants the green-trees girl featured.)
+- FIND ALL HER IMAGES: find EVERY photo/frame featuring the green-trees girl — all frames from clip 0054 + any other clips/photos where she appears. Report the full list with file paths.
+- STYLE (2026-11-15 17:20): pick the YOUTHFUL ones and the BEAUTIFUL/VIBRANT ones — when selecting among her images for the cover, prefer shots where she looks youthful, fresh, bright and gorgeous.
+- SECOND GIRL (2026-11-15 17:30): the girl to the RIGHT of the green-trees girl in frame-0003 (at ~(956, 721), far right edge, partially cut off). User clarified: NOT asking for her name in the credits — instead FIND ALL HER PHOTOS and ADD HER TO THE COVER. So the cover features BOTH the green-trees girl AND the girl to her right. A separate search is running for her images.
+- SECOND GIRL IDENTIFIED (2026-11-15 17:40, search complete): the woman with GLASSES — long straight black hair, round thin-rimmed glasses, white long-sleeved shirt, black tablet + iced drink, yellow bag strap, brown beaded bracelet. 8 confirmed images (clip 0054 frames 0001–0007 + HM5A1557) + 1 possible (HM5A1558). NOTE: in clip 0054 the green-trees girl is the RIGHTMOST person — no girl stands to her right; the woman with glasses is the only other woman in that group, standing beside her. List + contact sheet: girl-right-of-green-trees-all-images.md / girl-right-of-green-trees-contact-sheet.jpg.
+- COVER CHOICE (2026-11-15 18:02, user confirmed): **frame-0003** (0054-f03) — first row, third from left in the second girl's contact sheet, labelled "best". It shows BOTH girls together: the woman with glasses centre-frame (smiling, drink + tablet) and the green-trees girl beside her on the right. User: the third one is the best, use it for the cover. (Supersedes the HM5A1413-featured v7 covers and the green-trees-girl-only cover direction — the cover is now frame-0003 with both girls.)
+
+## 2026-11-15 17:21 — video ending: speaker flash montage + movie rolling credits
+- SPEAKER FLASH MONTAGE (near the end): rapid flash-cut of ALL speakers' photos, each speaker shown once — show everyone. (A quick montage, not a slow slideshow.)
+- ROLLING END CREDITS (movie-style, scrolling text at the very end): thank — Cursor; Ben Lang (originally heard as a similar-sounding name — NOTE: possibly Ben Lang, the Cursor community lead in memory; confirm spelling when drafting); the participants; the coordinators; Cursor community; "the models" (ambiguous: AI models, or people? confirm); the coffee shop owner. Plus a line about the event itself.
+- ADDITIONAL THANKS (2026-11-15 17:21): also thank the Jing'an District urban management officers (the district name was voice-garbled; the venue is on Yanqing Road in Jing'an District). PLUS one more she forgot — she will add it when she remembers; leave a placeholder in the credits draft.
+- CONFIRMED 2026-11-15 17:24: the name IS Ben Lang (Cursor community lead). Credits thank everyone who GAVE SUPPORT. She is still adding names — she asked for the name of another girl to thank; identity unclear (possibly the green-trees girl or a coordinator); asked her to clarify which girl.
+- This EXPANDS the v7 render scope: the ending is no longer just the group photo + closing captions. Do NOT render v7 until the montage + credits are prepared and she approves the credits text.
+
+## 2026-11-15 ~17:20 — Cover v7 built (A/B/C + comparison), ready for her pick
+- Three versions, same photos/layout/tone, only the font changes:
+  A = Montserrat (normal sans), B = Caveat (handwritten), C = Playfair Display (elegant serif).
+- Photos (verified by labelled contact sheets + perceptual hash, NOT by batch image reads — batch reads misattributed files twice during this build):
+  FEATURED (indoor, largest): HM5A1413 — the girl in BLACK CLOTHES with LONG HAIR (black sleeveless top, long dark hair, front-facing, smiling).
+  OUTDOOR: HM5A1893 — three girls at the storefront, peace-sign girl in white dress at the Cursor banner. (The HM5A1892-1899 burst is all this same peace-sign scene; there is no separate outdoor three-girls-with-black-dress photo — the black-dress girl she remembers is HM5A1413.)
+  SPEAKER: video frame 0042-f12 — Talk E woman (green t-shirt + cap) presenting at the screen, speaking into the mic. No suitable female-speaker PHOTO exists in the library (at-screen photos HM5A1725-1729 are all the same man; HM5A1879/1880 show a woman from behind), so a frame was used, as in v5d.
+- Fixes during build: first build used the WRONG featured photo (HM5A1895, the peace-sign girl) and had text overflow (A cut the date, B cut "Shanghai"); rebuilt with HM5A1413 + smaller fonts (A 72pt, B 76pt, C 76pt). All three now verified: no cut-off heads, no stretch, text fully visible, hash-verified.
+- Files: cover-v7-A.jpg, cover-v7-B.jpg, cover-v7-C.jpg, cover-compare.jpg (2x2: A/B/C vs previous v5d cover). Notes: cover-v7-notes.md. Not committed to GitHub. She picks A/B/C — no version finalized.
+
+## 2026-11-15 22:04 — Cover v2 (multi-photo) direction confirmed by user
+- User on v7-cover-preview-v2.jpg (frame-0003 featured + HM5A1893 outdoor + 0042-f12 speaker): she likes it, amused that all three photos feature women. Cover v2 = the approved direction (single-photo v7-cover-preview.jpg superseded as the cover, kept on disk).
+- Cover font: Montserrat title as built; no change requested.
+
+## 2026-11-15 22:05 — Subtitle font + padding change (user, replying to Talk 8 preview)
+- Chinese: simple XiLiuTi (a clean, simple calligraphy style), NOT Ma Shan Zheng (too complicated/handwritten).
+- English: Apple-common font (San Francisco / Helvetica style).
+- Padding inside the subtitle cream box: top and bottom white space must be SYMMETRIC.
+- Action: redo the 3 subtitle preview frames with the new fonts + symmetric padding (subagent running); full v7 render still waits on credits draft approval (forgotten person + district wording unanswered).
+
+## 2026-11-15 22:11 — Cover right panels: find alternatives, multiple combinations
+- User on v7-cover-preview-v2.jpg: find other options for the two right panels, try more combinations, let me see.
+- All-women is NOT a requirement — right panels can feature anyone; the all-women v2 was coincidence.
+- Featured stays frame-0003. Only the two right panels change. Build v3/v4/v5 + a 2x2 comparison image for her to pick from.
+
+## 2026-11-15 22:12 — Cover photos: slight cutout
+- User: apply a SLIGHT cutout (subject extraction, subtle, not aggressive) to the cover photos in the new v3/v4/v5 combinations.
+- This REVERSES the 2026-11-15 16:55 "NO CUTOUTS" rule for covers (that rule was for the v7 A/B/C mood boards); her latest word governs. Apply the cutout lightly and consistently across the three panels; keep layout/title/fonts unchanged.
+
+## 2026-11-16 08:50-08:52 — Cover direction refined (user, replying to v2/v3/v4/v5 comparison)
+- Base = rectangular v2: frame-0003 featured FULL-FRAME, NOT cut out, as the main image.
+- Keep the HM5A1900 girls cutout (bottom-right): she liked how it was cut.
+- Pick MORE cutout options to show her; cutouts get CUTE STICKER-STYLE BORDERS (like stickers); dark-toned images BRIGHTENED.
+- New versions v6/v7 in progress (subagent).
+
+## 2026-11-16 08:51 — Credits: forgotten person identified + additions (user burst)
+- Forgotten person = the Cursor contact person; she already emailed them but forgot the name — thank as a role, no name.
+- ADD: volunteers.
+- Chengguan = Xuhui AND Jing'an districts — this settles the district wording: both districts, not one.
+- ADD: Sunset Cafe friends; everyone who helped us.
+- Updated credits draft presented 2026-11-16; awaiting her approval before v7 render.
+
+## 2026-11-16 08:56 — Cover v7 approved as base + add a speaker with a screen
+- User on v7-cover-v7.jpg: good, add one more speaker, one with a screen.
+- Base = v7 (frame-0003 featured full-frame + HM5A1900 + HM5A1413). Add a 4th photo: a speaker presenting at/with a screen. Two versions in progress: v8 (+ 0042-f12, Talk E woman at screen), v9 (+ HM5A1923, man at screen). Layout redesigned for 4 photos; sticker borders + brightening kept.
+
+## 2026-11-16 09:03 — Cover v8 liked, more speaker options requested
+- User on v8 (0042-f12 woman speaker): OK, find me more.
+- Two more versions in progress (v10, v11) with DIFFERENT speakers-with-screens, same v8 layout. Do not reuse 0042-f12 or HM5A1923.
+- CORRECTION logged 2026-11-16: HM5A1923 is NOT a white-haired man — verified from the original: dark brown hair, glasses, white polo shirt, presenting a "product liability insurance" slide. The earlier "white-haired foreign man" label (from visual grounding, 2026-11-15) was wrong. The real white-haired man, if he exists, is in an unidentified photo.
+
+## 2026-11-16 09:04-09:09 — Cover speaker search refinements (user)
+- Speakers must be GOOD-LOOKING and engaging, make people want to listen.
+- Top preference: a BLACK LONG STRAIGHT HAIR woman speaker, if one exists among the speakers.
+- Speaker photo must be YOUTHFUL and a WIDE SHOT showing the CAFE HALL INTERIOR — so the speaker panel is RECTANGULAR full-frame (not a cutout), keeping the interior visible. Other right panels stay sticker cutouts.
+- NEW: Cursor Cafe logo as a STICKER on the coffee cup in the featured frame-0003 (woman with glasses holding an iced drink). Logo source: her email OR the event banner (banner first — on disk; email search if banner logo is unusable).
+
+## 2026-11-16 09:10 — Cover title style change (user, with reference screenshot)
+- Title to match the "SOM's BANGKOK VLOG" thumbnail style: BIG BOLD letters, FLOATING (strong drop shadow) and HOLLOW/OUTLINE (thick black outline around each letter). White fill + black outline, one word in pale yellow + black outline for emphasis. Replaces the Montserrat + bronze rule title. Applies to v10/v11 (and the final cover).
+
+## 2026-11-16 09:12 — Credits wording correction (user)
+- Chengguan line is "Xuhui & Jing'an chengguan uncles" (affectionate, older men), not plain "chengguan". Updated in the credits draft.
+
+## 2026-11-16 09:13 — Credits translation: idiomatic version settled
+- User asked the English to be idiomatic/natural. Settled line: "Xuhui & Jing'an chengguan uncles / The chengguan officers of Xuhui and Jing'an". (Earlier low-key version "Chengguan of Xuhui & Jing'an Districts" also approved but the idiomatic version supersedes it.)
+
+## 2026-11-16 09:19 — Cover v12 redesign (user)
+- Contrast too weak: use MORNING photos (brighter, stronger contrast).
+- Show cafe interior + crowd (number of people).
+- Coffee-cup cutouts: KEEP THE TABLE visible (don't cut the table out with the cup).
+- Logo sticker on EVERY coffee cup in the image, not just one. White logo, slightly bigger (~32-36px vs 24px).
+- Title text SCATTERED playfully on the main image, not in neat regular rows.
+- LAYOUT FLIP: roll-up-banner group photo on the LEFT, visual center (frame-0003) on the RIGHT.
+- v12 in progress (subagent).
+
+## 2026-11-16 09:11 — Subtitle v3 adjustments (user)
+- Subtitles overall OK. Narrow left/right margins by ~0.5 inch (box hugs text more tightly, keep padding). Cream/milky-yellow background 20% MORE OPAQUE (lower transparency). Dim-background scenes: add a note (annotation) — v3 previews to include a dim-background frame so she can see the box working there. Two preview images to compare. v3 in progress (subagent).
+
+## 2026-11-16 09:19 — Photo contact sheets requested (user)
+- Visual center of gravity matters. Find MORE images as backups. Pull out ALL speaker photos for her to see; pull out ALL audience photos + interior shots for her to pick through; choose brighter, better-looking ones. Contact sheets in progress (subagent).
+
+## 2026-11-16 09:28 — Official Cursor logo files received (user)
+- User sent the real logo: logo-cursor-official.jpg (white cube + CURSOR, 5384x1280) and logo-cursor-stickers.jpg (sticker sheet: rounded-square white/black, black hexagon, horizontal CURSOR lockup). Saved in ~/workspace/inkling-recap/.
+- v13 in progress: replace the banner-cropped cube on all 6 cups with the official logo (white, ~32px).

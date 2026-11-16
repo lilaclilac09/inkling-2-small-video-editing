@@ -1,0 +1,57 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: EN,Caveat,52,&H00FFFFFF,&H000000FF,&H80000000,&H99000000,1,0,0,0,100,100,0,0,4,1,0,2,60,60,110,1
+Style: CN,Ma Shan Zheng,46,&H00FFFFFF,&H000000FF,&H80000000,&H99000000,0,0,0,0,100,100,0,0,4,1,0,2,60,60,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:09.00,CN,,0,0,0,,Pairoa 演示逗笑了全场，大家一下子都笑了
+Dialogue: 0,0:00:00.00,0:00:09.00,EN,,0,0,0,,The Pairoa demo gets a laugh — the whole room in on the joke
+Dialogue: 0,0:00:08.50,0:00:11.00,CN,,0,0,0,,遮阳棚、梧桐树，延庆路上的那家咖啡馆
+Dialogue: 0,0:00:08.50,0:00:11.00,EN,,0,0,0,,The awning, the plane trees — the cafe on Yanqing Road
+Dialogue: 0,0:00:10.50,0:00:13.00,CN,,0,0,0,,开门之前，一个志愿者、一台电脑，正在接屏幕
+Dialogue: 0,0:00:10.50,0:00:13.00,EN,,0,0,0,,Before doors open — one volunteer, one laptop, one screen to wire up
+Dialogue: 0,0:00:12.50,0:00:15.00,CN,,0,0,0,,延时镜头：房间慢慢坐满人，头顶是纸灯笼
+Dialogue: 0,0:00:12.50,0:00:15.00,EN,,0,0,0,,The room fills up — sped up, under the paper lanterns
+Dialogue: 0,0:00:14.50,0:00:17.00,CN,,0,0,0,,今天的第一页幻灯片：AI 原生工具，中文，大屏幕
+Dialogue: 0,0:00:14.50,0:00:17.00,EN,,0,0,0,,First slides of the day — AI-native tools, in Chinese, on the big screen
+Dialogue: 0,0:00:16.50,0:00:19.00,CN,,0,0,0,,两场分享之间，一桌人聊着天，风扇转着
+Dialogue: 0,0:00:16.50,0:00:19.00,EN,,0,0,0,,Between talks — a table of regulars, chatting, a fan going
+Dialogue: 0,0:00:18.50,0:00:23.50,CN,,0,0,0,,两位主持人在黑色 Cursor 横幅前，对着镜头竖起大拇指
+Dialogue: 0,0:00:18.50,0:00:23.50,EN,,0,0,0,,Two hosts by the black Cursor banner, thumbs up for the camera
+Dialogue: 0,0:00:23.00,0:00:28.00,CN,,0,0,0,,梧桐树下四个人，手里拿着饮料，正聊到一半
+Dialogue: 0,0:00:23.00,0:00:28.00,EN,,0,0,0,,Four people under the plane trees, drinks in hand, mid-conversation
+Dialogue: 0,0:00:27.50,0:00:32.50,CN,,0,0,0,,遮阳棚下，一位穿白色蕾丝的女士，一位端着咖啡的男士
+Dialogue: 0,0:00:27.50,0:00:32.50,EN,,0,0,0,,Under the awning — a woman in white lace, a man with his coffee
+Dialogue: 0,0:00:32.00,0:00:39.00,CN,,0,0,0,,从后面看整个房间：屏幕上是代码，座位全满了
+Dialogue: 0,0:00:32.00,0:00:39.00,EN,,0,0,0,,The room from the back — code on the screen, every seat taken
+Dialogue: 0,0:00:38.50,0:00:46.50,CN,,0,0,0,,分享 1
+Dialogue: 0,0:00:38.50,0:00:46.50,EN,,0,0,0,,Talk 1
+Dialogue: 0,0:00:46.00,0:00:56.00,CN,,0,0,0,,分享 2
+Dialogue: 0,0:00:46.00,0:00:56.00,EN,,0,0,0,,Talk 2
+Dialogue: 0,0:00:55.50,0:01:04.50,CN,,0,0,0,,分享 3
+Dialogue: 0,0:00:55.50,0:01:04.50,EN,,0,0,0,,Talk 3
+Dialogue: 0,0:01:04.00,0:01:12.00,CN,,0,0,0,,分享 4
+Dialogue: 0,0:01:04.00,0:01:12.00,EN,,0,0,0,,Talk 4
+Dialogue: 0,0:01:11.50,0:01:19.50,CN,,0,0,0,,分享 5
+Dialogue: 0,0:01:11.50,0:01:19.50,EN,,0,0,0,,Talk 5
+Dialogue: 0,0:01:19.00,0:01:26.00,CN,,0,0,0,,分享 6
+Dialogue: 0,0:01:19.00,0:01:26.00,EN,,0,0,0,,Talk 6
+Dialogue: 0,0:01:25.50,0:01:29.50,CN,,0,0,0,,门边站着听的人群，其中一位穿绿衬衫
+Dialogue: 0,0:01:25.50,0:01:29.50,EN,,0,0,0,,By the door — the standing listeners, a man in green among them
+Dialogue: 0,0:01:29.00,0:01:36.00,CN,,0,0,0,,提问环节：他在 Pairoa 屏幕前比划，台下有人也比划着回应
+Dialogue: 0,0:01:29.00,0:01:36.00,EN,,0,0,0,,Q&A — he gestures at the Pairoa screen, and someone in the room gestures right back
+Dialogue: 0,0:01:35.50,0:01:42.50,CN,,0,0,0,,提问环节：有人指着 ARIAVA 的二维码提问，讲者站在原地接着讲
+Dialogue: 0,0:01:35.50,0:01:42.50,EN,,0,0,0,,Q&A — a finger pointed at the ARIAVA QR codes, the presenter holding the floor
+Dialogue: 0,0:01:42.00,0:01:47.00,CN,,0,0,0,,分享 7
+Dialogue: 0,0:01:42.00,0:01:47.00,EN,,0,0,0,,Talk 7
+Dialogue: 0,0:01:46.50,0:01:50.50,CN,,0,0,0,,结尾：一位黑衣女士对着横幅竖起大拇指
+Dialogue: 0,0:01:46.50,0:01:50.50,EN,,0,0,0,,Closing — a woman in black gives the banner a thumbs up
