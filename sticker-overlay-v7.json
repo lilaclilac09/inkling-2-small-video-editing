@@ -1,0 +1,20 @@
+{
+  "rain": {
+    "png": "scratch-v7/sticker-rain-v7.png",
+    "overlay_x": 62,
+    "overlay_y": -14,
+    "enable": "between(t,99,104)",
+    "box_w": 848,
+    "box_h": 135,
+    "angle": -4
+  },
+  "coffee": {
+    "png": "scratch-v7/sticker-coffee-v7.png",
+    "overlay_x": 61,
+    "overlay_y": -13,
+    "enable": "between(t,80,84)",
+    "box_w": 761,
+    "box_h": 126,
+    "angle": -3
+  }
+}
