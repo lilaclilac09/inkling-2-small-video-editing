@@ -26,7 +26,7 @@ import build_credits_preview as bcp
 
 W, H = bcp.W, bcp.H
 FPS = 30
-DUR_S = 40.0
+DUR_S = 32.0   # v9+: credits shortened 40.0 -> 32.0s (faster scroll, user 2026-11-16)
 NFRAMES = int(round(DUR_S * FPS))
 
 

@@ -189,10 +189,11 @@ BLOCKS = [
      ("All footage in this film was shared with the participants' "
       "consent — please don't upload anyone else's private portraits.",
       FONT_EN, 32, False)],
-    # Group-contact line.
-    [("如果没被拍到，或想出镜，请在群里联系我们", FONT_CN, 40, False),
+    # Group-contact line (v10, user 2026-11-16 19:38: no "在群里联系我们" —
+    # point to the Links + Host contact details above instead).
+    [("如果没被拍到，或想出镜，请按照上面提到的联系方式找到我们", FONT_CN, 40, False),
      ("If you weren't filmed, or would like to appear on camera, "
-      "contact us in the group.", FONT_EN, 32, False)],
+      "please reach us through the contact details above.", FONT_EN, 32, False)],
 ]
 
 GAP = 50          # px between blocks in the strip (was 90; tighter)
