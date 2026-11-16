@@ -1,0 +1,117 @@
+# Cafe Cursor Shanghai Recap — Subtitle Script (v8 draft, revised 2)
+# 27 captions. Timings are the original main-body times; the v8 rebuild
+# retimes them for the pick reorder / Talk 1 trim / photos moved to end.
+# CN + EN. Written from the user's own explanations, extended into
+# descriptions of each scene and its feeling. Do NOT copy verbatim.
+
+01 [0:00:00.00 - 0:00:02.75]
+CN: 准备了很久，这一天终于来了，我们等着大家来签到
+EN: After a long time preparing, the day finally came — we were here, waiting for everyone to check in
+
+02 [0:00:05.50 - 0:00:08.00]
+CN: 门口一直有人在排队，一个接一个进来
+EN: There was always a queue at the door, people coming in one after another
+
+03 [0:00:13.00 - 0:00:15.75]
+CN: 推开门进来，里面是特别轻松、特别积极的氛围
+EN: Step inside, and the atmosphere is relaxed, positive, alive
+
+04 [0:00:21.00 - 0:00:23.75]
+CN: 开门之前就已经来的朋友
+EN: The friend who arrived before the doors even opened
+
+05 [0:00:23.75 - 0:00:26.50]
+CN: 一直维持秩序的朋友
+EN: The friend keeping everything in order
+
+06 [0:00:26.50 - 0:00:29.00]
+CN: 筹备千人女性黑客松的朋友
+EN: The friend preparing the thousand-women hackathon
+
+07 [0:00:31.06 - 0:00:34.50]
+CN: 不用注册，一分钟就能让你的产品接进 AI
+EN: No sign-up — your products connect to AI in a minute
+
+08 [0:00:34.50 - 0:00:37.75]
+CN: 有观众想交流，台上马上给出了特别精彩的回答
+EN: Someone in the audience wanted to talk, and the speaker answered beautifully right away
+
+09 [0:00:43.19 - 0:00:46.85]
+CN: 台上和台下互动得特别好，大家在一个特别好的气氛里，你问我答
+EN: The stage and the crowd were completely in sync — questions and answers flowing in a wonderful atmosphere
+
+10 [0:00:52.56 - 0:00:56.00]
+CN: Agent 时代发展史
+EN: The Agent era, a short history
+
+11 [0:00:58.44 - 0:01:02.50]
+CN: AI 在跑的时候，沙盒、观测、校准一个都不能少
+EN: When AI is running, sandbox, observability, calibration — you need all three
+
+12 [0:01:04.56 - 0:01:08.00]
+CN: 他分享了科研绘图为什么需要 AI 原生工具
+EN: He shared why research plots need AI-native tools
+
+13 [0:01:08.00 - 0:01:11.50]
+CN: 后排的观众都在举着手机记录
+EN: The audience in the back row held up their phones, recording everything
+
+14 [0:01:13.23 - 0:01:19.00]
+CN: 这是他自己做的手机 AI 聊天 App
+EN: This is the mobile AI chat app he built himself
+
+15 [0:01:20.50 - 0:01:21.75]
+CN: 这是女生做的护肤产品，会根据天气来调整你的护理
+EN: This skincare product, made by a woman, adjusts your routine to the weather
+
+16 [0:01:21.75 - 0:01:23.00]
+CN: 背景里是咖啡机在磨豆子
+EN: In the background, the coffee machine is grinding beans
+
+17 [0:01:26.77 - 0:01:28.88]
+CN: 来自硅谷的 CPO，介绍他们的 AI 如何扮成用户帮你测产品
+EN: A CPO from Silicon Valley, showing how their AI plays your user to test the product
+
+18 [0:01:28.88 - 0:01:31.00]
+CN: 它比你更懂你的品牌
+EN: It knows your brand better than you
+
+19 [0:01:32.50 - 0:01:35.00]
+CN: 终端里，Agent 在审代码
+EN: In the terminal, agents review the code
+
+20 [0:01:35.00 - 0:01:37.50]
+CN: 任务排队，一个一个跑
+EN: Tasks queue up and run, one by one
+
+21 [0:01:39.00 - 0:01:41.50]
+CN: 信息雷达，创业情报全在这
+EN: Information Radar — founders' intel, all here
+
+22 [0:01:41.50 - 0:01:44.00]
+CN: 外面在下暴雨，所以光线比较暗
+EN: Pouring rain outside, so the light is dim
+
+23 [0:01:50.50 - 0:01:53.25]
+CN: 指着二维码提问
+EN: Pointing at the QR code, asking
+
+24 [0:01:53.25 - 0:01:56.00]
+CN: 大家对展示的东西特别好奇，特别积极地交流
+EN: Everyone was curious about what was shown, exchanging ideas eagerly
+
+25 [0:01:58.25 - 0:02:00.50]
+CN: 两场分享之间，我们稍微休息一下
+EN: Between the two talks, we took a short break
+
+26 [0:02:00.50 - 0:02:03.50]
+CN: 经过一整天的分享，活动收尾了，给大家拍张照片
+EN: After a full day of sharing, we wrapped up — and took a photo for everyone
+
+27 [0:02:03.50 - 0:02:07.50]
+CN: 人齐了，拍张合照
+EN: Everyone's here — group photo
+
+28 [closing summary — place as the last main-body caption, over the final photo / just before the credits; retime to fit. USE THIS TEXT VERBATIM, do not rewrite it.]
+CN: 不同的人聚在一起，共建、共创、共鸣，深度交流加生活，Cursor 把边界都模糊了，总有人能接住你的问题。
+EN: Different people together, building, creating, resonating — deep exchange and everyday life, Cursor blurring the boundaries, and always someone to catch your question.
